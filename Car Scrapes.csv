@@ -1,167 +1,169 @@
-Site,Brand,Model,Edition,Year of Manufacture,Transmission,Fuel Type,Body Type,Engine Capacity (cc),Mileage (km),Price (Rs.),Negotiable
-ikman.lk,Honda,Vezel,Z Grade,2015,Automatic,Hybrid,Crossover,1490,"151,000.00","Rs. 10,750,000.00",Yes
-ikman.lk,Audi,Q2,,2019,Automatic,Petrol,Crossover,1000,"93,000.00","Rs. 15,250,000.00",No
-ikman.lk,Honda,Grace,EX,2017,Automatic,Hybrid,Saloon,1500,"76,000.00","Rs. 11,475,000.00",Yes
-ikman.lk,Toyota,Raize,Z,2024,Automatic,Hybrid,Crossover,1200,0.00,"Rs. 16,500,000.00",Yes
-ikman.lk,Subaru,XV,,2013,Automatic,Hybrid,Crossover,2000,"63,000.00","Rs. 9,750,000.00",Yes
-ikman.lk,Toyota,Pixis,Epoch,2018,Automatic,Petrol,Hatchback,660,"43,000.00","Rs. 6,290,000.00",No
-ikman.lk,Mercedes Benz,CLA 180,AMG Premium Plus,2018,Automatic,Petrol,Saloon,1600,"47,000.00","Rs. 20,790,000.00",Yes
-ikman.lk,Kia,Rio,,2015,Automatic,Petrol,Saloon,1400,"44,000.00","Rs. 7,500,000.00",Yes
-ikman.lk,BMW ,X5,,2016,Automatic,Petrol,Crossover,2000,"75,000.00","Rs. 28,950,000.00",Yes
-ikman.lk,BMW ,520d,3 Option,2015,Automatic,Diesel,Saloon,1995,"60,000.00","Rs. 29,450,000.00",Yes
-ikman.lk,BMW ,740e,,2017,Triptonic,Petrol,Saloon,2000,"60,000.00","Rs. 49,500,000.00",No
-ikman.lk,Volkswagen,Passat,TSI,2008,Automatic,Petrol,Saloon,1390,"73,000.00","Rs. 8,690,000.00",Yes
-ikman.lk,Honda,Vezel,,2018,Triptonic,Hybrid,Crossover,1500,"64,000.00","Rs. 14,300,000.00",Yes
-ikman.lk,Toyota,Land Cruiser Prado,TRJ250,2025,Automatic,Petrol,SUV,2700,0.00,"Rs. 59,500,000.00",No
-ikman.lk,Honda,Vezel,,2014,Automatic,Hybrid,Crossover,1490,"96,000.00","Rs. 11,000,000.00",Yes
-ikman.lk,Land Rover,Range Rover Evoque,,2013,Automatic,Diesel,SUV,2200,"111,000.00","Rs. 19,500,000.00",Yes
-ikman.lk,Suzuki,Swift,RS Turbo,2017,Automatic,Petrol,Hatchback,1000,"85,000.00","Rs. 8,790,000.00",Yes
-ikman.lk,Micro,Rexton,,2016,Automatic,Diesel,SUV,2500,"84,000.00","Rs. 13,500,000.00",Yes
-ikman.lk,Suzuki,A-Star,,2012,Automatic,Petrol,Hatchback,1000,"173,000.00","Rs. 4,330,000.00",Yes
-ikman.lk,Honda,CRV,,2018,Automatic,Petrol,SUV,1500,"150,000.00","Rs. 18,800,000.00",Yes
-ikman.lk,Toyota,Raize,Z Grade,2023,Automatic,Hybrid,Crossover,1200,"1,000.00","Rs. 15,600,000.00",No
-ikman.lk,MG ,ZS,,2019,Automatic,Petrol,Crossover,1000,"87,100.00","Rs. 10,595,000.00",Yes
-ikman.lk,Mercedes Benz,CLA 200,AMG Line,2019,Automatic,Petrol,Saloon,1300,"42,000.00","Rs. 27,400,000.00",Yes
-ikman.lk,Toyota ,Land Cruiser Sahara,LC 300 Facelift,2008,Triptonic,Petrol,SUV,4200,"124,000.00","Rs. 43,000,000.00",Yes
-ikman.lk,Honda,Civic,FK7,2017,Automatic,Petrol,Saloon,1500,"110,000.00","Rs. 13,700,000.00",No
-ikman.lk,Nissan ,X-Trail,,2015,Automatic,Petrol,Crossover,1990,"182,000.00","Rs. 11,800,000.00",No
-ikman.lk,Nissan ,Dayz,Highway Star X,2023,Automatic,Petrol,Hatchback,660,"3,000.00","Rs. 8,600,000.00",No
-ikman.lk,Kia,Sorento,,2012,Automatic,Diesel,SUV,2190,"142,000.00","Rs. 14,350,000.00",Yes
-ikman.lk,Hyundai,Accent,Jet Black,2005,Manual,Petrol,Saloon,1500,"168,000.00","Rs. 2,590,000.00",Yes
-ikman.lk,Toyota ,Vitz,,2016,Automatic,Petrol,Hatchback,1000,"73,000.00","Rs. 7,875,000.00",No
-ikman.lk,Toyota,Starlet,,1998,Manual,Petrol,Hatchback,1000,"150,000.00","Rs. 1,300,000.00",No
-ikman.lk,Ford,Mustang,EcoBoost Fastback,2025,Automatic,Petrol,Coupe,2300,0.00,"Rs. 53,900,000.00",No
-ikman.lk,Suzuki,Wagon R ,Stingray,2024,Automatic,Hybrid,Hatchback,660,10.00,"Rs. 8,700,000.00",Yes
-ikman.lk,Honda,Vezel,Z Grade,2016,Triptonic,Hybrid,Crossover,1500,"211,713.00","Rs. 11,500,000.00",Yes
-ikman.lk,Toyota ,Yaris,X Grade,2023,Automatic,Petrol,Hatchback,1000,"14,000.00","Rs. 10,700,000.00",Yes
-ikman.lk,Mercedes Benz,E200 ,Cabriolet,2018,Triptonic,Petrol,Convertible ,2000,"12,500.00","Rs. 42,500,000.00",Yes
-ikman.lk,Toyota,Premio ,G Superior,2019,Automatic,Petrol,Saloon,1490,"57,000.00","Rs. 19,000,000.00",Yes
-ikman.lk,Lexus,LX600,Max Loaded,2024,Automatic,Petrol,SUV,3500,460.00,"Rs. 145,000,000.00",Yes
-ikman.lk,Toyota ,Corolla ,DX Wagon,1984,Manual,Petrol,Station Wagon,1300,"100,000.00","Rs. 865,000.00",Yes
-ikman.lk,Toyota,Axio,X Grade,2014,Automatic,Petrol,Saloon,1500,"140,000.00","Rs. 7,995,000.00",No
-ikman.lk,Tesla,Model 3,Special Spec,2024,Automatic,Electric,Saloon,,0.00,"Rs. 34,500,000.00",No
-ikman.lk,Chery ,Tiggo,,2014,Automatic,Petrol,Crossover,1600,"61,500.00","Rs. 7,450,000.00",Yes
-ikman.lk,Tesla,Model 3,,2024,Automatic,Electric,Saloon,,0.00,"Rs. 34,500,000.00",No
-ikman.lk,Mazda,3,,2016,Automatic,Petrol,Saloon,1600,"107,000.00","Rs. 15,000,000.00",Yes
-ikman.lk,Honda ,Grace,,2016,Automatic,Hybrid,Saloon,1500,"87,500.00","Rs. 11,150,000.00",No
-ikman.lk,Honda,Vezel,Z Play,2025,Automatic,Hybrid,SUV,1500,0.00,"Rs. 24,400,000.00",No
-ikman.lk,DFSK ,Glory,,2021,Automatic,Petrol,SUV,1500,"49,000.00","Rs. 11,000,000.00",Yes
-ikman.lk,Toyota ,Yaris,,2023,Automatic,Petrol,Hatchback,990,"6,128.00","Rs. 10,590,000.00",No
-ikman.lk,BMW ,i7,,2024,Triptonic,Electric,Saloon,,0.00,"Rs. 135,000,000.00",No
-ikman.lk,Toyota ,Hilux,GR Sport,2024,Automatic,Diesel,Double Cab,2700,80.00,"Rs. 31,900,000.00",Yes
-ikman.lk,Toyota,Land Cruiser Prado,LC250 ,2024,Automatic,Petrol,SUV,2700,"6,000.00","Rs. 68,200,000.00",No
-ikman.lk,Ford,Mustang,EcoBoost Fastback,2025,Automatic,Petrol,Coupe,2300,0.00,"Rs. 53,900,000.00",No
-ikman.lk,Mercedes Benz,EQS 450,AMG Business Class,2024,Triptonic,Electric,SUV,,0.00,"Rs. 115,000,000.00",No
-ikman.lk,Honda ,Fit,GP1,2012,Automatic,Hybrid,Hatchback,1330,"190,000.00","Rs. 6,795,000.00",Yes
-ikman.lk,Perodua,Axia,,2015,Automatic,Petrol,Hatchback,998,"104,984.00","Rs. 5,790,000.00",No
-ikman.lk,Suzuki,Wagon R ,Stingray,2018,Automatic,Petrol,Hatchback,650,"77,000.00","Rs. 7,150,000.00",No
-ikman.lk,Toyota,Premio ,G Superior,2019,Automatic,Petrol,Saloon,1500,"105,000.00","Rs. 19,000,000.00",No
-ikman.lk,Toyota,Alphard,,2011,Automatic,Hybrid,MPV,2400,"175,000.00","Rs. 19,500,000.00",No
-ikman.lk,Honda,CRV,,2007,Automatic,Petrol,SUV,2400,"142,000.00","Rs. 8,900,000.00",Yes
-ikman.lk,Land Rover,Discovery,,2019,Automatic,Diesel,SUV,2000,"49,000.00","Rs. 45,000,000.00",Yes
-ikman.lk,Nissan ,Bluebird,Sylphy,2011,Automatic,Petrol,Saloon,1500,"140,000.00","Rs. 6,750,000.00",No
-ikman.lk,,,,,,,,,,,
-ikman.lk,,,,,,,,,,,
-ikman.lk,,,,,,,,,,,
-ikman.lk,,,,,,,,,,,
-ikman.lk,,,,,,,,,,,
-ikman.lk,,,,,,,,,,,
-ikman.lk,,,,,,,,,,,
-ikman.lk,,,,,,,,,,,
-ikman.lk,,,,,,,,,,,
-ikman.lk,,,,,,,,,,,
-ikman.lk,,,,,,,,,,,
-ikman.lk,,,,,,,,,,,
-ikman.lk,,,,,,,,,,,
-ikman.lk,,,,,,,,,,,
-ikman.lk,,,,,,,,,,,
-ikman.lk,,,,,,,,,,,
-ikman.lk,,,,,,,,,,,
-ikman.lk,,,,,,,,,,,
-ikman.lk,,,,,,,,,,,
-ikman.lk,,,,,,,,,,,
-ikman.lk,,,,,,,,,,,
-ikman.lk,,,,,,,,,,,
-ikman.lk,,,,,,,,,,,
-ikman.lk,,,,,,,,,,,
-ikman.lk,,,,,,,,,,,
-ikman.lk,,,,,,,,,,,
-ikman.lk,,,,,,,,,,,
-ikman.lk,,,,,,,,,,,
-ikman.lk,,,,,,,,,,,
-ikman.lk,,,,,,,,,,,
-ikman.lk,,,,,,,,,,,
-ikman.lk,,,,,,,,,,,
-ikman.lk,,,,,,,,,,,
-ikman.lk,,,,,,,,,,,
-ikman.lk,,,,,,,,,,,
-ikman.lk,,,,,,,,,,,
-ikman.lk,,,,,,,,,,,
-ikman.lk,,,,,,,,,,,
-ikman.lk,,,,,,,,,,,
-ikman.lk,,,,,,,,,,,
-ikman.lk,,,,,,,,,,,
-ikman.lk,,,,,,,,,,,
-ikman.lk,,,,,,,,,,,
-ikman.lk,,,,,,,,,,,
-ikman.lk,,,,,,,,,,,
-ikman.lk,,,,,,,,,,,
-ikman.lk,,,,,,,,,,,
-ikman.lk,,,,,,,,,,,
-ikman.lk,,,,,,,,,,,
-ikman.lk,,,,,,,,,,,
-ikman.lk,,,,,,,,,,,
-ikman.lk,,,,,,,,,,,
-ikman.lk,,,,,,,,,,,
-ikman.lk,,,,,,,,,,,
-ikman.lk,,,,,,,,,,,
-ikman.lk,,,,,,,,,,,
-ikman.lk,,,,,,,,,,,
-ikman.lk,,,,,,,,,,,
-ikman.lk,,,,,,,,,,,
-ikman.lk,,,,,,,,,,,
-ikman.lk,,,,,,,,,,,
-ikman.lk,,,,,,,,,,,
-ikman.lk,,,,,,,,,,,
-ikman.lk,,,,,,,,,,,
-ikman.lk,,,,,,,,,,,
-ikman.lk,,,,,,,,,,,
-ikman.lk,,,,,,,,,,,
-ikman.lk,,,,,,,,,,,
-ikman.lk,,,,,,,,,,,
-ikman.lk,,,,,,,,,,,
-ikman.lk,,,,,,,,,,,
-ikman.lk,,,,,,,,,,,
-ikman.lk,,,,,,,,,,,
-ikman.lk,,,,,,,,,,,
-ikman.lk,,,,,,,,,,,
-ikman.lk,,,,,,,,,,,
-ikman.lk,,,,,,,,,,,
-ikman.lk,,,,,,,,,,,
-ikman.lk,,,,,,,,,,,
-ikman.lk,,,,,,,,,,,
-ikman.lk,,,,,,,,,,,
-ikman.lk,,,,,,,,,,,
-ikman.lk,,,,,,,,,,,
-ikman.lk,,,,,,,,,,,
-ikman.lk,,,,,,,,,,,
-ikman.lk,,,,,,,,,,,
-ikman.lk,,,,,,,,,,,
-ikman.lk,,,,,,,,,,,
-ikman.lk,,,,,,,,,,,
-ikman.lk,,,,,,,,,,,
-ikman.lk,,,,,,,,,,,
-ikman.lk,,,,,,,,,,,
-ikman.lk,,,,,,,,,,,
-ikman.lk,,,,,,,,,,,
-ikman.lk,,,,,,,,,,,
-ikman.lk,,,,,,,,,,,
-ikman.lk,,,,,,,,,,,
-ikman.lk,,,,,,,,,,,
-ikman.lk,,,,,,,,,,,
-ikman.lk,,,,,,,,,,,
-ikman.lk,,,,,,,,,,,
-ikman.lk,,,,,,,,,,,
-ikman.lk,,,,,,,,,,,
-ikman.lk,,,,,,,,,,,
-ikman.lk,,,,,,,,,,,
+Site,Brand,Model,Edition,Year of Manufacture,Transmission,Fuel Type,Body Type,Engine Capacity (cc),Mileage (km),Price (Rs.),Negotiable,Rs. Per km
+ikman.lk,Honda,Vezel,Z Grade,2015,Automatic,Hybrid,Crossover,1490,"151,000.00"," 10,750,000.00 ",Yes, 71.19 
+ikman.lk,Audi,Q2,,2019,Automatic,Petrol,Crossover,1000,"93,000.00"," 15,250,000.00 ",No, 163.98 
+ikman.lk,Honda,Grace,EX,2017,Automatic,Hybrid,Saloon,1500,"76,000.00"," 11,475,000.00 ",Yes, 150.99 
+ikman.lk,Toyota,Raize,Z,2024,Automatic,Hybrid,Crossover,1200,0," 16,500,000.00 ",Yes,#DIV/0!
+ikman.lk,Subaru,XV,,2013,Automatic,Hybrid,Crossover,2000,"63,000.00"," 9,750,000.00 ",Yes, 154.76 
+ikman.lk,Toyota,Pixis,Epoch,2018,Automatic,Petrol,Hatchback,660,"43,000.00"," 6,290,000.00 ",No, 146.28 
+ikman.lk,Mercedes Benz,CLA 180,AMG Premium Plus,2018,Automatic,Petrol,Saloon,1600,"47,000.00"," 20,790,000.00 ",Yes, 442.34 
+ikman.lk,Kia,Rio,,2015,Automatic,Petrol,Saloon,1400,"44,000.00"," 7,500,000.00 ",Yes, 170.45 
+ikman.lk,BMW ,X5,,2016,Automatic,Petrol,Crossover,2000,"75,000.00"," 28,950,000.00 ",Yes, 386.00 
+ikman.lk,BMW ,520d,3 Option,2015,Automatic,Diesel,Saloon,1995,"60,000.00"," 29,450,000.00 ",Yes, 490.83 
+ikman.lk,BMW ,740e,,2017,Triptonic,Petrol,Saloon,2000,"60,000.00"," 49,500,000.00 ",No, 825.00 
+ikman.lk,Volkswagen,Passat,TSI,2008,Automatic,Petrol,Saloon,1390,"73,000.00"," 8,690,000.00 ",Yes, 119.04 
+ikman.lk,Honda,Vezel,,2018,Triptonic,Hybrid,Crossover,1500,"64,000.00"," 14,300,000.00 ",Yes, 223.44 
+ikman.lk,Toyota,Land Cruiser Prado,TRJ250,2025,Automatic,Petrol,SUV,2700,0," 59,500,000.00 ",No,#DIV/0!
+ikman.lk,Honda,Vezel,,2014,Automatic,Hybrid,Crossover,1490,"96,000.00"," 11,000,000.00 ",Yes, 114.58 
+ikman.lk,Land Rover,Range Rover Evoque,,2013,Automatic,Diesel,SUV,2200,"111,000.00"," 19,500,000.00 ",Yes, 175.68 
+ikman.lk,Suzuki,Swift,RS Turbo,2017,Automatic,Petrol,Hatchback,1000,"85,000.00"," 8,790,000.00 ",Yes, 103.41 
+ikman.lk,Micro,Rexton,,2016,Automatic,Diesel,SUV,2500,"84,000.00"," 13,500,000.00 ",Yes, 160.71 
+ikman.lk,Suzuki,A-Star,,2012,Automatic,Petrol,Hatchback,1000,"173,000.00"," 4,330,000.00 ",Yes, 25.03 
+ikman.lk,Honda,CRV,,2018,Automatic,Petrol,SUV,1500,"150,000.00"," 18,800,000.00 ",Yes, 125.33 
+ikman.lk,Toyota,Raize,Z Grade,2023,Automatic,Hybrid,Crossover,1200,"1,000.00"," 15,600,000.00 ",No," 15,600.00 "
+ikman.lk,MG ,ZS,,2019,Automatic,Petrol,Crossover,1000,"87,100.00"," 10,595,000.00 ",Yes, 121.64 
+ikman.lk,Mercedes Benz,CLA 200,AMG Line,2019,Automatic,Petrol,Saloon,1300,"42,000.00"," 27,400,000.00 ",Yes, 652.38 
+ikman.lk,Toyota ,Land Cruiser Sahara,LC 300 Facelift,2008,Triptonic,Petrol,SUV,4200,"124,000.00"," 43,000,000.00 ",Yes, 346.77 
+ikman.lk,Honda,Civic,FK7,2017,Automatic,Petrol,Saloon,1500,"110,000.00"," 13,700,000.00 ",No, 124.55 
+ikman.lk,Nissan ,X-Trail,,2015,Automatic,Petrol,Crossover,1990,"182,000.00"," 11,800,000.00 ",No, 64.84 
+ikman.lk,Nissan ,Dayz,Highway Star X,2023,Automatic,Petrol,Hatchback,660,"3,000.00"," 8,600,000.00 ",No," 2,866.67 "
+ikman.lk,Kia,Sorento,,2012,Automatic,Diesel,SUV,2190,"142,000.00"," 14,350,000.00 ",Yes, 101.06 
+ikman.lk,Hyundai,Accent,Jet Black,2005,Manual,Petrol,Saloon,1500,"168,000.00"," 2,590,000.00 ",Yes, 15.42 
+ikman.lk,Toyota ,Vitz,,2016,Automatic,Petrol,Hatchback,1000,"73,000.00"," 7,875,000.00 ",No, 107.88 
+ikman.lk,Toyota,Starlet,,1998,Manual,Petrol,Hatchback,1000,"150,000.00"," 1,300,000.00 ",No, 8.67 
+ikman.lk,Ford,Mustang,EcoBoost Fastback,2025,Automatic,Petrol,Coupe,2300,0," 53,900,000.00 ",No,#DIV/0!
+ikman.lk,Suzuki,Wagon R ,Stingray,2024,Automatic,Hybrid,Hatchback,660,10," 8,700,000.00 ",Yes," 870,000.00 "
+ikman.lk,Honda,Vezel,Z Grade,2016,Triptonic,Hybrid,Crossover,1500,"211,713.00"," 11,500,000.00 ",Yes, 54.32 
+ikman.lk,Toyota ,Yaris,X Grade,2023,Automatic,Petrol,Hatchback,1000,"14,000.00"," 10,700,000.00 ",Yes, 764.29 
+ikman.lk,Mercedes Benz,E200 ,Cabriolet,2018,Triptonic,Petrol,Convertible ,2000,"12,500.00"," 42,500,000.00 ",Yes," 3,400.00 "
+ikman.lk,Toyota,Premio ,G Superior,2019,Automatic,Petrol,Saloon,1490,"57,000.00"," 19,000,000.00 ",Yes, 333.33 
+ikman.lk,Lexus,LX600,Max Loaded,2024,Automatic,Petrol,SUV,3500,460," 145,000,000.00 ",Yes," 315,217.39 "
+ikman.lk,Toyota ,Corolla ,DX Wagon,1984,Manual,Petrol,Station Wagon,1300,"100,000.00"," 865,000.00 ",Yes, 8.65 
+ikman.lk,Toyota,Axio,X Grade,2014,Automatic,Petrol,Saloon,1500,"140,000.00"," 7,995,000.00 ",No, 57.11 
+ikman.lk,Tesla,Model 3,Special Spec,2024,Automatic,Electric,Saloon,,0," 34,500,000.00 ",No,#DIV/0!
+ikman.lk,Chery ,Tiggo,,2014,Automatic,Petrol,Crossover,1600,"61,500.00"," 7,450,000.00 ",Yes, 121.14 
+ikman.lk,Tesla,Model 3,,2024,Automatic,Electric,Saloon,,0," 34,500,000.00 ",No,#DIV/0!
+ikman.lk,Mazda,3,,2016,Automatic,Petrol,Saloon,1600,"107,000.00"," 15,000,000.00 ",Yes, 140.19 
+ikman.lk,Honda ,Grace,,2016,Automatic,Hybrid,Saloon,1500,"87,500.00"," 11,150,000.00 ",No, 127.43 
+ikman.lk,Honda,Vezel,Z Play,2025,Automatic,Hybrid,SUV,1500,0," 24,400,000.00 ",No,#DIV/0!
+ikman.lk,DFSK ,Glory,,2021,Automatic,Petrol,SUV,1500,"49,000.00"," 11,000,000.00 ",Yes, 224.49 
+ikman.lk,Toyota ,Yaris,,2023,Automatic,Petrol,Hatchback,990,"6,128.00"," 10,590,000.00 ",No," 1,728.13 "
+ikman.lk,BMW ,i7,,2024,Triptonic,Electric,Saloon,,0," 135,000,000.00 ",No,#DIV/0!
+ikman.lk,Toyota ,Hilux,GR Sport,2024,Automatic,Diesel,Double Cab,2700,80," 31,900,000.00 ",Yes," 398,750.00 "
+ikman.lk,Toyota,Land Cruiser Prado,LC250 ,2024,Automatic,Petrol,SUV,2700,"6,000.00"," 68,200,000.00 ",No," 11,366.67 "
+ikman.lk,Ford,Mustang,EcoBoost Fastback,2025,Automatic,Petrol,Coupe,2300,0," 53,900,000.00 ",No,#DIV/0!
+ikman.lk,Mercedes Benz,EQS 450,AMG Business Class,2024,Triptonic,Electric,SUV,,0," 115,000,000.00 ",No,#DIV/0!
+ikman.lk,Honda ,Fit,GP1,2012,Automatic,Hybrid,Hatchback,1330,"190,000.00"," 6,795,000.00 ",Yes, 35.76 
+ikman.lk,Perodua,Axia,,2015,Automatic,Petrol,Hatchback,998,"104,984.00"," 5,790,000.00 ",No, 55.15 
+ikman.lk,Suzuki,Wagon R ,Stingray,2018,Automatic,Petrol,Hatchback,650,"77,000.00"," 7,150,000.00 ",No, 92.86 
+ikman.lk,Toyota,Premio ,G Superior,2019,Automatic,Petrol,Saloon,1500,"105,000.00"," 19,000,000.00 ",No, 180.95 
+ikman.lk,Toyota,Alphard,,2011,Automatic,Hybrid,MPV,2400,"175,000.00"," 19,500,000.00 ",No, 111.43 
+ikman.lk,Honda,CRV,,2007,Automatic,Petrol,SUV,2400,"142,000.00"," 8,900,000.00 ",Yes, 62.68 
+ikman.lk,Land Rover,Discovery,,2019,Automatic,Diesel,SUV,2000,"49,000.00"," 45,000,000.00 ",Yes, 918.37 
+ikman.lk,Nissan ,Bluebird,Sylphy,2011,Automatic,Petrol,Saloon,1500,"140,000.00"," 6,750,000.00 ",No, 48.21 
+ikman.lk,Toyota,Raize,Z,2024,Automatic,Hybrid,Crossover,1200,0.00," 16,990,000.00 ",Yes,#DIV/0!
+ikman.lk,Audi,Q2,TFSI,2019,Triptonic,Petrol,Crossover,1000,"77,000.00"," 16,500,000.00 ",No, 214.29 
+ikman.lk,Toyota,Land Cruiser Prado,TX,2015,Automatic,Diesel,SUV,3000,"173,000.00"," 45,500,000.00 ",Yes, 263.01 
+ikman.lk,Toyota ,CHR,,2018,Automatic,Petrol,Crossover,1200,"36,000.00"," 15,500,000.00 ",Yes, 430.56 
+ikman.lk,Hyundai,Tucson,CRDI,2012,Automatic,Diesel,SUV,2000,"135,000.00"," 7,650,000.00 ",No, 56.67 
+ikman.lk,Ford,Ranger,StormTrak,2025,Triptonic,Diesel,Double Cab,2000,0.00," 31,900,000.00 ",Yes,#DIV/0!
+ikman.lk,Toyota,Land Cruiser Prado,TX TRJ150,2023,Automatic,Petrol,SUV,2700,"13,300.00"," 57,500,000.00 ",No," 4,323.31 "
+ikman.lk,Mercedes Benz,C200,AMG Line,2019,Automatic,Petrol,Saloon,1500,"44,500.00"," 27,500,000.00 ",No, 617.98 
+ikman.lk,Honda ,CRV ,7 Seater,2018,Automatic,Petrol,SUV,1500,"74,000.00"," 19,950,000.00 ",No, 269.59 
+ikman.lk,Honda ,Vezel,Z Grade,2025,Automatic,Petrol,Crossover,1500,0.00," 22,800,000.00 ",No,#DIV/0!
+ikman.lk,Honda,Vezel,Z Grade,2025,Automatic,Hybrid,Crossover,1500,0.00," 22,600,000.00 ",No,#DIV/0!
+ikman.lk,Hyundai,Venue ,,2019,Triptonic,Petrol,Crossover,1000,"55,000.00"," 9,700,000.00 ",Yes, 176.36 
+ikman.lk,Suzuki,Baleno ,Turbo,2019,Automatic,Petrol,Hatchback,998,"66,000.00"," 8,500,000.00 ",Yes, 128.79 
+ikman.lk,Mitsubishi ,Montero,GLS,2015,Automatic,Diesel,SUV,3200,"93,000.00"," 32,500,000.00 ",Yes, 349.46 
+ikman.lk,Honda ,Vezel,Z Play,2025,Automatic,Hybrid,Crossover,1500,0.00," 24,975,000.00 ",Yes,#DIV/0!
+ikman.lk,Toyota,Raize,Z,2024,Automatic,Hybrid,Crossover,1200,0.00," 16,990,000.00 ",Yes,#DIV/0!
+ikman.lk,Nissan ,Qashqai,,2018,Automatic,Petrol,Crossover,1500,"57,000.00"," 15,000,000.00 ",Yes, 263.16 
+ikman.lk,BMW ,i8,,2019,Automatic,Hybrid,Convertible ,1500,"20,550.00"," 45,800,000.00 ",Yes," 2,228.71 "
+ikman.lk,Suzuki,Wagon R ,Stingray,2018,Automatic,Hybrid,Hatchback,650,"75,000.00"," 7,490,000.00 ",No, 99.87 
+ikman.lk,Land Rover,Range Rover Sport,P400e,2018,Triptonic,Petrol,SUV,2000,"61,000.00"," 61,500,000.00 ",Yes," 1,008.20 "
+ikman.lk,Maruti Suzuki,Zen,,2006,Manual,Petrol,Hatchback,1000,"113,783.00"," 1,985,000.00 ",Yes, 17.45 
+ikman.lk,Honda ,Civic,,2017,Automatic,Petrol,Saloon,1000,"85,000.00"," 12,650,000.00 ",Yes, 148.82 
+ikman.lk,Daihatsu,Mira,ES SA3,2023,Automatic,Petrol,Hatchback,650,"5,650.00"," 6,990,000.00 ",Yes," 1,237.17 "
+ikman.lk,Suzuki,Wagon R ,FZ,2018,Automatic,Hybrid,Hatchback,650,"89,600.00"," 6,960,000.00 ",No, 77.68 
+ikman.lk,BMW ,X5,Msport,2016,Automatic,Hybrid,Crossover,1998,"80,300.00"," 32,500,000.00 ",Yes, 404.73 
+ikman.lk,BMW ,530e,I Performance G30,2018,Automatic,Hybrid,Saloon,1998,"67,000.00"," 34,950,000.00 ",Yes, 521.64 
+ikman.lk,Toyota ,Land Cruiser Prado,Diesel TZG,2015,Automatic,Diesel,SUV,2750,"56,000.00"," 49,500,000.00 ",Yes, 883.93 
+ikman.lk,BMW ,520d,M Sport,2015,Automatic,Diesel,Saloon,2000,"103,000.00"," 30,500,000.00 ",Yes, 296.12 
+ikman.lk,Mercedes Benz,C220,CDI,2013,Automatic,Diesel,Saloon,2200,"110,000.00"," 16,000,000.00 ",No, 145.45 
+ikman.lk,Kia,Picanto,Sport,2016,Automatic,Petrol,Hatchback,1000,"85,000.00"," 6,150,000.00 ",No, 72.35 
+ikman.lk,Toyota,Land Cruiser Sahara,LC300,2024,Automatic,Petrol,SUV ,3500,0.00," 103,500,000.00 ",Yes,#DIV/0!
+ikman.lk,Suzuki,Alto,800,2011,Manual,Petrol,Hatchback,800,"174,653.00"," 2,950,000.00 ",No, 16.89 
+ikman.lk,Tata,Nano,Twist,2016,Manual,Petrol,Hatchback,624,"170,300.00"," 2,100,000.00 ",Yes, 12.33 
+ikman.lk,Toyota,Hilux,,2011,Manual,Diesel,Double Cab,2494,"260,000.00"," 13,250,000.00 ",Yes, 50.96 
+ikman.lk,Toyota,Land Cruiser Prado,GDJ250,2024,Automatic,Diesel,SUV,2800,0.00," 81,500,000.00 ",No,#DIV/0!
+ikman.lk,Nissan ,Qashqai,,2018,Automatic,Petrol,Crossover,1197,"67,000.00"," 14,000,000.00 ",No, 208.96 
+ikman.lk,Toyota,Aqua,Eagle Eye,2018,Automatic,Hybrid,Hatchback,1500,"50,000.00"," 11,675,000.00 ",No, 233.50 
+ikman.lk,Toyota,Vitz,,2015,Automatic,Petrol,Hatchback,998,"63,000.00"," 7,900,000.00 ",Yes, 125.40 
+ikman.lk,Honda ,Civic,Ex Tech Pack,2018,Automatic,Petrol,Saloon,1000,"42,000.00"," 14,400,000.00 ",No, 342.86 
+ikman.lk,Nissan ,March,K11,2000,Manual,Petrol,Hatchback,1000,"89,523.00"," 2,650,000.00 ",Yes, 29.60 
+ikman.lk,Suzuki,Aerio,,2006,Automatic,Petrol,Saloon,1490,"219,513.00"," 4,780,000.00 ",No, 21.78 
+ikman.lk,Honda ,Vezel,RS Sensing,2019,Automatic,Hybrid,Crossover,1496,"3,500.00"," 18,500,000.00 ",No," 5,285.71 "
+ikman.lk,Toyota ,Corolla ,141 GLI,2009,Automatic,Petrol,Saloon,1600,"144,000.00"," 7,990,000.00 ",Yes, 55.49 
+ikman.lk,Honda ,Fit ,GP1,2013,Automatic,Petrol,Hatchback,1330,"188,946.00"," 7,450,000.00 ",Yes, 39.43 
+ikman.lk,Subaru,XV,,2013,Automatic,Hybrid,Crossover,2000,"63,000.00"," 9,750,000.00 ",Yes, 154.76 
+ikman.lk,Honda ,Civic,SR,2018,Automatic,Petrol,Saloon,1000,"78,000.00"," 13,290,000.00 ",Yes, 170.38 
+ikman.lk,Honda ,Vezel,Z Play,2023,Triptonic,Hybrid,Crossover,1500,0.00," 23,850,000.00 ",Yes,#DIV/0!
+ikman.lk,Honda ,Vezel,,2014,Automatic,Hybrid,Crossover,1490,"96,000.00"," 11,000,000.00 ",Yes, 114.58 
+ikman.lk,Nissan ,Leaf,,2018,Automatic,Electric,Saloon,,"109,200.00"," 12,000,000.00 ",Yes, 109.89 
+ikman.lk,Honda,Vezel,,2018,Triptonic,Hybrid,Crossover,1500,"64,000.00"," 14,000,000.00 ",Yes, 218.75 
+ikman.lk,Peugeot,5008,Active,2019,Automatic,Petrol,SUV,1200,"42,000.00"," 23,000,000.00 ",Yes, 547.62 
+ikman.lk,Suzuki,Swift,RS Turbo,2017,Automatic,Petrol,Hatchback,1000,"85,000.00"," 8,790,000.00 ",Yes, 103.41 
+ikman.lk,Micro,Rexton,,2016,Automatic,Diesel,SUV,2500,"84,000.00"," 13,500,000.00 ",Yes, 160.71 
+ikman.lk,Subaru,Forester,,2022,Automatic,Petrol,SUV,2500,"36,000.00"," 21,000,000.00 ",Yes, 583.33 
+ikman.lk,Micro,Panda,,2015,Manual,Petrol,Hatchback,1000,"79,500.00"," 2,860,000.00 ",Yes, 35.97 
+ikman.lk,Suzuki,Wagon R ,Custom Z,2023,Automatic,Petrol,Hatchback,650,"3,412.00"," 9,750,000.00 ",No," 2,857.56 "
+ikman.lk,Perodua ,Viva Elite,,2012,Automatic,Petrol,Hatchback,1000,"83,690.00"," 4,890,000.00 ",No, 58.43 
+ikman.lk,Nissan ,Pulsar ,,1999,Automatic,Petrol,Saloon,1490,"54,712.00"," 2,900,000.00 ",No, 53.00 
+ikman.lk,Suzuki,Alto,,2017,Automatic,Petrol,Hatchback,650,"75,000.00"," 5,690,000.00 ",No, 75.87 
+ikman.lk,Mitsubishi ,Montero,,2013,Automatic,Petrol,SUV,2200,"180,000.00"," 26,000,000.00 ",Yes, 144.44 
+ikman.lk,Toyota,Axio,,2017,Automatic,Hybrid,Saloon,1490,"98,702.00"," 13,990,000.00 ",No, 141.74 
+ikman.lk,Suzuki,Wagon R ,Stingray,2024,Automatic,Hybrid,Hatchback,660,10.00," 8,700,000.00 ",Yes," 870,000.00 "
+ikman.lk,Honda,Vezel,Z Grade,2023,Automatic,Hybrid,Crossover,1500,"12,500.00"," 21,250,000.00 ",Yes," 1,700.00 "
+ikman.lk,Toyota ,Yaris,X Grade,2023,Automatic,Petrol,Hatchback,1000,"14,000.00"," 10,700,000.00 ",Yes, 764.29 
+ikman.lk,Peugeot,3008,GT Line,2019,Automatic,Petrol,SUV,1200,"56,500.00"," 22,100,000.00 ",No, 391.15 
+ikman.lk,Mercedes Benz,C180,W204,2010,Triptonic,Petrol,Saloon,1590,"99,000.00"," 11,400,000.00 ",Yes, 115.15 
+ikman.lk,Mitsubishi ,Lancer,,1978,Manual,Petrol,Station Wagon,1400,"83,620.00"," 790,000.00 ",Yes, 9.45 
+ikman.lk,Mazda,6,,2015,Automatic,Petrol,Saloon,2500,"64,000.00"," 15,000,000.00 ",Yes, 234.38 
+ikman.lk,Mercedes Benz,E200 ,Cabriolet,2018,Triptonic,Petrol,Convertible ,2000,"12,500.00"," 42,500,000.00 ",Yes," 3,400.00 "
+ikman.lk,Toyota,Hilux,GR Sport,2024,Automatic,Diesel,Double Cab,2800,0.00," 31,000,000.00 ",No,#DIV/0!
+ikman.lk,DFSK ,Glory,580,2021,Triptonic,Petrol,SUV,1500,"16,000.00"," 11,200,000.00 ",Yes, 700.00 
+ikman.lk,Honda,Grace,,2016,Automatic,Hybrid,Saloon,1500,"87,500.00"," 11,150,000.00 ",No, 127.43 
+ikman.lk,Daihatsu,Mira,Tocot,2024,Automatic,Petrol,Hatchback,660,0.00," 7,500,000.00 ",No,#DIV/0!
+ikman.lk,Honda,CRV,,2018,Automatic,Petrol,SUV,1500,"74,000.00"," 20,500,000.00 ",Yes, 277.03 
+ikman.lk,DFSK ,Glory,I Auto,2021,Automatic,Petrol,SUV,1500,"49,000.00"," 11,000,000.00 ",Yes, 224.49 
+ikman.lk,Daewoo,Matiz,,1999,Manual,Petrol,Hatchback,800,"121,850.00"," 1,490,000.00 ",Yes, 12.23 
+ikman.lk,Toyota,Hilux,GR Sport,2024,Automatic,Diesel,Double Cab,2700,80.00," 31,900,000.00 ",Yes," 398,750.00 "
+ikman.lk,Land Rover,Discovery,,2019,Automatic,Diesel,SUV,2000,"49,000.00"," 45,000,000.00 ",Yes, 918.37 
+ikman.lk,Toyota ,Prius,S Touring ,2011,Automatic,Petrol,Hatchback,1800,"185,000.00"," 9,750,000.00 ",Yes, 52.70 
+ikman.lk,Toyota ,Land Cruiser Sahara,V8,2008,Automatic,Petrol,SUV,4600,"131,000.00"," 45,000,000.00 ",Yes, 343.51 
+ikman.lk,BMW ,740i,,2014,Automatic,Hybrid,Saloon,2979,"41,000.00"," 37,500,000.00 ",Yes, 914.63 
+ikman.lk,Land Rover,Freelander,,2013,Automatic,Petrol,SUV,3000,"87,000.00"," 11,800,000.00 ",Yes, 135.63 
+ikman.lk,Honda,Vezel,RS,2017,Automatic,Hybrid,Crossover,1500,"84,000.00"," 11,000,000.00 ",Yes, 130.95 
+ikman.lk,Audi,Q3,S Line,2019,Triptonic,Petrol,Crossover,1500,"60,000.00"," 28,000,000.00 ",Yes, 466.67 
+ikman.lk,,,,,,,,,,,,
+ikman.lk,,,,,,,,,,,,
+ikman.lk,,,,,,,,,,,,
+ikman.lk,,,,,,,,,,,,
+ikman.lk,,,,,,,,,,,,
+ikman.lk,,,,,,,,,,,,
+ikman.lk,,,,,,,,,,,,
+ikman.lk,,,,,,,,,,,,
+ikman.lk,,,,,,,,,,,,
+ikman.lk,,,,,,,,,,,,
+ikman.lk,,,,,,,,,,,,
+ikman.lk,,,,,,,,,,,,
+ikman.lk,,,,,,,,,,,,
+ikman.lk,,,,,,,,,,,,
+ikman.lk,,,,,,,,,,,,
+ikman.lk,,,,,,,,,,,,
+ikman.lk,,,,,,,,,,,,
+ikman.lk,,,,,,,,,,,,
+ikman.lk,,,,,,,,,,,,
+ikman.lk,,,,,,,,,,,,
+ikman.lk,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
