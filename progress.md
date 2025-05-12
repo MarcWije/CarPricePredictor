@@ -3,3 +3,6 @@ Beginning scrape of ikman.lk. For the sake of conciseness, only 4-wheeled vehicl
 
 4:33 pm 
 Created GitHub repository. Excluded promoted ads from the scrape. 
+
+12th May 2025 2:03pm
+Decided to automate scrape using BeautifulSoup and a python script.
