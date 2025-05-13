@@ -10,25 +10,33 @@ all_data = []
 write_header = not os.path.exists(file_path)
 
 urls = [
-"https://ikman.lk/en/ad/toyota-axio-2017-for-sale-colombo-316",
-"https://ikman.lk/en/ad/alfa-romeo-giulietta-2013-for-sale-colombo",
-"https://ikman.lk/en/ad/toyota-land-cruiser-prado-250-vx-2024-for-sale-gampaha-5",
-"https://ikman.lk/en/ad/ssang-yong-korando-diesel-2012-for-sale-colombo-1",
-"https://ikman.lk/en/ad/audi-a5-2018-for-sale-colombo-178",
-"https://ikman.lk/en/ad/suzuki-maruti-800-2007-for-sale-kalutara-1",
-"https://ikman.lk/en/ad/mitsubishi-outlander-2013-for-sale-colombo-217",
-"https://ikman.lk/en/ad/mazda-demio-2009-for-sale-colombo-216",
-"https://ikman.lk/en/ad/mercedes-benz-s400-2014-for-sale-colombo-30",
-"https://ikman.lk/en/ad/mercedes-benz-gle-400-2016-for-sale-colombo",
-"https://ikman.lk/en/ad/jonway-a380-2012-for-sale-colombo-4",
-"https://ikman.lk/en/ad/honda-civic-rs-turbo-2025-for-sale-colombo-1",
-"https://ikman.lk/en/ad/toyota-raize-2023-for-sale-colombo-17",
-"https://ikman.lk/en/ad/toyota-starlet-ep82-1997-for-sale-anuradhapura",
-"https://ikman.lk/en/ad/land-rover-range-autobiography-2019-for-sale-gampaha",
-"https://ikman.lk/en/ad/toyota-land-cruiser-prado-lc250-first-edition-2024-for-sale-colombo-1",
-"https://ikman.lk/en/ad/toyota-land-cruiser-sahara-lc-300-facelift-2008-for-sale-gampaha",
-"https://ikman.lk/en/ad/honda-fit-2012-for-sale-colombo-1215",
-"https://ikman.lk/en/ad/toyota-corolla-wxb-2023-for-sale-colombo-2"
+"https://ikman.lk/en/ad/suzuki-baleno-2016-for-sale-colombo-264"
+"https://ikman.lk/en/ad/toyota-prius-2nd-generation-2009-for-sale-gampaha",
+"https://ikman.lk/en/ad/toyota-aqua-2015-x-urban-for-sale-colombo-1",
+"https://ikman.lk/en/ad/toyota-land-cruiser-prado-txl-limited-2023-for-sale-gampaha-1",
+"https://ikman.lk/en/ad/mitsubishi-lancer-box-1983-for-sale-anuradhapura",
+"https://ikman.lk/en/ad/honda-civic-fd1-2007-for-sale-colombo-152",
+"https://ikman.lk/en/ad/suzuki-wagon-r-fz-safety-2018-for-sale-colombo-859",
+"https://ikman.lk/en/ad/toyota-aqua-2015-x-urban-for-sale-colombo-1",
+"https://ikman.lk/en/ad/mercedes-benz-e200-facelift-premium-2023-for-sale-colombo-1",
+"https://ikman.lk/en/ad/toyota-land-cruiser-sahara-lc300-zx-2023-for-sale-colombo-6",
+"https://ikman.lk/en/ad/toyota-land-cruiser-prado-txl-2023-for-sale-colombo-4",
+"https://ikman.lk/en/ad/toyota-land-cruiser-prado-txl-2023-for-sale-colombo-5",
+"https://ikman.lk/en/ad/honda-crv-2018-for-sale-galle-6",
+"https://ikman.lk/en/ad/suzuki-celerio-vxi-auto-2015-for-sale-gampaha-223",
+"https://ikman.lk/en/ad/renault-kwid-rxt-air-bag-2017-for-sale-gampaha",
+"https://ikman.lk/en/ad/ssang-yong-rexton-2009-for-sale-colombo-4",
+"https://ikman.lk/en/ad/mercedes-benz-e200-cabriolet-2023-for-sale-colombo-3",
+"https://ikman.lk/en/ad/land-rover-defender-110-p300e-s-auto-4wd-2024-for-sale-colombo",
+"https://ikman.lk/en/ad/toyota-rush-s-grade-2019-for-sale-colombo",
+"https://ikman.lk/en/ad/bajaj-qute-2019-for-sale-colombo-80",
+"https://ikman.lk/en/ad/daihatsu-mira-2019-for-sale-jaffna",
+"https://ikman.lk/en/ad/ssang-yong-actyon-2007-for-sale-kandy",
+"https://ikman.lk/en/ad/hyundai-grand-i10-2025-for-sale-colombo-2",
+"https://ikman.lk/en/ad/toyota-hilux-vigo-2007-for-sale-monaragala-1",
+"https://ikman.lk/en/ad/toyota-land-cruiser-sahara-zx-fully-loaded-2023-for-sale-colombo",
+"https://ikman.lk/en/ad/mazda-6-gt-2500cc-2014-for-sale-colombo-4",
+"https://ikman.lk/en/ad/toyota-vitz-2019-for-sale-colombo-303"
 ]
 
 for url in urls:
