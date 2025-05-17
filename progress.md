@@ -11,7 +11,7 @@ Decided to automate scrape using BeautifulSoup and a python script.
 As the BeautifulSoup python script seemed to be working well for my purposes, I modified the script further to extract links from each page of ikman.lk's car ads itself. It does this by finding each element with the "card-link--3ssYv gtm-ad-item" class, extracting the href from each element, and saving it into a list. This list is then passed into the program created previously. 
 
 11:00pm
-Added all body types, removed invalid entries. 
+Added all body types, removed invalid entries. Merged scraper2.py with scraper.py
 
 17th May 2025 4:58pm
 Removed duplicates
