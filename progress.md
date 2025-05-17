@@ -14,4 +14,7 @@ As the BeautifulSoup python script seemed to be working well for my purposes, I 
 Added all body types, removed invalid entries. Merged scraper2.py with scraper.py
 
 17th May 2025 4:58pm
-Removed duplicates
+Removed duplicates from scrapes2.csv
+
+7:52pm 
+Began using the pandas library in python to import the csv and convert it to a dataframe. Read through pandas documentation
