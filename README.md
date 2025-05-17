@@ -4,8 +4,6 @@ Documentation of the ET 4103 - Machine Learning Module, as conducted in the 7th 
 
 Included is a log of the scraping and data classification of the data for the final assignment, which is a Car Price predictor.
 
-[ TOC ]
-
 ## Background to the Dataset
 
 Ikman.lk is a famous Sri Lankan website, with a reputation as a second hand online marketplace. Many car ads are posted on the site daily, at a rate of roughly 6 - 7 an hour during the course of data gathering for this module. For this reason, it was chosen as an ideal source for data. 
