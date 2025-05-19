@@ -24,3 +24,6 @@ Removed commas from Engine Capacity, Mileage, and Price Columns in order for pan
 
 19th May 2025 11:03am
 Converted object classes to numerical values that RandomForestRegressor can handle, using one-hot encoding
+
+12:31pm 
+Experimented with different filters (< Rs. 100 million, < Rs. 150 million, < Rs. 200 million) to test the impact of the high end vehicles on the accuracy of the system. Removed data entries with obviously invalid price entries.
