@@ -18,3 +18,9 @@ Removed duplicates from scrapes2.csv
 
 7:52pm 
 Began using the pandas library in python to import the csv and convert it to a dataframe. Read through pandas documentation
+
+8:40pm
+Removed commas from Engine Capacity, Mileage, and Price Columns in order for pandas to read it as floats
+
+19th May 2025 11:03am
+Converted object classes to numerical values that RandomForestRegressor can handle, using one-hot encoding
