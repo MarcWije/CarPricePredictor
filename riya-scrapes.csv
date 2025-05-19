@@ -712,3 +712,839 @@ Toyota,Corolla Elephant Back G Touring,1996,Automatic,Diesel,2000,250000,"Rs. 3,
 Honda,FIT GP5,2014,Automatic,Petrol,1490,110000,"Rs. 7,950,000"
 Toyota,Prius Alpha ZVW41,2014,Automatic,Hybrid,1800,206000,"Rs. 10,800,000"
 Mercedes-Benz,Cla 180,2017,Automatic,Petrol,1600,82000,Negotiable
+Mercedes-Benz,E240W211,2003,Automatic,Petrol,2500,128,"Rs. 7,475,000"
+Suzuki,Wagon R FZ Safety,2018,Automatic,Hybrid,-,94000,"Rs. 7,100,000"
+Suzuki,Wagon R FX,2023,Automatic,Petrol,660,7000,"Rs. 7,550,000"
+BMW,320D,2013,Automatic,Diesel,1990,107000,"Rs. 19,750,000"
+Toyota,Prius Alpha ZVW41,2014,Automatic,Hybrid,1800,206000,"Rs. 10,800,000"
+Mercedes-Benz,Cla 180,2017,Automatic,Petrol,1600,82000,Negotiable
+Suzuki,Swift,2008,Automatic,Petrol,1490,110125,"Rs. 5,500,000"
+Suzuki,Maruti,2012,Manual,Petrol,800,68000,"Rs. 2,415,000"
+Nissan,Dayz X Grade,2024,Automatic,Petrol,660,8000,"Rs. 8,395,000"
+Fiat,Punto,2008,Automatic,Petrol,1242,131200,"Rs. 2,150,000"
+Nissan,Sunny B211,1976,Manual,Petrol,1200,-,"Rs. 520,000"
+Suzuki,Alto 800 Lxi,2015,Manual,Petrol,800,159500,Negotiable
+Renault,Kwid,2018,Manual,Petrol,800,108000,"Rs. 3,475,000"
+Honda,FIT GP5,2014,Automatic,Hybrid,1490,96400,"Rs. 8,590,000"
+Hyundai,NF SONATA MODEL,2008,Automatic,Petrol,2300,103500,"Rs. 5,300,000"
+Mercedes-Benz,C200,2019,Automatic,Petrol,1500,80000,"Rs. 25,800,000"
+Perodua,Viva Elite,2010,Manual,Petrol,-,107575,Negotiable
+Volkswagen,E Up,2019,Automatic,Electric,-,50000,Negotiable
+Suzuki,ALTO Sport,2010,Manual,Petrol,800,-,Negotiable
+Toyota,Aqua X Urban,2015,Automatic,Hybrid,1500,99000,"Rs. 9,300,000"
+Suzuki,Cultus Crescent Japan,1999,Automatic,Petrol,1500,140,"Rs. 3,100,000"
+Suzuki,Wagon R,2016,Automatic,Petrol,650,88800,Negotiable
+Suzuki,Hustler,2016,Automatic,Petrol,660,125000,"Rs. 6,125,000"
+Honda,Fit Gp5 S Grade,2014,Automatic,Hybrid,1500,160000,"Rs. 8,495,000"
+Suzuki,Alto Japan,1998,Manual,Petrol,660,192000,"Rs. 2,030,000"
+Toyota,Yaris,2008,Manual,Petrol,1300,190000,"Rs. 6,250,000"
+Suzuki,Alto,2016,Manual,Petrol,800,146269,"Rs. 3,840,000"
+Toyota,Axio G Grade,2016,Automatic,Hybrid,1500,120000,"Rs. 11,250,000"
+Toyota,Corolla AE100,2003,Manual,Petrol,1490,145000,"Rs. 3,500,000(Ongoing Lease)"
+Nissan,Sunny FB15 Super Saloon,1999,Automatic,Petrol,1500,280000,"Rs. 3,975,000"
+Mitsubishi,Minica,2000,Automatic,Petrol,660,150000,"Rs. 2,775,000"
+Nissan,Sunny FB15,2001,Automatic,Petrol,1300,150000,"Rs. 3,500,000"
+Toyota,Axio,2007,Automatic,Petrol,1500,150000,Negotiable
+Toyota,Vitz,2016,Automatic,Petrol,1000,74000,"Rs. 7,825,000"
+Nissan,Bluebird,1991,Manual,Diesel,2000,-,"Rs. 1,350,000"
+Nissan,FB14,1999,Manual,Petrol,1425,1234,"Rs. 3,150,000"
+Toyota,Axio G Grade,2008,Automatic,Petrol,1500,169000,Negotiable
+Toyota,Corolla 141,2007,Automatic,Petrol,1590,149000,"Rs. 6,900,000"
+Toyota,Corolla Dx Wagon KE74,1989,Manual,Petrol,1480,-,Negotiable
+Toyota,Aqua G,2014,Automatic,Hybrid,1500,175000,"Rs. 8,500,000"
+Suzuki,Wagon R Stingray Safety,2018,Automatic,Hybrid,660,50000,"Rs. 7,450,000"
+Honda,Fit Shuttle Gp2,2013,Automatic,Petrol,1330,124500,Negotiable
+Suzuki,Maruti,2005,Manual,Petrol,800,80000,"Rs. 1,790,000"
+Suzuki,Maruti 800,2012,Manual,Petrol,-,133000,"Rs. 2,300,000"
+Honda,Civic Tech Pack Sedan,2019,Automatic,Petrol,1000,55000,"Rs. 14,250,000"
+Suzuki,Wagon R FX,2023,Automatic,Petrol,660,7000,"Rs. 7,550,000"
+Toyota,Camry,2015,Automatic,Hybrid,2500,105000,"Rs. 19,500,000"
+Toyota,Allion 260 G,2007,Automatic,Petrol,1500,180000,"Rs. 9,400,000"
+Suzuki,Maruti 800,2012,Manual,Petrol,-,133000,"Rs. 2,300,000"
+Nissan,FB14 Ex Saloon,1998,Automatic,Diesel,2000,125000,"Rs. 2,750,000"
+Morris,Minor,0,Manual,Petrol,1000,-,"Rs. 1,800,000"
+Honda,Civic EK3,1996,Automatic,Petrol,1500,210000,Negotiable
+Nissan,Cefiro,2003,Automatic,Petrol,1995,170890,Negotiable
+Toyota,Starlet,1987,Manual,Petrol,1300,250000,Negotiable
+Nissan,FB13 25th Anniversary Super Saloon,1992,Manual,Petrol,1500,1875000,"Rs. 2,575,000"
+Toyota,Vitz Safety Edition,2017,Automatic,Petrol,1000,90000,"Rs. 8,350,000"
+Toyota,121 LX Limited,2006,Automatic,Petrol,1500,150000,"Rs. 7,150,000"
+Honda,FIT GP5,2015,Automatic,Hybrid,1500,184500,Negotiable
+Honda,FIT GP1,2011,Automatic,Hybrid,1300,101539,"Rs. 7,150,000"
+Nissan,FB14,1996,Manual,Diesel,2000,335000,Negotiable
+Suzuki,Spacia Custom,2018,Automatic,Petrol,660,36500,Negotiable
+BMW,520D M Sport,2012,Automatic,Diesel,2000,155000,Negotiable
+Nissan,Sunny,1985,Automatic,Diesel,2000,200000,"Rs. 2,000,000"
+Toyota,Corolla CE110,1996,Automatic,Diesel,2000,186754,"Rs. 3,650,000"
+Toyota,Premio G Superior,2013,Automatic,Petrol,1500,81000,"Rs. 13,000,000"
+Toyota,Starlet EP91,1999,Automatic,Petrol,1300,175430,Negotiable
+Toyota,Corolla,1997,Automatic,Petrol,1500,-,"Rs. 4,175,000"
+Suzuki,Baleno Turbo,2019,Automatic,Petrol,1000,89000,Negotiable
+Mercedes-Benz,E200,2010,Automatic,Petrol,1800,127000,Negotiable
+Nissan,AVENIR AD WAGON,1997,Manual,Diesel,1970,285000,"Rs. 1,980,000"
+Suzuki,Celerio,2015,Automatic,Petrol,990,114000,"Rs. 5,500,000"
+Toyota,BELTA,2010,Automatic,Petrol,1000,154000,Negotiable
+Kia,Sephia,1999,Manual,Petrol,1400,123000,"Rs. 1,720,000"
+Toyota,Aqua G Grade,2012,Automatic,Hybrid,1500,189000,"Rs. 7,150,000"
+Honda,Fit GP5 L,2014,Automatic,Hybrid,1500,119000,"Rs. 8,600,000"
+Chevrolet,Cruze GM,2003,Automatic,Petrol,1320,180000,"Rs. 3,925,000"
+Toyota,Sai,2010,Automatic,Hybrid,-,110000,Negotiable
+Toyota,Corolla KE50,1977,Manual,Petrol,-,-,"Rs. 550,000"
+Mitsubishi,Lancer,1980,Manual,Petrol,1400,156111,Rs. 250
+Austin,Cambridge,1963,Manual,Petrol,1500,-,"Rs. 1,625,000"
+Suzuki,Alto,2011,Manual,Petrol,800,123000,"Rs. 3,190,000"
+Toyota,Dx Wagon 72,1985,Manual,Petrol,1290,245262,"Rs. 790,000"
+Suzuki,ALTO Lxi,2015,Manual,Petrol,800,105000,"Rs. 3,725,000"
+Kia,RIO,2005,Automatic,Petrol,1490,2675000,"Rs. 2,695,000"
+Toyota,Vitz,2007,Automatic,Petrol,1000,143000,Negotiable
+Hyundai,Eon Magna,2015,Manual,Petrol,814,111000,"Rs. 4,150,000"
+Honda,Fit,2014,Automatic,Hybrid,1490,123000,"Rs. 8,650,000"
+Nissan,N16 Ex Saloon,2000,Automatic,Petrol,1500,165000,"Rs. 3,975,000"
+Fiat,Linea,2012,Manual,Diesel,1300,68000,"Rs. 2,950,000"
+Toyota,Camry,2015,Automatic,Hybrid,2500,105000,"Rs. 19,500,000"
+Daihatsu,Mira ES L,2023,Automatic,Petrol,660,Import,Negotiable
+Mercedes-Benz,E200 Turbo AMG,2016,Automatic,Petrol,2000,86600,Negotiable
+Toyota,Corolla AE110,1996,Automatic,Petrol,1500,230000,"Rs. 3,890,000"
+Daihatsu,Mira ES,2016,Automatic,Petrol,660,78000,"Rs. 5,450,000"
+Suzuki,Wagon R Premium,2018,Automatic,Hybrid,660,47650,"Rs. 6,990,000"
+Nissan,Bluebird Sylphy,2000,Automatic,Petrol,1490,213000,"Rs. 4,550,000"
+Toyota,Ke55,1977,Manual,Petrol,1400,-,"Rs. 695,000"
+Honda,FIT GP5,2014,Automatic,Hybrid,1500,990000,"Rs. 8,475,000"
+Mitsubishi,Lancer Tube Light,1978,Manual,Petrol,1400,250000,"Rs. 750,000"
+Toyota,Vitz SCP90,2007,Automatic,Petrol,1300,129000,Negotiable
+Toyota,COROLLA CE106 ELEPHANT BACK,1997,Manual,Diesel,2000,280000,"Rs. 2,395,000"
+Toyota,Yaris Cross,2025,Automatic,Petrol,1500,-,"Rs. 22,000,000"
+Toyota,Corolla DX Wagon KE74,1985,Manual,Petrol,1500,0,"Rs. 1,125,000"
+Nissan,March K12,2002,Automatic,Petrol,1300,182000,"Rs. 3,650,000"
+Suzuki,Wagon R Stingray,2018,Automatic,Petrol,650,73780,"Rs. 7,750,000"
+Suzuki,Swift RS,2017,Automatic,Hybrid,1300,155000,"Rs. 8,850,000"
+Toyota,VITZ,2005,Automatic,Petrol,1000,165,"Rs. 5,200,000"
+Suzuki,Alto,2015,Manual,Petrol,800,87000,"Rs. 3,750,000"
+Honda,Fit GP4 RS,2013,Automatic,Hybrid,1500,143000,Negotiable
+Micro,Panda Cross,2015,Manual,Petrol,1342,96100,"Rs. 3,690,000"
+Toyota,Starlet,1997,Automatic,Petrol,1300,160000,"Rs. 4,390,000"
+Nissan,Sunny FB15,1999,Automatic,Petrol,1490,190000,Negotiable
+Toyota,Axio WXB,2017,Automatic,Hybrid,1500,65414,"Rs. 13,950,000"
+Nissan,Sunny FB15,2000,Automatic,Petrol,1490,175000,"Rs. 4,290,000"
+Toyota,Vitz,2019,Automatic,Petrol,1000,72000,"Rs. 9,350,000"
+Suzuki,Baleno,2016,Automatic,Petrol,990,81000,"Rs. 8,390,000"
+Nissan,Wingroad,2006,Automatic,Petrol,1490,123600,"Rs. 5,890,000"
+Micro,BAIC X25,2018,Automatic,Petrol,1499,55000,"Rs. 5,490,000"
+Toyota,Vitz,2016,Automatic,Petrol,998,97000,"Rs. 7,690,000"
+Suzuki,Swift,2009,Automatic,Petrol,1240,123450,"Rs. 6,200,000"
+Toyota,Aqua S Grade,2017,Automatic,Petrol,1490,147000,"Rs. 9,490,000"
+Honda,Fit Gp5,2015,Automatic,Petrol,1500,164450,"Rs. 8,990,000"
+Daihatsu,Mira,2003,Automatic,Petrol,650,138000,"Rs. 3,690,000"
+Suzuki,SPACIA CUSTOM Z,2017,Automatic,Petrol,650,134000,"Rs. 7,290,000"
+Suzuki,SPACIA CUSTOM,2015,Automatic,Petrol,650,74500,"Rs. 6,890,000"
+Suzuki,SPACIA G LIMITED,2015,Automatic,Petrol,650,85000,"Rs. 6,590,000"
+Toyota,Prius,2008,Automatic,Hybrid,1500,164000,"Rs. 7,250,000"
+Suzuki,SPACIA G LIMITED,2016,Automatic,Petrol,650,89900,"Rs. 6,590,000"
+Suzuki,Estilo,2010,Manual,Petrol,1000,111000,"Rs. 3,650,000"
+Suzuki,Wagon R Stingray,2018,Automatic,Petrol,650,57000,"Rs. 7,490,000"
+Toyota,Vitz Edition 02,2018,Automatic,Petrol,1000,71000,"Rs. 8,725,000"
+Suzuki,Wagon R FX,2024,Automatic,Petrol,650,27368,"Rs. 8,390,000"
+Toyota,Allion 260 G,2007,Automatic,Petrol,1500,180000,"Rs. 9,400,000"
+Toyota,Camry,2015,Automatic,Hybrid,2500,105000,"Rs. 19,500,000"
+Honda,Civic Tech Pack Sedan,2019,Automatic,Petrol,1000,55000,"Rs. 14,250,000"
+Daihatsu,Mira ES L,2023,Automatic,Petrol,660,Import,Negotiable
+Suzuki,Wagon R FX,2024,Automatic,Petrol,650,27368,"Rs. 8,390,000"
+Suzuki,Hustler,2015,Automatic,Petrol,650,60000,"Rs. 6,390,000"
+Suzuki,HUSTLER,2015,Automatic,Petrol,650,113700,"Rs. 6,390,000"
+Suzuki,Alto K10,2013,Manual,Petrol,1000,185000,"Rs. 3,290,000"
+Zotye,Z100,2020,Manual,Petrol,1000,30000,"Rs. 3,350,000(Ongoing Lease)"
+Suzuki,Maruti,2004,Manual,Petrol,800,-,Negotiable
+Honda,Fit GP5,2014,Automatic,Hybrid,1490,123000,"Rs. 8,650,000"
+Suzuki,Maruti,2007,Manual,Petrol,800,40000,"Rs. 1,990,000"
+Toyota,MARK 2,1993,Manual,Petrol,2500,101000,"Rs. 5,265,000"
+Suzuki,Alto Japan,2016,Automatic,Petrol,650,70000,"Rs. 5,450,000"
+Toyota,Axio EX Hybrid,2024,Automatic,Hybrid,1500,12000,"Rs. 13,600,000"
+Toyota,Alto Japan Safety,2024,Automatic,Petrol,660,28000,"Rs. 7,575,000"
+Toyota,Corolla 110,1999,Automatic,Petrol,1500,200000,"Rs. 4,290,000"
+Daewoo,Racer,1998,Automatic,Petrol,1500,-,"Rs. 1,185,000"
+Toyota,Verossa,2002,Automatic,Petrol,2000,176000,"Rs. 5,850,000"
+Nissan,B310,0,Manual,Petrol,1200,123500,"Rs. 290,000"
+Toyota,Vitz,2016,Automatic,Petrol,990,82200,"Rs. 7,825,000"
+Mitsubishi,Lancer,1993,Manual,Diesel,-,-,"Rs. 1,950,000"
+Suzuki,Wagon R,2017,Automatic,Petrol,660,140000,"Rs. 6,250,000"
+Suzuki,Wagon R Stingray,2018,Automatic,Petrol,660,77320,"Rs. 7,200,000"
+Chery,Qq,2006,Manual,Petrol,800,88,"Rs. 1,425,000"
+Honda,Fit Shuttle GP7,2018,Automatic,Petrol,1500,118350,"Rs. 13,250,000"
+Mitsubishi,Lancer CS3 Touring,2003,Automatic,Petrol,1600,244000,Negotiable
+Toyota,Vitz KSP90,2008,Automatic,Petrol,1000,118500,"Rs. 5,790,000"
+Nissan,CB 12 Trad Sunny,1989,Manual,Petrol,1500,50000,"Rs. 1,450,000"
+Mitsubishi,LANCER,1998,Manual,Petrol,1500,-,Negotiable
+Honda,Civic,1985,Manual,Petrol,1500,6,"Rs. 590,000"
+Suzuki,Wagon R Fx,2017,Automatic,Petrol,660,126000,"Rs. 6,475,000"
+Suzuki,ALTO X Grade,2023,Automatic,Hybrid,650,6600,Negotiable
+Toyota,CORONA AT 170,1988,Manual,Petrol,1500,-,"Rs. 2,050,000"
+Toyota,Starlet,1985,Manual,Petrol,1300,185000,"Rs. 875,000"
+Audi,A3 S-Line,2018,Automatic,Petrol,1000,55000,"Rs. 18,500,000"
+Toyota,Premio G Superior,2017,Automatic,Petrol,1500,120000,"Rs. 16,450,000"
+Suzuki,Alto Lxi,2013,Manual,Petrol,800,117800,Negotiable
+Suzuki,Maruti,2006,Manual,Petrol,800,28000,"Rs. 1,960,000"
+Toyota,AXIO 165,2015,Automatic,Hybrid,1500,235000,Negotiable
+Suzuki,Alto,2008,Manual,Petrol,800,160000,"Rs. 2,845,000"
+Mercedes-Benz,CLA 180 AMG,2017,Automatic,Petrol,1600,75000,"Rs. 20,900,000"
+Suzuki,Alto K10,2015,Automatic,Petrol,1000,69000,Negotiable
+Perodua,Kelisa,2006,Manual,Petrol,1000,198000,"Rs. 2,900,000"
+Fiat,Linea,2012,Manual,Diesel,1300,68000,"Rs. 2,950,000"
+Mitsubishi,Lancer CK8A,1997,Automatic,Diesel,2000,200,"Rs. 3,450,000"
+Suzuki,Wagon R FX Safety,2024,Automatic,Petrol,660,3769,"Rs. 8,190,000"
+Mercedes-Benz,E200 Turbo AMG,2016,Automatic,Petrol,2000,86600,Negotiable
+Mitsubishi,Lancer Box,1983,Manual,Petrol,1400,88888,"Rs. 850,000"
+Suzuki,Swift,2001,Automatic,Petrol,1300,153000,"Rs. 3,990,000"
+Nissan,Note Aura G Leather Edition Hybrid,2024,Automatic,Hybrid,1198,300,"Rs. 15,500,000"
+Toyota,Axio,2007,Automatic,Petrol,1500,203623,"Rs. 7,775,000"
+Suzuki,Wagon R Fx Safety,2018,Automatic,Petrol,660,68120,"Rs. 6,425,000"
+Toyota,Axio,2007,Automatic,Petrol,1490,0,Negotiable
+Mitsubishi,Lancer Box,1984,Manual,Petrol,1400,185200,"Rs. 895,000"
+Toyota,Prius,2008,Automatic,Hybrid,1500,0,Negotiable
+Toyota,Premio G Superior,2007,Automatic,Petrol,1500,154000,"Rs. 10,590,000"
+Suzuki,Swift Japan,2007,Automatic,Petrol,1500,142000,Negotiable
+Toyota,IST G,2007,Automatic,Petrol,1500,151000,"Rs. 7,000,000"
+Suzuki,Wagon R,2017,Automatic,Petrol,650,81000,"Rs. 7,250,000"
+Toyota,Sprinter,1986,Manual,Petrol,1500,175000,"Rs. 1,250,000"
+Nissan,FB14,1999,Manual,Petrol,1400,230000,"Rs. 3,050,000"
+Nissan,March,2002,Automatic,Petrol,1300,148000,"Rs. 3,750,000"
+Toyota,Vitz,2009,Automatic,Petrol,1000,95400,Negotiable
+Toyota,Corolla,1990,Manual,Petrol,1800,366000,"Rs. 1,600,000"
+Honda,City,1999,Manual,Petrol,1500,25500,"Rs. 2,765,000"
+Toyota,Premio,2007,Automatic,Petrol,1500,182000,"Rs. 9,600,000"
+Proton,Wira,2003,Manual,Petrol,1500,52000,"Rs. 1,675,000"
+Honda,Civic SE,2018,Automatic,Petrol,1000,66500,"Rs. 13,800,000"
+Micro,PANDA CROSS,2015,Manual,Petrol,1300,39000,"Rs. 3,625,000"
+Perodua,Viva Elite,2011,Automatic,Petrol,1000,132000,"Rs. 4,485,000"
+Singer,Singer,2007,Manual,Petrol,50,500,Negotiable
+Toyota,Aqua Urban,2015,Automatic,Petrol,1496,106500,"Rs. 9,750,000"
+Suzuki,Alto Sport,2012,Manual,Petrol,800,172000,"Rs. 3,050,000"
+BMW,318i Sport Plus,2020,Automatic,Petrol,1500,47200,Negotiable
+Honda,S660,2018,Automatic,Petrol,660,58000,Negotiable
+Toyota,Allion NZT260,2010,Automatic,Petrol,1500,103000,"Rs. 9,950,000"
+Hyundai,Eon Magna,2015,Manual,Petrol,800,88120,"Rs. 3,990,000"
+Perodua,Viva Elite,2013,Automatic,Petrol,1000,108751,"Rs. 4,685,000"
+Toyota,Corolla 121,2001,Automatic,Petrol,1790,301367,"Rs. 6,875,000"
+Suzuki,Swift,2004,Automatic,Petrol,1300,150000,"Rs. 4,275,000"
+Toyota,Platz,2000,Automatic,Petrol,1000,150000,"Rs. 3,700,000"
+Mercedes-Benz,E240,1999,Automatic,Petrol,2500,17,"Rs. 6,500,000"
+Chevrolet,Cruze,2003,Automatic,Petrol,1300,100600,"Rs. 3,900,000"
+Toyota,Prius Limited Edition,2012,Automatic,Hybrid,1800,230,"Rs. 9,995,000"
+Kia,Spectra,2004,Manual,Petrol,1500,199500,"Rs. 2,425,000"
+Toyota,Prius,2016,Automatic,Hybrid,-,106000,"Rs. 15,100,000"
+Suzuki,Maruti 800,2013,Manual,Petrol,800,18000,Negotiable
+Daihatsu,Mira ES L,2023,Automatic,Petrol,660,Import,Negotiable
+Toyota,Camry,2015,Automatic,Hybrid,2500,105000,"Rs. 19,500,000"
+Honda,Fit Shuttle GP7,2018,Automatic,Petrol,1500,118350,"Rs. 13,250,000"
+Toyota,Allion 260 G,2007,Automatic,Petrol,1500,180000,"Rs. 9,400,000"
+Suzuki,Maruti 800,2013,Manual,Petrol,800,18000,Negotiable
+Suzuki,Wagon R Stingray,2016,Automatic,Petrol,600,76000,"Rs. 5,900,000"
+Hyundai,Accent,2001,Manual,Petrol,1500,-,Negotiable
+Mitsubishi,Lancer Wagon,1978,Manual,Petrol,1400,214000,"Rs. 460,000"
+Suzuki,Wagon R Stingray J Style,2014,Automatic,Hybrid,650,150000,"Rs. 5,800,000(Ongoing Lease)"
+Daewoo,DAEWOO,2000,Automatic,Petrol,1598,-,"Rs. 2,000,000"
+Suzuki,Wagon R,2015,Automatic,Hybrid,-,39610,"Rs. 5,925,000"
+Daihatsu,MIRA,2023,Automatic,Petrol,650,9000,"Rs. 7,350,000"
+Suzuki,Spacia G,2023,Automatic,Petrol,650,15000,Negotiable
+Honda,NBox Custom,2024,Automatic,Petrol,660,-,"Rs. 10,200,000"
+Perodua,Bezza,2018,Automatic,Petrol,1000,80500,"Rs. 6,850,000"
+BMW,318i,2016,Automatic,Petrol,1500,60000,"Rs. 20,500,000"
+Toyota,Axio G Grade Safety,2016,Automatic,Hybrid,1500,137000,"Rs. 12,250,000"
+Suzuki,Alto K10,2011,Manual,Petrol,1000,-,"Rs. 3,250,000"
+Suzuki,Maruti,2005,Manual,Petrol,800,160000,"Rs. 1,725,000"
+Micro,MX7,2012,Manual,Petrol,1498,151005,"Rs. 2,475,000(Ongoing Lease)"
+Honda,CRZ,2012,Automatic,Hybrid,1500,102000,Negotiable
+Perodua,VIVA ELITE,2011,Manual,Petrol,1009,93000,"Rs. 4,285,000"
+Suzuki,Alto,2015,Manual,Petrol,800,90000,"Rs. 3,750,000"
+Honda,Civi Ex Tech Pack,2018,Automatic,Hybrid,1000,88000,"Rs. 14,400,000"
+Mitsubishi,Lancer Cb8,1995,Manual,Diesel,2000,180000,"Rs. 2,200,000"
+Mercedes-Benz,W124,1998,Manual,Petrol,2200,165000,"Rs. 4,125,000"
+Toyota,Corolla Elephant Back,1998,Automatic,Petrol,1500,216000,"Rs. 3,450,000"
+Mitsubishi,Lancer L Light,1975,Manual,Petrol,1400,-,"Rs. 575,000"
+Toyota,Axio Wxb,2017,Automatic,Hybrid,1500,137000,"Rs. 13,700,000"
+Perodua,Viva Elite,2011,Automatic,Petrol,1000,173000,"Rs. 4,225,000"
+Suzuki,Alto,2014,Manual,Petrol,800,68000,"Rs. 3,210,000"
+Nissan,Bluebird SU12,1989,Manual,Diesel,1950,-,"Rs. 1,750,000"
+Toyota,Allion 260 G Plus,2016,Automatic,Petrol,1500,65800,"Rs. 15,800,000"
+Toyota,Prius 2nd Gen 20,2007,Automatic,Hybrid,1500,208000,"Rs. 6,550,000"
+Toyota,Axio WXB,2017,Automatic,Hybrid,1500,83500,"Rs. 13,600,000"
+Isuzu,JT600,1988,Manual,Diesel,1990,200000,"Rs. 985,000"
+Morris,Minor,1957,Manual,Petrol,1000,180000,"Rs. 190,000"
+Suzuki,Maruti,1995,Manual,Petrol,800,155,"Rs. 1,160,000"
+Toyota,Aqua G Grade,2014,Automatic,Petrol,1500,107000,"Rs. 8,150,000"
+Suzuki,Wagon R Stingray,2016,Manual,Petrol,998,65000,Negotiable
+Toyota,Vitz,2016,Automatic,Petrol,1000,96000,"Rs. 8,000,000"
+Toyota,Vitz,2007,Automatic,Petrol,1000,120000,"Rs. 5,680,000"
+Toyota,Carina,1998,Automatic,Petrol,1500,192400,"Rs. 4,600,000"
+Tata,Indica V2,2007,Manual,Petrol,1395,104000,"Rs. 1,950,000"
+Honda,Civic,2018,Automatic,Petrol,1000,51000,"Rs. 14,000,000"
+Daihatsu,Mira ES L,2023,Automatic,Petrol,660,Import,Negotiable
+BMW,320D,2013,Automatic,Diesel,1990,107000,"Rs. 19,750,000"
+Suzuki,Wagon R FX,2023,Automatic,Petrol,660,7000,"Rs. 7,550,000"
+Tata,Indica V2,2007,Manual,Petrol,1395,104000,"Rs. 1,950,000"
+Chery,QQ,2006,Automatic,Petrol,820,96744,"Rs. 1,650,000"
+Chery,Qq,2014,Manual,Petrol,800,89463,"Rs. 1,950,000"
+Nissan,March,2000,Automatic,Petrol,13400,19000,Negotiable(Ongoing Lease)
+Nissan,Trad Sunny HB12,1986,Manual,Petrol,1500,246000,"Rs. 1,600,000"
+Suzuki,Alto,2016,Manual,Petrol,800,42000,"Rs. 3,930,000(Ongoing Lease)"
+Mitsubishi,Cedia CS2,2000,Automatic,Petrol,1500,200000,Negotiable
+Toyota,Vitz,2007,Automatic,Petrol,1000,70000,"Rs. 5,800,000"
+Mitsubishi,Galant,1973,Manual,Petrol,1400,180000,"Rs. 225,000"
+Toyota,Vitz,2019,Automatic,Petrol,-,18000,"Rs. 10,500,000"
+Toyota,Prius S Touring,2011,Automatic,Hybrid,1800,174000,Negotiable
+Nissan,N17,2011,Manual,Petrol,1300,117100,"Rs. 5,600,000"
+Peugeot,104,1975,Manual,Petrol,1300,180000,"Rs. 125,000"
+Toyota,Premio,2017,Automatic,Petrol,1490,96100,"Rs. 15,900,000"
+Toyota,Premio Fex,2020,Automatic,Petrol,1500,94000,Negotiable
+Tata,NANO TWIST XTA,2017,Automatic,Petrol,650,103000,"Rs. 2,260,000"
+Suzuki,Wagon R Vxi,2015,Manual,Petrol,1000,122000,"Rs. 5,125,000"
+Toyota,Axio,2015,Automatic,Petrol,1500,128100,"Rs. 10,890,000"
+Toyota,Belta,2008,Automatic,Petrol,1300,197000,"Rs. 6,975,000"
+Suzuki,Maruti,2004,Manual,Petrol,800,63000,"Rs. 1,625,000"
+Suzuki,SWIFT,2002,Automatic,Petrol,1500,233170,"Rs. 1,000,000"
+Nissan,K10,1989,Manual,Petrol,1000,1234,"Rs. 1,000,000"
+Nissan,N16,2002,Manual,Petrol,1300,213000,Negotiable(Ongoing Lease)
+Micro,Panda,2012,Manual,Petrol,1300,125,"Rs. 2,495,000"
+Honda,Freed,2013,Automatic,Petrol,1500,124000,"Rs. 9,200,000"
+Subaru,Legacy B4,2000,Manual,Petrol,2000,-,Negotiable
+Suzuki,Hustler,2017,Automatic,Petrol,650,82000,"Rs. 6,200,000"
+Toyota,EE90,1991,Manual,Petrol,1290,888888,"Rs. 1,500,000"
+Toyota,Allion,2016,Automatic,Petrol,1490,105000,"Rs. 15,800,000"
+Mitsubishi,Lancer CV 11,1987,Manual,Petrol,1290,86746,"Rs. 1,150,000"
+Nissan,N16,2002,Manual,Petrol,1300,213000,Negotiable(Ongoing Lease)
+Toyota,Vitz,2008,Automatic,Petrol,1000,156000,"Rs. 5,775,000"
+Suzuki,ALTO,2007,Manual,Petrol,800,195500,"Rs. 2,675,000"
+Toyota,Carina,1998,Automatic,Diesel,1800,273000,"Rs. 4,450,000"
+Toyota,Axio,2015,Automatic,Hybrid,1500,62000,"Rs. 11,900,000"
+Nissan,FB13 25th Anniversary Model,1991,Manual,Petrol,1500,175219,"Rs. 2,590,000"
+Toyota,Corolla 121,2005,Automatic,Petrol,1500,226000,"Rs. 6,275,000"
+Hyundai,Sonata H Matic,2004,Automatic,Petrol,2000,227000,"Rs. 2,750,000"
+Suzuki,Wagon R Stingray,2014,Automatic,Petrol,660,101000,"Rs. 5,740,000"
+Toyota,IST FL GRADE,2006,Automatic,Petrol,1300,142000,"Rs. 5,590,000"
+Daihatsu,Mira ES L,2023,Automatic,Petrol,660,Import,Negotiable
+Mercedes-Benz,E240W211,2003,Automatic,Petrol,2500,128,"Rs. 7,475,000"
+Honda,Civic,2018,Automatic,Petrol,1000,51000,"Rs. 14,000,000"
+Toyota,AXIO,2015,Automatic,Hybrid,1500,154000,"Rs. 11,500,000"
+Toyota,Aqua G Limited,2013,Automatic,Hybrid,1500,125100,"Rs. 8,150,000"
+Suzuki,Wagon R Stingray,2015,Automatic,Hybrid,-,118182,Negotiable
+Toyota,Passo,2017,Automatic,Petrol,1000,98000,Negotiable
+Suzuki,Alto Japan,2017,Automatic,Petrol,650,68000,"Rs. 5,190,000"
+Toyota,Aqua G Grade,2014,Automatic,Hybrid,1500,125000,"Rs. 8,275,000"
+Suzuki,Wagon R Fz,2018,Automatic,Hybrid,650,78033,"Rs. 7,190,000"
+Toyota,Prius 3rd Gen,2013,Automatic,Petrol,1800,194000,"Rs. 12,000,000(Ongoing Lease)"
+Opel,ASTRA,1996,Manual,Petrol,1400,165000,Negotiable
+Nissan,FB14,1999,Manual,Petrol,1500,229000,"Rs. 3,250,000"
+Suzuki,Alto,2015,Manual,Petrol,800,68000,"Rs. 3,875,000"
+Honda,Civic Ex V-Tech,2018,Automatic,Petrol,1000,47000,"Rs. 14,500,000"
+Suzuki,Alto,2015,Manual,Petrol,800,85000,"Rs. 3,360,000"
+Toyota,Yaris,2023,Automatic,Petrol,990,6000,"Rs. 10,790,000"
+Honda,FIT GP5,2015,Automatic,Hybrid,1500,141000,"Rs. 8,850,000"
+Tata,Indigo,2008,Automatic,Diesel,1400,-,"Rs. 1,380,000"
+Suzuki,Hustler Flair,2015,Automatic,Hybrid,660,142000,"Rs. 5,690,000"
+Toyota,Allion,2007,Automatic,Petrol,1490,228000,Negotiable
+Mercedes-Benz,W210 E230,2000,Manual,Petrol,2300,-,"Rs. 5,800,000"
+Toyota,Yaris X,2023,Automatic,Petrol,1000,31000,"Rs. 10,750,000"
+Citroen,XANTIA,2000,Manual,Petrol,1800,165000,Negotiable
+Honda,Fit GP1,2011,Automatic,Hybrid,1330,143898,"Rs. 6,500,000"
+Honda,FIT,2012,Automatic,Hybrid,1000,207000,"Rs. 6,500,000"
+Toyota,Wigo,2018,Automatic,Petrol,998,94859,"Rs. 7,090,000"
+Honda,Grace,2016,Automatic,Petrol,1500,122000,"Rs. 12,500,000"
+Toyota,Aqua Urban,2014,Automatic,Hybrid,-,119000,"Rs. 8,500,000"
+Bajaj,Qute,2018,Manual,Petrol,216,0,"Rs. 1,300,000"
+Toyota,Corolla 141,2008,Automatic,Petrol,1598,181262,"Rs. 6,890,000"
+Suzuki,WAGON R STINGRAY,2017,Automatic,Petrol,660,52000,"Rs. 7,495,000"
+Toyota,Axio,2007,Automatic,Petrol,1500,131000,"Rs. 7,990,000"
+Toyota,Allion,2013,Automatic,Petrol,1490,164360,"Rs. 11,595,000"
+Nissan,March K11 MIA,2001,Automatic,Petrol,1000,165000,"Rs. 3,380,000"
+Suzuki,Wagon R Fx Safety,2023,Automatic,Petrol,650,9000,"Rs. 8,350,000"
+Mazda,Wingroad Y11,2001,Automatic,Petrol,1500,200000,"Rs. 3,050,000"
+Mercedes-Benz,C200,2008,Automatic,Petrol,1800,165000,"Rs. 10,350,000"
+Ford,Fiesta,2015,Automatic,Petrol,1500,82000,"Rs. 6,750,000"
+Toyota,Soluna,2000,Manual,Petrol,1500,266000,"Rs. 2,850,000"
+Honda,FIT GP5,2013,Automatic,Petrol,1500,112000,"Rs. 8,200,000"
+Nissan,Leaf,2014,Automatic,Electric,70,73000,"Rs. 5,290,000"
+Toyota,Aqua G Grade,2012,Automatic,Hybrid,1500,108000,"Rs. 6,975,000"
+Toyota,Prius,2013,Automatic,Hybrid,1790,130000,"Rs. 11,200,000"
+BMW,320D,2013,Automatic,Diesel,1990,107000,"Rs. 19,750,000"
+Honda,Fit Shuttle GP7,2018,Automatic,Petrol,1500,118350,"Rs. 13,250,000"
+Daihatsu,Mira ES L,2023,Automatic,Petrol,660,Import,Negotiable
+Suzuki,Wagon R FZ Safety,2018,Automatic,Hybrid,-,94000,"Rs. 7,100,000"
+Toyota,Aqua G Grade,2012,Automatic,Hybrid,1500,108000,"Rs. 6,975,000"
+Toyota,Prius,2013,Automatic,Hybrid,1790,130000,"Rs. 11,200,000"
+Nissan,LEAF,2015,Automatic,Electric,1000,110000,"Rs. 5,850,000"
+Toyota,Axio WXB,2016,Automatic,Hybrid,1500,115285,"Rs. 12,575,000"
+Micro,Panda,2008,Manual,Petrol,800,108000,"Rs. 2,990,000"
+Suzuki,Wagon R Custom Z,2024,Automatic,Hybrid,660,1600,"Rs. 9,600,000"
+Nissan,Pulsar,1999,Manual,Petrol,1500,123849,"Rs. 2,250,000"
+Toyota,Aqua Uburn,2015,Automatic,Hybrid,1500,129000,"Rs. 8,995,000"
+Toyota,Corolla 110,1997,Manual,Petrol,1500,190000,Negotiable
+Honda,Grace EX,2016,Automatic,Hybrid,1500,113000,"Rs. 11,100,000"
+Suzuki,Wagon R Fx Safety,2023,Automatic,Petrol,650,2000,"Rs. 8,450,000"
+Citroen,XANTIA,2000,Manual,Petrol,1800,100000,Negotiable
+Honda,Civic,1991,Manual,Petrol,1340,1111111,"Rs. 1,950,000"
+Ford,Bg 3P,1991,Manual,Petrol,1300,224,"Rs. 1,550,000"
+Honda,Civic EK3,2000,Manual,Petrol,1500,175000,"Rs. 4,090,000"
+Toyota,Corolla CE90,1993,Manual,Diesel,1830,85000,"Rs. 1,675,000"
+Toyota,PRIUS,2013,Automatic,Hybrid,1800,189000,"Rs. 10,290,000"
+Suzuki,ALTO,2007,Manual,Petrol,800,143200,Negotiable
+Toyota,Camry,2002,Automatic,Petrol,2400,169000,"Rs. 5,450,000"
+Nissan,N16,2004,Manual,Petrol,1300,280000,"Rs. 4,050,000"
+Toyota,Allion 260,2012,Automatic,Petrol,1500,130000,Negotiable
+Suzuki,Alto,2016,Automatic,Petrol,660,99000,Negotiable
+Nissan,March AK12,2002,Automatic,Petrol,1000,165000,"Rs. 3,690,000"
+Toyota,YARIS,2014,Automatic,Petrol,1298,129000,"Rs. 9,785,000"
+Citroen,Xantia,2000,Manual,Petrol,1800,100000,Negotiable
+Mitsubishi,C12 Wagon,1985,Manual,Petrol,1500,231657,"Rs. 965,000"
+Toyota,PASSO SAFETY,2018,Automatic,Petrol,1000,109000,Negotiable
+Mitsubishi,Lancer Tube Light,1978,Manual,Petrol,1600,12345,"Rs. 485,000"
+Toyota,Yaris,2007,Automatic,Petrol,1300,193000,"Rs. 6,350,000"
+Chevrolet,Spark,2007,Manual,Petrol,1000,165235,"Rs. 2,375,000"
+Kia,Picanto,2017,Automatic,Petrol,1000,90000,"Rs. 5,775,000"
+Perodua,Bezza,2019,Automatic,Petrol,1000,138000,"Rs. 6,950,000"
+Nissan,Sunny B211,1980,Manual,Petrol,1400,180000,"Rs. 400,000(Ongoing Lease)"
+Bajaj,Qute,2019,Manual,Petrol,216,75000,"Rs. 1,025,000"
+Suzuki,Alto 800 LXI,2009,Manual,Petrol,800,112000,Negotiable
+Nissan,Bluebird Sylphy FG10,2004,Automatic,Petrol,1500,171000,"Rs. 4,950,000"
+Suzuki,Maruti 800 EFI,2000,Manual,Petrol,800,71000,"Rs. 1,375,000"
+Nissan,B310,1982,Manual,Petrol,1200,-,Negotiable
+Mercedes-Benz,C230 Sport,2006,Automatic,Petrol,2500,203250,"Rs. 8,075,000"
+Toyota,Aqua,2012,Automatic,Hybrid,1500,148000,"Rs. 7,950,000"
+Toyota,Allion 260 G,2007,Automatic,Petrol,1500,180000,"Rs. 9,400,000"
+Toyota,Camry,2015,Automatic,Hybrid,2500,105000,"Rs. 19,500,000"
+Toyota,AXIO,2015,Automatic,Hybrid,1500,154000,"Rs. 11,500,000"
+Honda,Civic Tech Pack Sedan,2019,Automatic,Petrol,1000,55000,"Rs. 14,250,000"
+Toyota,Aqua,2012,Automatic,Hybrid,1500,148000,"Rs. 7,950,000"
+Perodua,Kenari,2009,Automatic,Petrol,1000,89635,"Rs. 3,750,000"
+Nissan,SUUNY FB15 SUPER Saloon,1999,Automatic,Petrol,1490,189432,Negotiable
+Toyota,Axio WXB,2016,Automatic,Hybrid,1500,94000,"Rs. 13,000,000"
+Toyota,Vitz,2015,Automatic,Petrol,1000,88000,"Rs. 7,600,000"
+Nissan,Cefiro A33,2003,Automatic,Petrol,2000,142000,"Rs. 3,300,000"
+Nissan,March K11,2005,Automatic,Petrol,1000,180000,"Rs. 3,300,000(Ongoing Lease)"
+Audi,A4 S Line,2016,Automatic,Petrol,1400,83000,"Rs. 19,650,000"
+Mercedes-Benz,CLA 200 AMG PREMIUM PLUS,2020,Automatic,Petrol,1300,44800,Negotiable
+Kia,Rio,2007,Automatic,Petrol,1500,99000,"Rs. 2,850,000"
+Morris,Morris,1957,Manual,Petrol,1000,160000,"Rs. 225,000"
+Suzuki,Maruti 800,2006,Manual,Petrol,800,67000,"Rs. 1,985,000"
+Suzuki,Swift,2004,Automatic,Petrol,1300,151000,"Rs. 4,395,000"
+Mazda,Demio,2013,Automatic,Petrol,1300,94280,Negotiable
+Nissan,N16 Super Saloon,2000,Automatic,Petrol,1597,179720,"Rs. 3,875,000"
+Suzuki,Hustler TOUGH WILD,2024,Automatic,Hybrid,650,900,"Rs. 9,775,000"
+Toyota,DX Wagon KE,1990,Manual,Petrol,1500,23000,"Rs. 1,160,000"
+Daihatsu,Mira,2025,Automatic,Petrol,650,-,Negotiable
+Perodua,Viva Elite,2011,Manual,Petrol,850,92000,"Rs. 4,000,000"
+Suzuki,Swift,2006,Automatic,Petrol,1300,1580000,"Rs. 4,440,000"
+Nissan,WB11 California Wagon,1985,Manual,Petrol,1300,200000,"Rs. 550,000"
+Suzuki,Wagon R,2014,Automatic,Petrol,660,143000,"Rs. 5,830,000"
+Honda,FIT GP1,2013,Automatic,Hybrid,1300,96300,Negotiable
+Nissan,Pulsar FN 15,1998,Automatic,Petrol,1490,185987,Negotiable
+Toyota,Axio,2016,Automatic,Petrol,1500,135000,"Rs. 12,000,000"
+Toyota,Vitz,2008,Automatic,Petrol,1000,105000,"Rs. 6,000,000"
+Toyota,Vista Cv50,1999,Automatic,Petrol,1798,1,"Rs. 3,850,000"
+Honda,N Wgn Custom Turbo,2017,Automatic,Petrol,650,50000,"Rs. 6,885,000"
+Mercedes-Benz,C200 Compressor 7 Speed Elegance,2001,Manual,Petrol,1900,105000,"Rs. 6,975,000"
+Daihatsu,Redi-GO,2017,Manual,Petrol,880,123123,Negotiable
+Suzuki,Swift,2004,Automatic,Petrol,1300,144500,"Rs. 4,400,000"
+Suzuki,Ignis,2000,Manual,Petrol,1000,190000,"Rs. 3,575,000"
+Mercedes-Benz,- KOMPESSOR C180,2003,Automatic,Petrol,1800,196890,"Rs. 8,590,000"
+Hyundai,XG GLSA,2000,Automatic,Diesel,2000,198800,"Rs. 2,975,000(Ongoing Lease)"
+Toyota,Premio,2014,Automatic,Petrol,1500,1710002,"Rs. 13,300,000"
+Volkswagen,Beetle,1959,Manual,Petrol,1200,-,"Rs. 2,650,000"
+Honda,Grace,2016,Automatic,Hybrid,1500,70000,"Rs. 11,075,000"
+Suzuki,Maruti,2013,Manual,Petrol,800,34000,"Rs. 2,390,000"
+Nissan,K10,1991,Manual,Petrol,1000,75020,"Rs. 1,075,000"
+Nissan,B310,1980,Manual,Petrol,1200,150000,"Rs. 560,000"
+Mitsubishi,Lancer CK8A,1997,Automatic,Diesel,2000,200,"Rs. 3,450,000"
+Mercedes-Benz,E200 Turbo AMG,2016,Automatic,Petrol,2000,86600,Negotiable
+Toyota,AXIO,2015,Automatic,Hybrid,1500,154000,"Rs. 11,500,000"
+Toyota,PRIUS,2013,Automatic,Hybrid,1800,189000,"Rs. 10,290,000"
+Toyota,Axio Hybrid,2015,Automatic,Hybrid,1490,117306,Negotiable
+Honda,Grace EX,2017,Automatic,Hybrid,1500,185000,"Rs. 11,000,000"
+Toyota,PROGRES,1999,Automatic,Petrol,2490,182954,"Rs. 4,790,000"
+Toyota,Premio G Superior,2017,Automatic,Petrol,1500,91400,"Rs. 16,950,000"
+Suzuki,Alto 800 LXI,2015,Manual,Petrol,800,71000,Negotiable
+Honda,FIT GP5,2015,Automatic,Hybrid,1500,115000,"Rs. 8,550,000"
+Audi,Re3,2018,Automatic,Petrol,1000,103000,Negotiable(Ongoing Lease)
+Honda,City,2003,Automatic,Petrol,1500,145000,"Rs. 4,850,000"
+Suzuki,Wagon R FZ PREMIUM,2018,Automatic,Hybrid,660,102000,Negotiable
+Citroen,XSARA,2000,Manual,Petrol,1400,185000,Negotiable
+Toyota,CORSA,1997,Automatic,Petrol,1490,176822,Negotiable
+Nissan,FB15,2000,Automatic,Petrol,1500,164000,"Rs. 4,590,000"
+Toyota,Aqua,2013,Automatic,Hybrid,1500,132500,"Rs. 8,350,000"
+Nissan,FB13 Doctor Sunny,1993,Manual,Petrol,1500,265700,"Rs. 2,425,000"
+Micro,Panda,2012,Manual,Petrol,1300,94000,"Rs. 2,550,000"
+Toyota,Carina,1986,Manual,Diesel,-,-,"Rs. 1,350,000"
+Toyota,VITZ KSP130 STRAT,2017,Automatic,Petrol,1000,60080,"Rs. 7,875,000"
+Suzuki,WAGON R,2024,Automatic,Petrol,660,10,"Rs. 8,950,000"
+Suzuki,Swift,2017,Automatic,Petrol,1000,112000,"Rs. 8,375,000"
+Toyota,Vitz Safety Edition,2019,Automatic,Petrol,1000,118000,Negotiable
+Toyota,Vitz Ksp130,2015,Automatic,Petrol,1000,79000,"Rs. 7,450,000"
+Toyota,Carina AT 150,1986,Manual,Petrol,1400,132000,"Rs. 1,220,000"
+Toyota,Premio G SUPERIOR,2014,Automatic,Petrol,1500,195000,"Rs. 12,200,000"
+Toyota,Prius,2013,Automatic,Hybrid,1400,120000,Negotiable(Ongoing Lease)
+Suzuki,Alto,2007,Manual,Petrol,800,168000,"Rs. 2,775,000"
+Nissan,Sunny AD Wagon,1984,Manual,Petrol,1300,0,"Rs. 580,000"
+Toyota,AQUA G Grade,2012,Automatic,Hybrid,1490,180125,"Rs. 6,990,000"
+Toyota,Premio,2007,Automatic,Petrol,1500,-,Negotiable
+Toyota,Allion 260 G,2007,Automatic,Petrol,1500,180000,"Rs. 9,400,000"
+Toyota,YARIS SAFETY SPEC X GRADE,2023,Automatic,Petrol,1000,42000,"Rs. 10,200,000"
+Suzuki,Wagon R Custom ZX UPGRADE,2023,Automatic,Petrol,660,2500,"Rs. 9,575,000"
+Toyota,Vitz Safety,2018,Automatic,Petrol,1000,100000,"Rs. 8,100,000"
+Suzuki,Maruti,2007,Manual,Petrol,800,135000,"Rs. 2,075,000"
+Suzuki,SWIFT,2003,Automatic,Petrol,1300,155000,"Rs. 4,150,000"
+Toyota,AQUA S Grade,2013,Automatic,Hybrid,1490,95610,"Rs. 7,875,000"
+Nissan,FB15,1999,Automatic,Petrol,1500,147000,"Rs. 3,850,000"
+Toyota,Premio,2014,Automatic,Petrol,1500,100000,Negotiable
+Nissan,Avenir,1997,Automatic,Diesel,1900,200000,Negotiable
+Toyota,Carina Ti My Road,1999,Automatic,Petrol,1500,250000,Negotiable
+Honda,Grace,2015,Automatic,Hybrid,1500,90000,"Rs. 10,500,000"
+Fiat,Linea,2012,Manual,Diesel,1300,68000,"Rs. 2,950,000"
+Toyota,Camry,2015,Automatic,Hybrid,2500,105000,"Rs. 19,500,000"
+BMW,320D,2013,Automatic,Diesel,1990,107000,"Rs. 19,750,000"
+Toyota,Allion 260 G,2007,Automatic,Petrol,1500,180000,"Rs. 9,400,000"
+Toyota,Corolla Wagon,1996,Manual,Diesel,2,220000,"Rs. 2,090,000"
+Toyota,Premio NZT260 G Superior,2018,Automatic,Petrol,1490,43514,"Rs. 19,650,000"
+Toyota,Carina Ti My Road,2000,Automatic,Petrol,1500,119000,"Rs. 5,650,000"
+Suzuki,Spacia,2017,Automatic,Petrol,650,100000,"Rs. 6,595,000"
+Toyota,Carina,1984,Manual,Diesel,1870,170000,"Rs. 685,000"
+Nissan,Leaf AZEO G GRADE,2016,Automatic,Electric,70,84500,"Rs. 5,700,000"
+Toyota,Yaris X,2025,Automatic,Hybrid,10000,6,Negotiable
+Toyota,Allion 260 G Grade,2008,Automatic,Petrol,1500,195000,"Rs. 8,850,000"
+Nissan,SB14,1996,Automatic,Diesel,1970,220000,"Rs. 2,595,000"
+Suzuki,Maruti,2007,Manual,Petrol,800,84000,"Rs. 1,985,000"
+Tata,Nano,2014,Manual,Petrol,640,1,"Rs. 1,525,000"
+Toyota,VITZ Safety,2017,Automatic,Petrol,1000,68000,"Rs. 8,440,000"
+Mitsubishi,X Pander,2019,Automatic,Petrol,1500,138000,Negotiable
+Perodua,Kelisa,2006,Automatic,Petrol,1000,101000,"Rs. 3,450,000"
+Mitsubishi,EK X PREMIUM,2023,Automatic,Hybrid,660,2900,"Rs. 8,975,000"
+Kia,Spectra,2001,Manual,Petrol,1400,130000,"Rs. 2,780,000"
+Toyota,Axio,2006,Automatic,Petrol,1500,130000,"Rs. 7,800,000"
+BMW,520d,2015,Automatic,Diesel,2000,109000,Negotiable
+Nissan,Ad Wagon,1996,Manual,Petrol,1500,124532,"Rs. 2,265,000"
+Toyota,Starlet EP91,2000,Automatic,Petrol,1330,1234,"Rs. 3,575,000"
+Toyota,Crown Verossa Mark,2002,Automatic,Petrol,2490,182954,"Rs. 4,790,000"
+Toyota,ALLION 260,2011,Automatic,Petrol,1490,149800,"Rs. 9,590,000"
+Mercedes-Benz,E220 CDI,2006,Automatic,Diesel,2148,114000,Negotiable
+Toyota,Passo,2007,Automatic,Petrol,1000,180000,"Rs. 4,975,000"
+Daihatsu,Charade,1997,Manual,Petrol,1500,150000,"Rs. 2,275,000"
+Suzuki,Alto K10,2015,Manual,Petrol,1000,120000,Negotiable
+Honda,Fit Shuttle,2014,Automatic,Petrol,1330,148000,"Rs. 9,850,000"
+Mazda,Familia 323,1989,Manual,Petrol,1300,-,"Rs. 920,000"
+Toyota,Passo,2005,Automatic,Petrol,1000,196000,"Rs. 4,500,000"
+Toyota,Vitz Safety Edition 3,2020,Automatic,Petrol,990,14500,Negotiable
+Daihatsu,Cuore,1997,Manual,Petrol,850,98524,"Rs. 1,850,000"
+Nissan,CUBE,2000,Automatic,Petrol,1300,176000,"Rs. 2,990,000"
+Peugeot,504,1978,Manual,Diesel,1500,73200,"Rs. 675,000"
+Toyota,Corolla DX Wagon,1990,Manual,Diesel,1,250000,"Rs. 2,400,000"
+Honda,Civic,2018,Manual,Petrol,1000,77000,"Rs. 13,800,000"
+Toyota,Yaris,2011,Automatic,Petrol,1298,12377,"Rs. 7,590,000"
+Suzuki,Wagon R,2017,Automatic,Hybrid,650,1310003,Negotiable
+Nissan,Ad Wagon,1989,Manual,Petrol,1300,23456,"Rs. 1,095,000"
+Toyota,Dx Wagon,1985,Manual,Petrol,1300,207000,"Rs. 1,225,000"
+Toyota,Axio G,2016,Automatic,Hybrid,1500,160000,"Rs. 11,600,000"
+Mercedes-Benz,E200 Turbo AMG,2016,Automatic,Petrol,2000,86600,Negotiable
+Toyota,Camry,2015,Automatic,Hybrid,2500,105000,"Rs. 19,500,000"
+Fiat,Linea,2012,Manual,Diesel,1300,68000,"Rs. 2,950,000"
+Toyota,Allion 260 G,2007,Automatic,Petrol,1500,180000,"Rs. 9,400,000"
+Toyota,Axio G,2016,Automatic,Hybrid,1500,160000,"Rs. 11,600,000"
+Toyota,Prius S,2012,Automatic,Petrol,1800,220000,"Rs. 9,550,000"
+Micro,Panda,2012,Manual,Petrol,1300,32000,Negotiable
+Nissan,B310,1978,Manual,Petrol,1300,23456,"Rs. 590,000"
+Toyota,KE72,1985,Manual,Diesel,-,0,"Rs. 695,000"
+Nissan,B310,1984,Manual,Petrol,1400,0,"Rs. 585,000"
+Suzuki,Hustler,2015,Automatic,Hybrid,660,81000,"Rs. 6,390,000"
+Mitsubishi,Lancer Box,1983,Manual,Petrol,1400,0,Negotiable
+Nissan,Sunny FB14 Super Saloon,1996,Automatic,Petrol,1500,172000,"Rs. 3,200,000"
+Suzuki,Alto Gl,2025,Manual,Petrol,-,50,"Rs. 1,600,000"
+Toyota,Premio G Superior,2013,Automatic,Petrol,1500,168000,"Rs. 12,500,000"
+Suzuki,Maruti,2008,Manual,Petrol,800,92000,"Rs. 1,985,000"
+Toyota,ALLION 260 G KU,2012,Automatic,Petrol,1500,150000,"Rs. 10,700,000"
+Suzuki,Wagon R,2017,Automatic,Hybrid,660,84000,Negotiable
+Mitsubishi,Lancer,1977,Manual,Petrol,1400,0,Negotiable
+Toyota,Allion 260 G Grade,2008,Automatic,Petrol,1490,180000,"Rs. 8,625,000"
+Suzuki,Wagon R FX,2017,Automatic,Petrol,660,94000,"Rs. 6,150,000"
+Nissan,Leaf,2013,Automatic,Electric,-,72687,"Rs. 6,500,000"
+Toyota,Corolla WXB,2023,Automatic,Petrol,1500,3400,Negotiable
+Mercedes-Benz,C200 Premium Plus,2014,Automatic,Petrol,2000,84000,Negotiable
+Tata,Nano Lx,2012,Manual,Petrol,650,111,"Rs. 1,245,000"
+Suzuki,Wagon R FX,2024,Automatic,Petrol,660,28000,Negotiable
+Daihatsu,Mira X Limited,2023,Automatic,Petrol,660,12500,"Rs. 7,400,000"
+Suzuki,Alto 800,2015,Manual,Petrol,800,82000,"Rs. 3,590,000"
+Nissan,FB15,2003,Automatic,Petrol,1500,3000,Negotiable
+Suzuki,Wagon R Fx,2013,Automatic,Petrol,660,12500,Negotiable
+Nissan,Leaf,2013,Automatic,Electric,80,118000,"Rs. 4,950,000"
+Mitsubishi,Lancer Evolution VII,2002,Manual,Petrol,2000,98167,"Rs. 7,900,000"
+Suzuki,Wagon R Fz,2018,Automatic,Petrol,650,86000,"Rs. 6,975,000"
+Toyota,PREMIO G Superior,2013,Automatic,Petrol,1500,141000,"Rs. 12,300,000"
+Suzuki,Wagon R Fx,2023,Automatic,Petrol,660,3000,"Rs. 8,000,000"
+Toyota,Carina,1998,Automatic,Diesel,2000,-,"Rs. 4,250,000"
+Toyota,COROLLA 121,2002,Automatic,Petrol,1490,218000,"Rs. 6,985,000"
+Mitsubishi,Lancer Box,1980,Manual,Petrol,1400,11111,"Rs. 775,000"
+Toyota,Vitz Safety Edition,2016,Automatic,Petrol,1000,66800,"Rs. 7,975,000"
+Daihatsu,TAFT,2024,Automatic,Petrol,660,-,Negotiable
+Honda,FIT GP5,2014,Automatic,Hybrid,1500,80000,Negotiable
+Toyota,Prius S Led,2013,Automatic,Hybrid,1800,153000,Negotiable(Ongoing Lease)
+Hyundai,Accent,2004,Manual,Petrol,1600,106198,"Rs. 2,490,000"
+Ford,Laser,1985,Manual,Petrol,1300,-,"Rs. 725,000"
+Toyota,PRIUS,2013,Automatic,Hybrid,1800,189000,"Rs. 10,290,000"
+Mercedes-Benz,E200 Turbo AMG,2016,Automatic,Petrol,2000,86600,Negotiable
+Honda,Fit Shuttle GP7,2018,Automatic,Petrol,1500,118350,"Rs. 13,250,000"
+Suzuki,Wagon R FX,2023,Automatic,Petrol,660,7000,"Rs. 7,550,000"
+Ford,Laser,1985,Manual,Petrol,1300,-,"Rs. 725,000"
+Suzuki,Wagon R Stingray,2018,Automatic,Hybrid,650,51000,"Rs. 7,695,000"
+Mercedes-Benz,E200 Turbo AMG,2016,Automatic,Petrol,2000,86600,Negotiable
+Toyota,COROLLA CE110 CRYSTAL LIGHT,1999,Manual,Diesel,2000,170000,"Rs. 3,375,000"
+Mercedes-Benz,C220,2014,Automatic,Diesel,2200,129357,Negotiable
+Suzuki,Maruti,2006,Manual,Petrol,800,85236,"Rs. 1,575,000"
+Toyota,Premio,2018,Automatic,Petrol,1500,80000,Negotiable
+Ford,2c,1985,Automatic,Diesel,2000,1234,"Rs. 675,000"
+Daihatsu,Cuore,1989,Manual,Petrol,850,0,Negotiable
+Suzuki,Esteem,2006,Manual,Petrol,1300,0,Negotiable
+Mazda,Familia,1986,Manual,Petrol,1300,0,"Rs. 875,000"
+Toyota,Axio,2014,Automatic,Hybrid,1500,101357,Negotiable
+Nissan,FB15,2003,Automatic,Petrol,1500,198000,"Rs. 4,475,000"
+Toyota,DX Wagon Corolla,1983,Manual,Petrol,1300,315000,"Rs. 995,000"
+Suzuki,Wagon R Stingray,2018,Automatic,Hybrid,660,103000,"Rs. 7,250,000"
+Nissan,Cefiro J31,2007,Automatic,Petrol,2400,125000,"Rs. 6,850,000"
+Toyota,Corolla AE110,1997,Automatic,Petrol,1500,210000,"Rs. 3,475,000"
+Nissan,Leaf X Limited,2015,Automatic,Electric,70,78000,Negotiable
+Toyota,Passo,2009,Automatic,Petrol,1000,143500,"Rs. 4,975,000"
+Toyota,Allion G Plus,2013,Automatic,Petrol,1500,109000,Negotiable
+Suzuki,Alto,2016,Manual,Petrol,800,55000,"Rs. 3,975,000"
+Toyota,Vios G,2007,Automatic,Petrol,1500,188357,Negotiable
+Toyota,COROLLA,1998,Automatic,Diesel,2000,200000,"Rs. 3,600,000"
+Toyota,EE106 Elephant Back,1993,Manual,Petrol,1300,260000,"Rs. 2,100,000"
+Toyota,Passo,2007,Automatic,Petrol,1000,122367,"Rs. 4,975,000"
+BMW,E36 316I,1996,Manual,Petrol,1600,165000,Negotiable
+Honda,City,1987,Manual,Petrol,1300,25803,"Rs. 950,000"
+Toyota,Premio 240,2007,Automatic,Petrol,1500,198357,Negotiable
+Honda,Civic Fk6 SR,2019,Automatic,Petrol,1000,92000,"Rs. 12,800,000"
+Toyota,Allion 240,2002,Automatic,Petrol,1500,188000,"Rs. 7,250,000"
+Honda,Fit GP5,2014,Automatic,Hybrid,1500,118369,Negotiable
+Toyota,Premio G Superior,2013,Automatic,Petrol,1500,134000,"Rs. 13,450,000"
+Toyota,Aqua,2012,Automatic,Hybrid,1500,71000,"Rs. 7,275,000"
+Volkswagen,1300,1972,Manual,Petrol,1300,500000,"Rs. 1,600,000"
+Hyundai,Accent,2005,Automatic,Petrol,1500,-,Negotiable
+Toyota,Vitz Safety,2016,Automatic,Petrol,1000,74288,"Rs. 8,000,000"
+Mitsubishi,Lancer Box,1984,Manual,Petrol,1400,-,"Rs. 845,000"
+Suzuki,Alto,2006,Manual,Petrol,800,140000,"Rs. 2,640,000"
+Toyota,Aqua Gs,2014,Automatic,Hybrid,1500,128000,Negotiable
+Hyundai,Accent,2005,Automatic,Petrol,1500,236000,"Rs. 2,690,000"
+Mitsubishi,Lancer CK8A,1997,Automatic,Diesel,2000,200,"Rs. 3,450,000"
+BMW,320D,2013,Automatic,Diesel,1990,107000,"Rs. 19,750,000"
+Mercedes-Benz,E240W211,2003,Automatic,Petrol,2500,128,"Rs. 7,475,000"
+Suzuki,Wagon R FX Safety,2024,Automatic,Petrol,660,3769,"Rs. 8,190,000"
+Mitsubishi,Lancer Box,1984,Manual,Petrol,1400,-,"Rs. 845,000"
+Suzuki,Alto,2006,Manual,Petrol,800,140000,"Rs. 2,640,000"
+Toyota,Aqua Gs,2014,Automatic,Hybrid,1500,128000,Negotiable
+Hyundai,Accent,2005,Automatic,Petrol,1500,236000,"Rs. 2,690,000"
+BMW,520D E60,2006,Automatic,Diesel,1990,275,Negotiable
+Suzuki,Alto Japan,2016,Automatic,Petrol,660,94500,"Rs. 5,450,000"
+Toyota,Corolla Ke50,1980,Manual,Petrol,1400,-,"Rs. 365,000"
+Daihatsu,Mira X Limited,2023,Automatic,Petrol,658,-,"Rs. 7,625,000"
+Mitsubishi,Lancer Wagon,1981,Manual,Petrol,1400,1000,"Rs. 380,000"
+Suzuki,Spacia,2018,Automatic,Petrol,650,90000,Negotiable
+Suzuki,Alto,2004,Manual,Petrol,800,123,"Rs. 2,550,000"
+Mitsubishi,Lancer Box,1981,Manual,Petrol,1400,235688,"Rs. 925,000"
+Toyota,Corolla Dx KE72,1986,Manual,Petrol,1300,200000,Negotiable
+Suzuki,Swift JAPAN,2008,Automatic,Petrol,1300,140000,"Rs. 6,500,000"
+Honda,Grace EX,2016,Automatic,Hybrid,1500,104800,"Rs. 11,250,000"
+Suzuki,Maruti,2010,Manual,Petrol,800,108000,Negotiable
+Toyota,Passo,2016,Automatic,Petrol,1000,39000,"Rs. 7,190,000"
+Suzuki,Alto Japan,2016,Automatic,Petrol,660,140000,Negotiable
+Mitsubishi,COLT,2008,Automatic,Petrol,1300,140000,"Rs. 4,375,000"
+Mazda,RX-8,2018,Automatic,Petrol,1300,-,"Rs. 6,200,000"
+Toyota,Aqua,2014,Automatic,Petrol,1500,130000,"Rs. 7,500,000"
+Daihatsu,TAFT G TURBO CHROME VENTURE,2023,Automatic,Petrol,660,7799,Negotiable
+Honda,FIT GP1,2012,Automatic,Hybrid,1300,91500,Negotiable
+Chevrolet,Cruze,2004,Automatic,Petrol,1300,1,"Rs. 4,225,000"
+Toyota,PASSO,2015,Automatic,Petrol,1000,80000,"Rs. 6,575,000"
+Micro,Panda 1.0,2013,Manual,Petrol,1000,82500,"Rs. 2,650,000"
+Daihatsu,Boon Cilq Safety,2017,Automatic,Petrol,1000,91000,Negotiable
+Toyota,Allion 260 G Grade,2009,Automatic,Petrol,1500,121000,"Rs. 9,875,000"
+Suzuki,Maruti,2012,Manual,Petrol,800,43240,"Rs. 2,350,000"
+Daihatsu,Tanto Custom,2015,Automatic,Petrol,660,30677,"Rs. 6,750,000"
+Micro,Trend,2011,Manual,Petrol,1000,1,"Rs. 1,800,000"
+Mitsubishi,Lancer Box 5fwd,1980,Manual,Petrol,1400,-,"Rs. 1,120,000"
+Mitsubishi,C11,1985,Manual,Petrol,1300,-,Negotiable
+Ford,Focus,2011,Automatic,Petrol,1500,174000,"Rs. 5,600,000"
+Chery,QQ 308,2012,Manual,Petrol,800,78000,"Rs. 1,750,000"
+Toyota,Vitz,2008,Automatic,Petrol,1000,190000,"Rs. 5,650,000"
+Toyota,Duet,1999,Manual,Petrol,980,178550,"Rs. 2,650,000"
+Toyota,Allion,2013,Automatic,Petrol,1500,166000,Negotiable
+Volkswagen,VW 1200,1971,Manual,Petrol,1200,1,"Rs. 1,600,000"
+Daihatsu,Mira Eis Safety,2024,Automatic,Petrol,660,-,"Rs. 7,250,000"
+Mitsubishi,Lancer CK8A,1997,Automatic,Diesel,2000,200,"Rs. 3,450,000"
+Daihatsu,Mira ES L,2023,Automatic,Petrol,660,Import,Negotiable
+Honda,Fit Shuttle GP7,2018,Automatic,Petrol,1500,118350,"Rs. 13,250,000"
+Mercedes-Benz,E200 Turbo AMG,2016,Automatic,Petrol,2000,86600,Negotiable
+Toyota,Premio,2014,Automatic,Petrol,1500,208500,"Rs. 14,000,000"
+Toyota,Aqua,2013,Automatic,Hybrid,1500,200000,"Rs. 7,550,000"
+Nissan,FB14,1995,Manual,Petrol,1490,-,"Rs. 2,675,000"
+Suzuki,Alto LXI,2016,Manual,Petrol,800,23500,Negotiable
+Mitsubishi,Trodoa,1984,Manual,Petrol,1400,10,"Rs. 550,000"
+Nissan,AD Wagon,1997,Automatic,Petrol,1490,125000,"Rs. 3,190,000(Ongoing Lease)"
+Honda,Gd8,2008,Automatic,Petrol,1500,160000,"Rs. 4,715,000"
+Toyota,Allion 260,2008,Automatic,Petrol,1500,146000,Negotiable
+Toyota,Aqua X Urban,2015,Automatic,Hybrid,1500,108450,"Rs. 9,375,000"
+Nissan,FB15 EX Saloon Eco Mode,2001,Automatic,Petrol,1500,210000,"Rs. 4,100,000"
+Suzuki,WAGON R STINGRAY,2017,Automatic,Petrol,660,52000,"Rs. 7,495,000"
+Toyota,Ceres,1996,Automatic,Petrol,1500,2,"Rs. 3,050,000"
+Toyota,Prius,2017,Automatic,Hybrid,1800,71000,"Rs. 15,275,000"
+Ford,Laser GHIA,1983,Manual,Petrol,1500,181939,"Rs. 675,000"
+Toyota,Allion 260,2009,Automatic,Petrol,1500,198000,"Rs. 9,575,000"
+Suzuki,Maruti,2012,Manual,Petrol,800,43000,"Rs. 2,575,000"
+Mitsubishi,LANCER SL 5FWD,1982,Manual,Petrol,1400,100736,"Rs. 700,000"
+Datsun,Redi-GO,2017,Manual,Petrol,800,100000,"Rs. 1,300,000(Ongoing Lease)"
+Nissan,FB14,1995,Manual,Petrol,1500,254000,"Rs. 2,725,000"
+Toyota,108,1997,Automatic,Diesel,2,140000,"Rs. 2,875,000"
+Toyota,Premio G Superior,2007,Automatic,Petrol,1500,149000,Negotiable
+Suzuki,Maruti,2004,Manual,Petrol,800,95000,Negotiable(Ongoing Lease)
+Suzuki,Alto Lxi,2011,Manual,Petrol,800,112000,Negotiable
+Toyota,Premio G Superior,2010,Automatic,Petrol,1490,151000,Negotiable
+Toyota,Vitz Special Edition,2016,Automatic,Petrol,990,87000,"Rs. 7,985,000"
+Honda,FIT Gp1 Sport Edition Navi Premium,2013,Automatic,Hybrid,1399,160,"Rs. 7,450,000"
+Toyota,Axio Hybrid G Grade,2015,Automatic,Hybrid,1500,74800,Negotiable
+Toyota,Premio G SUPERIOR,2013,Automatic,Petrol,1500,138000,"Rs. 13,750,000"
+Toyota,Premio G Superior,2007,Automatic,Petrol,1500,195,"Rs. 9,590,000"
+Opel,Omega,1994,Automatic,Petrol,1388,156355,"Rs. 1,375,000"
+Toyota,Vitz Special Edition,2000,Automatic,Petrol,1300,211000,"Rs. 4,350,000"
+Mazda,Axela,2016,Automatic,Hybrid,2000,98000,"Rs. 11,750,000"
+Nissan,HB11 Long Buffer,1985,Manual,Petrol,1500,100000,"Rs. 1,090,000"
+Mitsubishi,Galant,1983,Manual,Petrol,1600,234454,"Rs. 1,450,000"
+Toyota,Prius,2013,Automatic,Petrol,-,165487,"Rs. 11,200,000"
+Toyota,Carina AT150,1986,Manual,Petrol,210000,1450,"Rs. 1,050,000"
+Toyota,Prius S Led,2013,Automatic,Hybrid,1800,169980,Negotiable
+Honda,N WGN,2017,Automatic,Petrol,660,90290,Negotiable
+Toyota,Prius S Led,2013,Automatic,Hybrid,1800,122490,Negotiable
+Toyota,Aqua S Grade,2012,Automatic,Hybrid,1500,90452,Negotiable
+Mercedes-Benz,E200 Turbo AMG,2016,Automatic,Petrol,2000,86600,Negotiable
+Mercedes-Benz,E240W211,2003,Automatic,Petrol,2500,128,"Rs. 7,475,000"
+BMW,320D,2013,Automatic,Diesel,1990,107000,"Rs. 19,750,000"
+Fiat,Linea,2012,Manual,Diesel,1300,68000,"Rs. 2,950,000"
+Toyota,Prius S Led,2013,Automatic,Hybrid,1800,122490,Negotiable
+Toyota,Aqua S Grade,2012,Automatic,Hybrid,1500,90452,Negotiable
+Suzuki,Alto,2011,Manual,Petrol,800,150000,"Rs. 3,000,000"
+Toyota,Prius,2011,Automatic,Hybrid,1500,170000,Negotiable
+Mercedes-Benz,W123,1983,Manual,Diesel,2000,415000,Negotiable
+Nissan,Almera,2025,Automatic,Petrol,1000,-,"Rs. 14,300,000"
+Toyota,Premio,2015,Automatic,Petrol,1500,110000,"Rs. 15,500,000"
+Mitsubishi,Mitsubishi,1981,Manual,Petrol,1400,1111,"Rs. 535,000"
+Mitsubishi,C11 A,1990,Manual,Petrol,1300,180000,"Rs. 1,045,000"
+BMW,320I,2006,Automatic,Petrol,2000,212000,"Rs. 12,100,000"
+Toyota,Vitz,2011,Automatic,Petrol,1000,110000,"Rs. 6,400,000"
+Renault,Kwid,2016,Manual,Petrol,800,83105,"Rs. 3,425,000"
+Nissan,FB15,2003,Automatic,Petrol,1500,189000,"Rs. 4,775,000"
+Toyota,MARK 2 RX12,1973,Automatic,Petrol,3,100000,"Rs. 11,111,111"
+Perodua,AXIA,2025,Automatic,Petrol,1000,-,"Rs. 8,250,000"
+Toyota,Prius,2013,Automatic,Hybrid,1500,105000,"Rs. 11,750,000"
+Peugeot,405glx,1995,Manual,Petrol,1600,131725,"Rs. 1,375,000"
+Toyota,Allion 240,2003,Automatic,Petrol,1500,180000,"Rs. 7,000,000"
+Suzuki,Wagon R FZ Premium,2018,Automatic,Petrol,-,90100,"Rs. 7,000,000"
+Toyota,Aqua L Grade,2013,Automatic,Hybrid,1500,87000,"Rs. 7,600,000"
+Mitsubishi,Lancer Flat Light,1975,Manual,Petrol,1400,186755,"Rs. 1,500,000"
+Mercedes-Benz,C180,1994,Manual,Petrol,1800,187000,Negotiable
+Toyota,Corolla AE100,1995,Manual,Petrol,1500,220000,"Rs. 3,000,000"
+Nissan,WINGROAD VFY11,2003,Automatic,Petrol,1500,188000,"Rs. 3,565,000"
+Toyota,AXIO,2015,Automatic,Hybrid,1500,154000,"Rs. 11,500,000"
+Suzuki,Maruti,2005,Manual,Petrol,800,68000,"Rs. 1,850,000"
+Mitsubishi,Ek Custom Safety,2018,Automatic,Petrol,650,69500,"Rs. 6,390,000"
+Mazda,BG5P,1992,Manual,Petrol,1500,1000,"Rs. 550,000"
+Suzuki,Wagon R Custom ZX,2024,Automatic,Hybrid,660,4300,"Rs. 10,500,000"
+Kia,Rio,2015,Automatic,Petrol,1500,170000,"Rs. 7,700,000"
+Toyota,Prius,2015,Automatic,Hybrid,1800,123000,"Rs. 12,375,000"
+Toyota,Corona,1987,Manual,Diesel,-,123456,"Rs. 900,000"
+Toyota,Vitz Edition 2,2018,Automatic,Petrol,1000,-,"Rs. 8,575,000"
+Toyota,Starlet EP82,1995,Automatic,Petrol,1330,198500,"Rs. 3,225,000"
+Toyota,Axio,2008,Automatic,Petrol,1500,198000,"Rs. 7,900,000"
+Hyundai,Coupe,2000,Manual,Petrol,1600,123040,Negotiable
+Audi,A3 Sedan S Tronic,2018,Automatic,Petrol,1000,116000,"Rs. 17,700,000"
+Mercedes-Benz,CLA 200 AMG LINE,2019,Automatic,Petrol,1300,71000,Negotiable
+Mazda,Axela,2003,Automatic,Petrol,1500,11111,Negotiable
+Suzuki,Wagon R FX,2024,Automatic,Petrol,650,4500,Negotiable
+Mercedes-Benz,E240W211,2003,Automatic,Petrol,2500,128,"Rs. 7,475,000"
+Toyota,Allion 260 G,2007,Automatic,Petrol,1500,180000,"Rs. 9,400,000"
+Honda,Civic,2018,Automatic,Petrol,1000,51000,"Rs. 14,000,000"
+Suzuki,Wagon R FX,2023,Automatic,Petrol,660,7000,"Rs. 7,550,000"
+Mercedes-Benz,CLA 200 AMG LINE,2019,Automatic,Petrol,1300,71000,Negotiable
+Mazda,Axela,2003,Automatic,Petrol,1500,11111,Negotiable
+Suzuki,Wagon R FX,2024,Automatic,Petrol,650,4500,Negotiable
+Toyota,Prius S,2011,Automatic,Hybrid,1800,153000,"Rs. 9,875,000"
+Toyota,COROLLA G GRADE,2007,Automatic,Petrol,1500,226150,"Rs. 6,485,000"
+Honda,Fit Shuttle Gp2,2014,Automatic,Petrol,1300,49300,Negotiable
+Mitsubishi,Attrage,2014,Automatic,Petrol,1200,134000,"Rs. 8,100,000"
+Toyota,Carina,1998,Automatic,Diesel,1970,197000,"Rs. 4,300,000(Ongoing Lease)"
+Micro,MR7,2009,Manual,Petrol,1000,122584,"Rs. 2,275,000"
+Toyota,Elephant Back,1997,Automatic,Petrol,1500,250000,"Rs. 3,100,000"
+Suzuki,Maruti 800,1995,Manual,Petrol,-,37000,"Rs. 1,430,000"
+Toyota,Wigo,2018,Automatic,Petrol,1000,44000,"Rs. 6,950,000"
+Perodua,Axia G,2015,Automatic,Petrol,-,105500,"Rs. 5,590,000"
+Toyota,Axio WXB,2019,Automatic,Hybrid,1500,94000,Negotiable
+Suzuki,Alto K10,2015,Automatic,Petrol,100,114000,"Rs. 4,350,000"
+Mitsubishi,Lancer Box,1981,Manual,Petrol,1400,83265,Negotiable
+Toyota,Yaris,2023,Automatic,Petrol,990,25000,"Rs. 10,690,000"
+Toyota,Premio,2016,Automatic,Petrol,1500,106000,"Rs. 16,250,000"
+Mitsubishi,Lancer Ck1,1997,Manual,Petrol,1300,195000,Negotiable
+Suzuki,Wagon R Stingray Turbo,2023,Automatic,Hybrid,660,-,"Rs. 9,850,000"
+Nissan,Wingroad Wfy11,2000,Automatic,Petrol,1500,240000,"Rs. 3,600,000"
+Daihatsu,Boon Passo,2016,Automatic,Petrol,1000,60000,"Rs. 7,450,000"
+Toyota,Allion 240,2002,Automatic,Petrol,1500,148900,"Rs. 6,800,000"
+Nissan,Hb12,1986,Manual,Petrol,1500,15000,"Rs. 1,460,000"
+Suzuki,Wagon R Stingray Turbo,2024,Automatic,Hybrid,660,3000,"Rs. 9,890,000"
+Suzuki,Swift,2003,Automatic,Petrol,1300,176000,"Rs. 4,100,000"
+Toyota,Axio,2015,Automatic,Hybrid,1500,114000,"Rs. 10,600,000"
+Toyota,Belta,2008,Automatic,Petrol,1000,-,Negotiable
+Suzuki,Wagon R Custom Zx Turbo,2023,Automatic,Hybrid,660,3000,"Rs. 9,775,000"
+Nissan,FB14,1996,Manual,Petrol,1490,155338,"Rs. 2,875,000"
+Toyota,Vitz Edition 1,2016,Automatic,Petrol,1000,30000,"Rs. 7,550,000"
+Mitsubishi,LANCER BOX,1983,Manual,Petrol,1300,198000,"Rs. 825,000"
+Toyota,Vitz Edition 2,2018,Automatic,Petrol,1000,93000,"Rs. 8,850,000"
+Honda,City Pro,1987,Manual,Petrol,1300,-,"Rs. 890,000"
+Honda,Fit GP1 Navi Premium,2012,Automatic,Hybrid,1330,116000,"Rs. 7,550,000"
+Toyota,Starlet,1993,Automatic,Diesel,-,-,"Rs. 2,700,000"
+Nissan,HB310 SGL,1984,Manual,Petrol,1400,11111,"Rs. 790,000"
+Suzuki,Alto,2015,Manual,Petrol,800,126000,"Rs. 3,675,000"
+Mitsubishi,Lancer Ex,2007,Automatic,Petrol,1500,129000,"Rs. 8,900,000"
+Toyota,Avanza,2013,Manual,Petrol,1300,160000,"Rs. 9,200,000"
+Suzuki,Wagon R FX,2023,Automatic,Petrol,660,7000,"Rs. 7,550,000"
+Mercedes-Benz,E200 Turbo AMG,2016,Automatic,Petrol,2000,86600,Negotiable
+Toyota,Allion 260 G,2007,Automatic,Petrol,1500,180000,"Rs. 9,400,000"
+BMW,320D,2013,Automatic,Diesel,1990,107000,"Rs. 19,750,000"
+Toyota,AXIO G GRADE,2015,Automatic,Hybrid,1500,142350,"Rs. 11,650,000"
+Toyota,Allion 260,2016,Automatic,Petrol,1500,82998,"Rs. 15,950,000(Ongoing Lease)"
+Suzuki,Swift,2003,Automatic,Petrol,1300,-,"Rs. 4,250,000"
+Honda,Fit GP5 L Grade,2014,Automatic,Hybrid,1500,101055,"Rs. 8,600,000"
+Toyota,Allion 240 Anniversary,2006,Automatic,Petrol,1500,190000,"Rs. 8,575,000"
+Toyota,Prius S,2011,Automatic,Hybrid,1800,154000,"Rs. 9,975,000"
+Suzuki,Swift Japan,2009,Automatic,Petrol,1300,109000,"Rs. 6,150,000"
+Suzuki,WAGON R FZ PREMIUM,2019,Automatic,Petrol,658,73000,"Rs. 7,080,000"
+Peugeot,406 ST,2001,Manual,Petrol,2000,200000,"Rs. 3,300,000"
+Nissan,Sunny FB15,2001,Automatic,Diesel,2190,155000,"Rs. 4,100,000"
+Suzuki,Alto,2016,Manual,Petrol,800,69000,"Rs. 4,050,000"
+Suzuki,Wagon R,2015,Automatic,Hybrid,650,97000,"Rs. 5,730,000(Ongoing Lease)"
+Toyota,AXIO WXB,2017,Automatic,Petrol,1500,124000,"Rs. 13,000,000"
+Daihatsu,Charade,1985,Manual,Diesel,1000,478321,"Rs. 800,000"
+Nissan,HB11,1995,Manual,Petrol,1500,-,Negotiable
+Toyota,Grande Mark 2 GX110,2001,Automatic,Petrol,2000,175000,"Rs. 6,485,000"
+Suzuki,Maruti,2011,Manual,Petrol,800,125000,"Rs. 2,140,000"
+Hyundai,Accent,2003,Manual,Petrol,1600,151000,"Rs. 2,550,000"
+Toyota,Aqua X Urban,2015,Automatic,Petrol,1500,128000,"Rs. 9,300,000"
+Suzuki,WAGON R,2018,Automatic,Hybrid,660,83000,"Rs. 6,225,000"
+Toyota,Prius,2008,Automatic,Hybrid,1500,138523,Negotiable
+Chery,Yo Yo,2017,Manual,Petrol,1000,57235,"Rs. 3,195,000"
+Toyota,Premio G Superior,2018,Automatic,Petrol,1500,72000,"Rs. 17,450,000"
+Audi,A3,2018,Automatic,Petrol,1000,27500,"Rs. 15,250,000"
+Mitsubishi,Lancer Wagon,1979,Manual,Petrol,1400,-,"Rs. 495,000"
+Daewoo,Racer,1995,Manual,Petrol,-,-,"Rs. 875,000"
+Suzuki,Wagon R FX,2017,Automatic,Petrol,650,115000,"Rs. 6,300,000"
+Toyota,Aqua Gs,2014,Automatic,Hybrid,1500,120000,Negotiable
+Suzuki,Alto 800,2016,Manual,Petrol,800,80000,Negotiable
+Suzuki,Wagon R Fz,2014,Automatic,Hybrid,650,150000,"Rs. 5,500,000"
+Toyota,Axio,2007,Automatic,Petrol,1500,170000,"Rs. 7,125,000"
+Toyota,NZE121 X Grade,2003,Automatic,Petrol,1500,137000,"Rs. 6,450,000"
+Honda,Fit Gp4,2012,Automatic,Hybrid,1500,130000,"Rs. 7,200,000"
+BMW,320D,2000,Manual,Diesel,2000,133000,"Rs. 7,200,000"
+Suzuki,Wagon R Stingray,2015,Automatic,Hybrid,650,49000,"Rs. 6,350,000"
+Suzuki,Alto Japan,2017,Automatic,Petrol,660,141000,"Rs. 5,750,000"
+Toyota,Corolla DX,2000,Manual,Petrol,1500,188000,"Rs. 3,595,000"
+Micro,Trend,2010,Manual,Petrol,1075,61000,"Rs. 2,185,000"
+Toyota,Prius,2013,Automatic,Hybrid,1500,155000,Negotiable
+Toyota,Wigo,2017,Automatic,Petrol,1000,82500,"Rs. 6,875,000"
