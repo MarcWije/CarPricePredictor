@@ -6,11 +6,11 @@ import os
 os.chdir("E:/7th Semester/Machine Learning/")
 
 file_path = 'riya-scrapes.csv'
-all_data = []
 write_header = not os.path.exists(file_path)
 
 
-for i in range(1, 233): 
+for i in range(19, 233): 
+    all_data = []
     urls = []
     link = "https://riyasewana.com/search/cars?page=" + str(i)
     print(link)
@@ -71,7 +71,7 @@ for i in range(1, 233):
         except Exception as e:
             print(f"Failed to scrape {url}: {e}")
 
-df = pd.DataFrame(all_data)
-df.to_csv(file_path, mode='a', header=write_header, index=False)
+    df = pd.DataFrame(all_data)
+    df.to_csv(file_path, mode='a', header=write_header, index=False)
 
-print("Data has been successfully scraped and saved to riya-scrapes.csv.")
+    print("Data has been successfully scraped and saved to riya-scrapes.csv.")
