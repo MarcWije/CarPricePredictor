@@ -74,4 +74,4 @@ for i in range(1, 233):
 df = pd.DataFrame(all_data)
 df.to_csv(file_path, mode='a', header=write_header, index=False)
 
-print("Data has been successfully scraped and saved to scrapes2.csv.")
+print("Data has been successfully scraped and saved to riya-scrapes.csv.")
