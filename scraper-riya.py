@@ -9,7 +9,7 @@ file_path = 'riya-scrapes.csv'
 write_header = not os.path.exists(file_path)
 
 
-for i in range(38, 233): 
+for i in range(111, 233): 
     all_data = []
     urls = []
     link = "https://riyasewana.com/search/cars?page=" + str(i)
