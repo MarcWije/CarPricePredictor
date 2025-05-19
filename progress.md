@@ -27,3 +27,9 @@ Converted object classes to numerical values that RandomForestRegressor can hand
 
 12:31pm 
 Experimented with different filters (< Rs. 100 million, < Rs. 150 million, < Rs. 200 million) to test the impact of the high end vehicles on the accuracy of the system. Removed data entries with obviously invalid price entries.
+
+Under Rs. 100 Million = RMSE = 5,195,997, 4669 entries
+Under Rs. 50 Million = RMSE = 3,878,609, 4290 entries
+
+2:28pm
+Began work on scraper2.py, for riyasewana.com, in order to diversify the dataset

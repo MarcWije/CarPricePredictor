@@ -17,33 +17,28 @@ df.drop(columns=["Brand", "Model", "Edition"], inplace=True)
 
 
 # List of categorical columns
-categorical_cols = ["Brand Model", "Fuel Type", "Transmission",  "Body Type", "Negotiable"]
+categorical_cols = ["Brand Model", "Fuel Type", "Transmission", "Negotiable", "Body Type"]
 df = pd.get_dummies(df, columns=categorical_cols, drop_first=True)
 
 df = df.astype(int)
 
-print(df[df["Price Rs."] > 150000000])
 df = df[df["Price Rs."] <= 100000000]
 
+print(df)
 
 y = df["Price Rs."]
 X = df.drop(columns=["Price Rs."])
 
-
-
-print(df.dtypes)
-
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=4)
 
-print(X_train, y_train)
-model = RandomForestRegressor(n_estimators=100, oob_score=True, random_state=24)
+model = RandomForestRegressor(n_estimators=300, max_depth=20, min_samples_split=4, min_samples_leaf=2, oob_score=True, random_state=2)
 model.fit(X_train, y_train)
 y_pred = model.predict(X_test)
 
-sns.boxplot(df["Price Rs."])
-plt.title("Price Distribution")
-plt.xlabel("Price (Rs.)")
-plt.show()
+#sns.boxplot(df["Price Rs."])
+#plt.title("Price Distribution")
+#plt.xlabel("Price (Rs.)")
+#plt.show()
 
 print("R² Score:", skm.r2_score(y_test, y_pred))
 print("RMSE:", skm.root_mean_squared_error(y_test, y_pred))
