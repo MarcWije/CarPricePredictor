@@ -2,12 +2,13 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import os
+from xgboost import XGBRegressor
+from lightgbm import LGBMRegressor
 from sklearn.model_selection import train_test_split
-from sklearn.model_selection import cross_val_score
 from sklearn.ensemble import RandomForestRegressor
 import sklearn.metrics as skm
 import seaborn as sns
-from scipy.stats import skew
+
 
 os.chdir("E:/7th Semester/Machine Learning/")
 
@@ -29,13 +30,15 @@ df = pd.get_dummies(df, columns=categorical_cols, drop_first=True)
 
 df = df.astype(int)
 
-df = df[df["Price Rs."] <= 50000000]
+df = df[df["Price Rs."] <= 100000000]
 y = df["Price Rs."]
 X = df.drop(columns=["Price Rs."])
 
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=4)
 
-model = RandomForestRegressor(n_estimators=200, oob_score=True, random_state=2)
+#model = RandomForestRegressor(n_estimators=100, oob_score=True, random_state=42)
+model = XGBRegressor(n_estimators= 2000, learning_rate= 0.05, max_depth= 12, random_state=42)
+#model = LGBMRegressor(n_estimators= 1000, learning_rate= 0.01, random_state= 42)
 model.fit(X_train, y_train)
 y_pred = model.predict(X_test)
 
@@ -43,23 +46,10 @@ y_pred = model.predict(X_test)
 print("R² Score:", skm.r2_score(y_test, y_pred))
 print("RMSE:", skm.root_mean_squared_error(y_test, y_pred))
 
-plt.hist(df['Price Rs.'], bins=100, color='skyblue', edgecolor='black')
-plt.title("Vehicle Price Distribution")
-plt.xlabel("Price")
-plt.ylabel("Frequency")
-plt.show()
 
 plt.scatter(y_test, y_pred, alpha=0.3)
 plt.xlabel("Actual Price")
 plt.ylabel("Predicted Price")
 plt.title("Actual vs Predicted Price")
-plt.plot([0, 50_000_000], [0, 50_000_000], 'r--')  # 45-degree line
-plt.show()
-
-sns.histplot(df["Price Rs."], bins=100)
-plt.title("Price Distribution (Raw)")
-plt.show()
-
-sns.histplot(np.log1p(df["Price Rs."]), bins=100)
-plt.title("Price Distribution (Log Transformed)")
+plt.plot([0, 100_000_000], [0, 100_000_000], 'r--')  # 45-degree line
 plt.show()
