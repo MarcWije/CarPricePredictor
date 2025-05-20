@@ -33,3 +33,7 @@ Under Rs. 50 Million = RMSE = 3,878,609, 4290 entries
 
 2:28pm
 Began work on scraper2.py, for riyasewana.com, in order to diversify the dataset
+
+20th May 2025 11:59am
+Finalized the Riyasewana dataset, cleaning up data entries and combining them in the model
+Switched to logs for price values, as data was heavily right-skewed
