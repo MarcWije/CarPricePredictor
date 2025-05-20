@@ -9,7 +9,7 @@ import seaborn as sns
 
 os.chdir("E:/7th Semester/Machine Learning/")
 
-df = pd.read_csv('scrapes2.csv')
+df = pd.read_csv('ikman-scrapes.csv')
 
 df["Brand Model"] = df["Brand"] + " " + df["Model"]
 

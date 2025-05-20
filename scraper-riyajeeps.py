@@ -10,7 +10,7 @@ all_data = []
 write_header = not os.path.exists(file_path)
 
 
-for i in range(1, 233): 
+for i in range(1, 87): 
     urls = []
     link = "https://riyasewana.com/search/suvs?page=" + str(i)
     print(link)
