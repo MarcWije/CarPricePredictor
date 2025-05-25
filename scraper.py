@@ -5,12 +5,12 @@ import os
 
 os.chdir("E:/7th Semester/Machine Learning/")
 
-file_path = 'scrapes2.csv'
-all_data = []
+file_path = 'ikman-scrapes.csv'
 write_header = not os.path.exists(file_path)
 
 
-for i in range(1, 200): 
+for i in range(1, 50): 
+    all_data = []
     urls = []
     link = "https://ikman.lk/en/ads/sri-lanka/cars?sort=date&order=desc&buy_now=0&urgent=0&page=" + str(i)
     print(link)
@@ -80,7 +80,7 @@ for i in range(1, 200):
         except Exception as e:
             print(f"Failed to scrape {url}: {e}")
 
-df = pd.DataFrame(all_data)
-df.to_csv(file_path, mode='a', header=write_header, index=False)
+    df = pd.DataFrame(all_data)
+    df.to_csv(file_path, mode='a', header=write_header, index=False)
 
-print("Data has been successfully scraped and saved to scrapes2.csv.")
+    print("Data has been successfully scraped and saved to ikman-scrapes.csv.")
