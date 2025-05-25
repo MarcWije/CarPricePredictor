@@ -15,9 +15,10 @@ os.chdir("E:/7th Semester/Machine Learning/")
 df = pd.read_csv('ikman-scrapes.csv')
 df.drop(columns=["Negotiable", "Edition", "Body Type"], inplace=True)
 
+
 df2 = pd.read_csv('riya-scrapes.csv')
 df = pd.concat([df, df2], ignore_index=True)
-
+df = df[df["Fuel Type"] != "Electric"]
 
 df["Brand Model"] = df["Brand"] + " " + df["Model"]
 df.drop(columns=["Brand", "Model"], inplace=True)
