@@ -37,3 +37,12 @@ Began work on scraper2.py, for riyasewana.com, in order to diversify the dataset
 20th May 2025 11:59am
 Finalized the Riyasewana dataset, cleaning up data entries and combining them in the model
 Switched to logs for price values, as data was heavily right-skewed
+
+1:30pm
+Switched back to normal values, as this did not make a significant change in prediction accuracy
+
+25th May 2025 4:00pm
+Did another round of ikman scrapes and cleaned up the dataset 
+
+26th May 2025 1:02pm
+Tested using label encoding instead of one-hot encoding
