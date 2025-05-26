@@ -7,6 +7,7 @@ from lightgbm import LGBMRegressor
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestRegressor
 import sklearn.metrics as skm
+from sklearn.preprocessing import LabelEncoder
 import seaborn as sns
 
 
@@ -27,18 +28,28 @@ df['Brand Model'] = df['Brand Model'].str.title()
 
 # List of categorical columns
 categorical_cols = ["Brand Model", "Fuel Type", "Transmission"]
+
+# One-hot encoding
 df = pd.get_dummies(df, columns=categorical_cols, drop_first=True)
 
+# Label encoding
+'''
+for l in categorical_cols:
+    encoder = LabelEncoder()
+    df[l + "_E"]=encoder.fit_transform(df[l].astype(str))
+df.drop(columns=categorical_cols, inplace=True)
+'''
+print(df)
 df = df.astype(int)
 
 df = df[df["Price Rs."] <= 100000000]
 y = df["Price Rs."]
 X = df.drop(columns=["Price Rs."])
 
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=4)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
 
-#model = RandomForestRegressor(n_estimators=100, oob_score=True, random_state=42)
-model = XGBRegressor(n_estimators= 2000, learning_rate= 0.05, max_depth= 12, random_state=42)
+model = RandomForestRegressor(n_estimators=100, oob_score=True)
+#model = XGBRegressor(n_estimators= 2000, learning_rate= 0.05, max_depth= 12, random_state=42)
 #model = LGBMRegressor(n_estimators= 1000, learning_rate= 0.01, random_state= 42)
 model.fit(X_train, y_train)
 y_pred = model.predict(X_test)
@@ -53,4 +64,13 @@ plt.xlabel("Actual Price")
 plt.ylabel("Predicted Price")
 plt.title("Actual vs Predicted Price")
 plt.plot([0, 100_000_000], [0, 100_000_000], 'r--')  # 45-degree line
+plt.show()
+
+importances = model.feature_importances_
+features = X.columns
+sorted_idx = importances.argsort()
+
+plt.barh(features[sorted_idx], importances[sorted_idx])
+plt.xlabel("Feature Importance")
+plt.title("Random Forest - Feature Importance")
 plt.show()
