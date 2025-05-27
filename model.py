@@ -45,34 +45,27 @@ df = df[df["Price Rs."] <= 100000000]
 y = df["Price Rs."]
 X = df.drop(columns=["Price Rs."])
 
+# Optimal random_state is 47
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state)
 
+'''
+# max depth = 29 ideally, min_samples_leaf = 2 , n_estimators = 106
+model = RandomForestRegressor(n_estimators=106, oob_score=True, random_state = 51, max_depth = 29, min_samples_leaf = 2)
+print("Random Forest Regressor : ")
 
-for j in range (1,100):
-    
-    # Optimal random_state is 47
-    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
-    i = (j + 2)%3 
+# max_depth = 9 seems ideal so far, learning_Rate = 0.009, n_estimators = 1320
+model = XGBRegressor(n_estimators= 1320, learning_rate= 0.009, max_depth= 9)
+print("XGBoost Regressor : ")
+'''
 
-    if i == 0:
-        # max depth = 29 ideally, min_samples_leaf = 2 , n_estimators = 106
-        model = RandomForestRegressor(n_estimators=106, oob_score=True, random_state = 51, max_depth = 29, min_samples_leaf = 2)
-        print("\n" + "Iteration : " + str((j-1)/3))
-        print("Random Forest Regressor : ")
+#model = learning_rate = 0.06,n_estimators = 613
+model = LGBMRegressor(n_estimators= 613, learning_rate= 0.057, verbose = -1)
+print("LGBM Regressor : ")
 
-    elif i == 1:    
-        # max_depth = 9 seems ideal so far, learning_Rate = 0.009, n_estimators = 1320
-        model = XGBRegressor(n_estimators= 1320, learning_rate= 0.009, max_depth= 9)
-        print("XGBoost Regressor : ")
-
-    elif i == 2:
-        #model = learning_rate = 0.06,n_estimators = 613
-        model = LGBMRegressor(n_estimators= 613, learning_rate= 0.057, verbose = -1)
-        print("LGBM Regressor : ")
-
-    model.fit(X_train, y_train)
-    y_pred = model.predict(X_test)
-    print("R² Score:", skm.r2_score(y_test, y_pred))
-    print("RMSE:", skm.root_mean_squared_error(y_test, y_pred))
+model.fit(X_train, y_train)
+y_pred = model.predict(X_test)
+print("R² Score:", skm.r2_score(y_test, y_pred))
+print("RMSE:", skm.root_mean_squared_error(y_test, y_pred))
 
 plt.scatter(y_test, y_pred, alpha=0.3)
 plt.xlabel("Actual Price")
