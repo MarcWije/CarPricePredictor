@@ -48,10 +48,10 @@ X = df.drop(columns=["Price Rs."])
 # Optimal random_state is 47
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state = 47)
 
-for i in range (2, 10):
+for i in range (90, 110):
     
-    # max depth = 29 ideally, min_samples_split = 
-    model = RandomForestRegressor(n_estimators=100, oob_score=True, random_state = 51, max_depth = 29, min_samples_leaf = i)
+    # max depth = 29 ideally, min_samples_leaf = 2 
+    model = RandomForestRegressor(n_estimators=i, oob_score=True, random_state = 51, max_depth = 29, min_samples_leaf = 2)
     
     # max_depth = 9 seems ideal so far, learning_Rate = 0.009, n_estimators = 1320
     #model = XGBRegressor(n_estimators= 1320, learning_rate= 0.009, max_depth= 9)
