@@ -45,12 +45,13 @@ df = df[df["Price Rs."] <= 100000000]
 y = df["Price Rs."]
 X = df.drop(columns=["Price Rs."])
 
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state = 47)
+
 # Optimal random_state is 47
 for i in range (1,50):
-    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state = i)
-
+    
     #model = RandomForestRegressor(n_estimators=100, oob_score=True, random_state = 51)
-    model = XGBRegressor(n_estimators= 2000, learning_rate= 0.05, max_depth= 12)
+    model = XGBRegressor(n_estimators= 2000, learning_rate= 0.05, max_depth= i)
     #model = LGBMRegressor(n_estimators= 1000, learning_rate= 0.01, random_state= 51)
     model.fit(X_train, y_train)
     y_pred = model.predict(X_test)
