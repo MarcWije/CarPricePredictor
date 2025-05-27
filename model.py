@@ -45,11 +45,12 @@ df = df[df["Price Rs."] <= 100000000]
 y = df["Price Rs."]
 X = df.drop(columns=["Price Rs."])
 
-# Optimal random_state is 47
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
+
 
 for j in range (1,100):
     
+    # Optimal random_state is 47
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
     i = (j + 2)%3 
 
     if i == 0:
