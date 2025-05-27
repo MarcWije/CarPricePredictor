@@ -48,9 +48,9 @@ X = df.drop(columns=["Price Rs."])
 # Optimal random_state is 47
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state = 47)
 
-for i in range (90, 110):
+for i in range (106,120):
     
-    # max depth = 29 ideally, min_samples_leaf = 2 
+    # max depth = 29 ideally, min_samples_leaf = 2 , n_estimators = 106
     model = RandomForestRegressor(n_estimators=i, oob_score=True, random_state = 51, max_depth = 29, min_samples_leaf = 2)
     
     # max_depth = 9 seems ideal so far, learning_Rate = 0.009, n_estimators = 1320
