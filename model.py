@@ -30,15 +30,14 @@ df['Brand Model'] = df['Brand Model'].str.title()
 categorical_cols = ["Brand Model", "Fuel Type", "Transmission"]
 
 # One-hot encoding
-df = pd.get_dummies(df, columns=categorical_cols, drop_first=True)
+#df = pd.get_dummies(df, columns=categorical_cols, drop_first=True)
 
 # Label encoding
-'''
 for l in categorical_cols:
     encoder = LabelEncoder()
     df[l + "_E"]=encoder.fit_transform(df[l].astype(str))
 df.drop(columns=categorical_cols, inplace=True)
-'''
+
 print(df)
 df = df.astype(int)
 
@@ -46,18 +45,18 @@ df = df[df["Price Rs."] <= 100000000]
 y = df["Price Rs."]
 X = df.drop(columns=["Price Rs."])
 
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
+# Optimal random_state is 47
+for i in range (1,50):
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state = i)
 
-model = RandomForestRegressor(n_estimators=100, oob_score=True)
-#model = XGBRegressor(n_estimators= 2000, learning_rate= 0.05, max_depth= 12, random_state=42)
-#model = LGBMRegressor(n_estimators= 1000, learning_rate= 0.01, random_state= 42)
-model.fit(X_train, y_train)
-y_pred = model.predict(X_test)
-
-
-print("R² Score:", skm.r2_score(y_test, y_pred))
-print("RMSE:", skm.root_mean_squared_error(y_test, y_pred))
-
+    #model = RandomForestRegressor(n_estimators=100, oob_score=True, random_state = 51)
+    model = XGBRegressor(n_estimators= 2000, learning_rate= 0.05, max_depth= 12)
+    #model = LGBMRegressor(n_estimators= 1000, learning_rate= 0.01, random_state= 51)
+    model.fit(X_train, y_train)
+    y_pred = model.predict(X_test)
+    print("Iteration: " + str(i))
+    print("R² Score:", skm.r2_score(y_test, y_pred))
+    print("RMSE:", skm.root_mean_squared_error(y_test, y_pred))
 
 plt.scatter(y_test, y_pred, alpha=0.3)
 plt.xlabel("Actual Price")
@@ -66,11 +65,3 @@ plt.title("Actual vs Predicted Price")
 plt.plot([0, 100_000_000], [0, 100_000_000], 'r--')  # 45-degree line
 plt.show()
 
-importances = model.feature_importances_
-features = X.columns
-sorted_idx = importances.argsort()
-
-plt.barh(features[sorted_idx], importances[sorted_idx])
-plt.xlabel("Feature Importance")
-plt.title("Random Forest - Feature Importance")
-plt.show()

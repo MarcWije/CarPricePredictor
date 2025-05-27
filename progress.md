@@ -46,3 +46,8 @@ Did another round of ikman scrapes and cleaned up the dataset
 
 26th May 2025 1:02pm
 Tested using label encoding instead of one-hot encoding
+
+Since label encoding was better, stuck with that
+
+27th May 2025 9:07am 
+Set random_state to specific values to repeat performance
