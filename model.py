@@ -20,6 +20,7 @@ df.drop(columns=["Negotiable", "Edition", "Body Type"], inplace=True)
 df2 = pd.read_csv('riya-scrapes.csv')
 df = pd.concat([df, df2], ignore_index=True)
 df = df[df["Fuel Type"] != "Electric"]
+df = df[df["Mileage"] > 0]
 
 df["Brand Model"] = df["Brand"] + " " + df["Model"]
 df.drop(columns=["Brand", "Model"], inplace=True)
@@ -43,7 +44,7 @@ df = df.astype(int)
 df = df[df["Price Rs."] <= 100000000]
 y = df["Price Rs."]  
 X = df.drop(columns=["Price Rs."])
-
+print(df)
 # Optimal random_state is 47
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
 
