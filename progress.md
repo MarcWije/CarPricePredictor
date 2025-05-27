@@ -70,3 +70,6 @@ with random_state = 47
 1:27pm 
 After testing multiple iterations, it was decided to go with LGBM as it had the overall lowest RMSE
 Added model_predictions.csv to test which values are outliers
+
+2:41pm 
+Removed some false data from the scrapes
