@@ -42,11 +42,11 @@ print(df)
 df = df.astype(int)
 
 df = df[df["Price Rs."] <= 100000000]
-y = df["Price Rs."] / 1000 
+y = df["Price Rs."]  
 X = df.drop(columns=["Price Rs."])
 
 # Optimal random_state is 47
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state = 47)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
 
 '''
 # max depth = 29 ideally, min_samples_leaf = 2 , n_estimators = 106
@@ -65,12 +65,11 @@ print("LGBM Regressor : ")
 model.fit(X_train, y_train)
 y_pred = model.predict(X_test)
 
-y_testr = y_test*1000
-y_predr = y_pred*1000
-print("R² Score:", skm.r2_score(y_testr, y_predr))
-print("RMSE:", skm.root_mean_squared_error(y_testr, y_predr))
 
-plt.scatter(y_testr, y_predr, alpha=0.3)
+print("R² Score:", skm.r2_score(y_test, y_pred))
+print("RMSE:", skm.root_mean_squared_error(y_test, y_pred))
+
+plt.scatter(y_test, y_pred, alpha=0.3)
 plt.xlabel("Actual Price")
 plt.ylabel("Predicted Price")
 plt.title("Actual vs Predicted Price")
