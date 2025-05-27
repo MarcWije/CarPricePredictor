@@ -51,3 +51,18 @@ Since label encoding was better, stuck with that
 
 27th May 2025 9:07am 
 Set random_state to specific values to repeat performance
+
+12:22pm 
+Tuned Hyperparams of Random Forest, XGBoost, and LGBM
+Random Forest Regressor : 
+R² Score: 0.9426187041815014
+RMSE: 3500956.5900161876
+
+XGBoost Regressor : 
+R² Score: 0.9448541013747201
+RMSE: 3432085.979238174
+
+LGBM Regressor : 
+R² Score: 0.9451881134624761
+RMSE: 3421676.3264146997
+with random_state = 47
