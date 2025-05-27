@@ -59,7 +59,7 @@ for j in range (1,100):
     if i == 0:
         # max depth = 29 ideally, min_samples_leaf = 2 , n_estimators = 106
         model = RandomForestRegressor(n_estimators=106, oob_score=True, random_state = 51, max_depth = 29, min_samples_leaf = 2)
-        printa("/n" + "Iteration : " + str((j-1)/3))
+        printa("\n" + "Iteration : " + str((j-1)/3))
         printa("Random Forest Regressor : ")
 
     elif i == 1:    
@@ -74,8 +74,8 @@ for j in range (1,100):
 
     model.fit(X_train, y_train)
     y_pred = model.predict(X_test)
-    printa("R² Score:", skm.r2_score(y_test, y_pred))
-    printa("RMSE:", skm.root_mean_squared_error(y_test, y_pred))
+    printa("R² Score:", str(skm.r2_score(y_test, y_pred)))
+    printa("RMSE:", str(skm.root_mean_squared_error(y_test, y_pred)))
 
 plt.scatter(y_test, y_pred, alpha=0.3)
 plt.xlabel("Actual Price")
