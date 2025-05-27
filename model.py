@@ -20,7 +20,6 @@ df.drop(columns=["Negotiable", "Edition", "Body Type"], inplace=True)
 df2 = pd.read_csv('riya-scrapes.csv')
 df = pd.concat([df, df2], ignore_index=True)
 df = df[df["Fuel Type"] != "Electric"]
-df = df[df["Mileage"] > 0]
 
 df["Brand Model"] = df["Brand"] + " " + df["Model"]
 df.drop(columns=["Brand", "Model"], inplace=True)
