@@ -75,3 +75,5 @@ plt.title("Actual vs Predicted Price")
 plt.plot([0, 100_000_000], [0, 100_000_000], 'r--')  # 45-degree line
 plt.show()
 
+results_df = pd.DataFrame({'Actual Price': y_test, 'Predicted Price': y_pred})
+results_df.to_csv('model_predictions.csv', index=False)
