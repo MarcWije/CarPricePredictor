@@ -46,7 +46,7 @@ y = df["Price Rs."]
 X = df.drop(columns=["Price Rs."])
 
 # Optimal random_state is 47
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state = 47)
 
 '''
 # max depth = 29 ideally, min_samples_leaf = 2 , n_estimators = 106
@@ -66,6 +66,9 @@ model.fit(X_train, y_train)
 y_pred = model.predict(X_test)
 print("R² Score:", skm.r2_score(y_test, y_pred))
 print("RMSE:", skm.root_mean_squared_error(y_test, y_pred))
+
+results_df = pd.DataFrame({'Actual Price': y_test, 'Predicted Price': y_pred})
+results_df.to_csv('model_predictions.csv', index=False)
 
 plt.scatter(y_test, y_pred, alpha=0.3)
 plt.xlabel("Actual Price")

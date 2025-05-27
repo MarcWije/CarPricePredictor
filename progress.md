@@ -66,3 +66,6 @@ LGBM Regressor :
 R² Score: 0.9451881134624761
 RMSE: 3421676.3264146997
 with random_state = 47
+
+1:27pm 
+After testing multiple iterations, it was decided to go with LGBM as it had the overall lowest RMSE
