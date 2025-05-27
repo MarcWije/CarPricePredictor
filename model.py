@@ -10,6 +10,10 @@ import sklearn.metrics as skm
 from sklearn.preprocessing import LabelEncoder
 import seaborn as sns
 
+def printa(message_to_print, log_file='output.txt'):
+    print(message_to_print)
+    with open(log_file, 'a') as of:
+        of.write(message_to_print + '\n')
 
 os.chdir("E:/7th Semester/Machine Learning/")
 
@@ -48,27 +52,30 @@ X = df.drop(columns=["Price Rs."])
 # Optimal random_state is 47
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
 
-for i in range (0,3):
+for j in range (1,100):
     
+    i = (j + 2)%3 
+
     if i == 0:
         # max depth = 29 ideally, min_samples_leaf = 2 , n_estimators = 106
         model = RandomForestRegressor(n_estimators=106, oob_score=True, random_state = 51, max_depth = 29, min_samples_leaf = 2)
-        print("Random Forest Regressor : ")
+        printa("/n" + "Iteration : " + str((j-1)/3))
+        printa("Random Forest Regressor : ")
 
     elif i == 1:    
         # max_depth = 9 seems ideal so far, learning_Rate = 0.009, n_estimators = 1320
         model = XGBRegressor(n_estimators= 1320, learning_rate= 0.009, max_depth= 9)
-        print("XGBoost Regressor : ")
+        printa("XGBoost Regressor : ")
 
     elif i == 2:
         #model = learning_rate = 0.06,n_estimators = 613
         model = LGBMRegressor(n_estimators= 613, learning_rate= 0.057, verbose = -1)
-        print("LGBM Regressor : ")
+        printa("LGBM Regressor : ")
 
     model.fit(X_train, y_train)
     y_pred = model.predict(X_test)
-    print("R² Score:", skm.r2_score(y_test, y_pred))
-    print("RMSE:", skm.root_mean_squared_error(y_test, y_pred))
+    printa("R² Score:", skm.r2_score(y_test, y_pred))
+    printa("RMSE:", skm.root_mean_squared_error(y_test, y_pred))
 
 plt.scatter(y_test, y_pred, alpha=0.3)
 plt.xlabel("Actual Price")
