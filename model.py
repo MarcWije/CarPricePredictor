@@ -38,7 +38,6 @@ for l in categorical_cols:
     df[l + "_E"]=encoder.fit_transform(df[l].astype(str))
 df.drop(columns=categorical_cols, inplace=True)
 
-print(df)
 df = df.astype(int)
 
 df = df[df["Price Rs."] <= 100000000]
