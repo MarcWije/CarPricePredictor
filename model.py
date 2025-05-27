@@ -48,18 +48,25 @@ X = df.drop(columns=["Price Rs."])
 # Optimal random_state is 47
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state = 47)
 
-for i in range (600,640):
+for i in range (0,3):
     
-    # max depth = 29 ideally, min_samples_leaf = 2 , n_estimators = 106
-    #model = RandomForestRegressor(n_estimators=106, oob_score=True, random_state = 51, max_depth = 29, min_samples_leaf = 2)
-    
-    # max_depth = 9 seems ideal so far, learning_Rate = 0.009, n_estimators = 1320
-    #model = XGBRegressor(n_estimators= 1320, learning_rate= 0.009, max_depth= 9)
-    #model = learning_rate = 0.06,n_estimators = 600
-    model = LGBMRegressor(n_estimators= i, learning_rate= 0.057)
+    if i == 0:
+        # max depth = 29 ideally, min_samples_leaf = 2 , n_estimators = 106
+        model = RandomForestRegressor(n_estimators=106, oob_score=True, random_state = 51, max_depth = 29, min_samples_leaf = 2)
+        print("Random Forest Regressor : ")
+
+    elif i == 1:    
+        # max_depth = 9 seems ideal so far, learning_Rate = 0.009, n_estimators = 1320
+        model = XGBRegressor(n_estimators= 1320, learning_rate= 0.009, max_depth= 9)
+        print("XGBoost Regressor : ")
+
+    elif i == 2:
+        #model = learning_rate = 0.06,n_estimators = 613
+        model = LGBMRegressor(n_estimators= 613, learning_rate= 0.057)
+        print("LGBM Regressor : ")
+
     model.fit(X_train, y_train)
     y_pred = model.predict(X_test)
-    print("Iteration: " + str(i))
     print("R² Score:", skm.r2_score(y_test, y_pred))
     print("RMSE:", skm.root_mean_squared_error(y_test, y_pred))
 
