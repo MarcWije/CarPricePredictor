@@ -186,7 +186,7 @@ Mercedes-Benz,C200 AMG Premium,2019,Automatic,Petrol,1500,44500,27500000
 Suzuki,Alto,2016,Manual,Petrol,800,87000,3830000
 Chevrolet,Cruze Gm Limited Edition,2005,Automatic,Petrol,1330,142000,4395000
 Chevrolet,Cruze GM,2004,Automatic,Petrol,1300,151000,4390000
-Mazda,RX-8 SE3P Highest Spec,2006,Automatic,Petrol,1300,0,6500000
+Mazda,RX-8 ,2006,Automatic,Petrol,1300,0,6500000
 Tata,Indigo,2015,Manual,Petrol,1200,82000,3050000
 Hyundai,Accent,2000,Automatic,Petrol,1500,180000,2690000
 Suzuki,Alto,2015,Manual,Petrol,800,142000,3775000
@@ -5489,7 +5489,6 @@ Toyota,DX WAGON,1985,Manual,Petrol,1300,250000,1050000
 Mitsubishi,Lancer,1978,Manual,Petrol,1500,1236,450000
 Toyota,Premio,2017,Automatic,Petrol,1500,139500,16000000
 Mercedes-Benz,E300,2015,Automatic,Diesel,2200,15,18500000
-Ceygra,2A,2007,Manual,Petrol,800,90000,365000
 Mitsubishi,Lancer Cs1 Efi,2001,Manual,Petrol,1300,201829,4630000
 Toyota,Avanza,2011,Automatic,Petrol,1500,180000,8500000
 Mercedes-Benz,190D,1984,Manual,Diesel,2300,160000,2850000
@@ -7153,7 +7152,6 @@ Mitsubishi,Outlander,2014,Automatic,Hybrid,2000,104000,13950000
 Kia,Sorento,2014,Automatic,Diesel,2200,151000,15950000
 Peugeot,5008 GTline,2020,Automatic,Petrol,1200,52000,25500000
 Honda,CRV,2018,Automatic,Petrol,2000,96000,4475000
-Toyota,V8,2011,Automatic,Diesel,4600,139500,6500000
 Mitsubishi,Montero IO,2003,Automatic,Petrol,20000,110000,6660000
 Mahindra,KUV 100,2020,Manual,Petrol,1000,85000,5500000
 Mitsubishi,OUTLANDER,2014,Automatic,Petrol,2000,200000,13800000
@@ -7515,7 +7513,6 @@ Toyota,Fortuner,2013,Automatic,Diesel,3000,143000,23000000
 Land-Rover,Freelander 2,2014,Automatic,Diesel,2200,98600,17500000
 Honda,CRV,2018,Automatic,Petrol,1500,95000,19400000
 Honda,Vezel,2016,Automatic,Electric,1490,140000,12775000
-Mitsubishi,OUTLANDER,2015,Automatic,Hybrid,1990,61000,1900000
 DFSK,Glory I-Auto,2023,Automatic,Petrol,1500,11700,13925000
 Mahindra,CrewCab,2006,Manual,Diesel,2498,380431,2800000
 Honda,VEZEL SAFETY ORANGE,2014,Automatic,Hybrid,1490,87187,10390000
