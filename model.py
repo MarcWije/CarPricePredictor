@@ -48,7 +48,7 @@ X = df.drop(columns=["Price Rs."])
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state = 47)
 
 # Optimal random_state is 47
-for i in range (1,50):
+for i in range (16,50,5):
     
     #model = RandomForestRegressor(n_estimators=100, oob_score=True, random_state = 51)
     model = XGBRegressor(n_estimators= 2000, learning_rate= 0.05, max_depth= i)
