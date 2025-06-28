@@ -71,6 +71,7 @@ for i in range(1, 50):
                     value = value_element.get_text(strip=True)
                     data[label] = value
 
+            # Structures the final data
             final_data = {
                 'Brand': data.get('Brand'),
                 'Model': data.get('Model'),
@@ -91,6 +92,7 @@ for i in range(1, 50):
         except Exception as e:
             print(f"Failed to scrape {url}: {e}")
 
+    # Adds all the data into a DataFrame
     df = pd.DataFrame(all_data)
     df.to_csv(file_path, mode='a', header=write_header, index=False)
 
