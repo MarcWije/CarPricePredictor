@@ -1,18 +1,18 @@
 **9th May 2025** *4:21pm*
 
-Beginning scrape of ikman.lk. For the sake of conciseness, only 4-wheeled vehicles (cars, vans, etc.) were considered. Heavy vehicles and special vehicles were also ignored for this. 
+Beginning scrape of **ikman.lk.** For the sake of conciseness, only 4-wheeled vehicles (cars, vans, etc.) were considered. Heavy vehicles and special vehicles were also ignored for this. 
 
 *4:33 pm* 
 
-Created GitHub repository. Excluded promoted ads from the scrape. 
+Created **GitHub** repository. Excluded promoted ads from the scrape. 
 
 **12th May 2025** *2:03pm*
 
-Decided to automate scrape using *BeautifulSoup* and a python script.
+Decided to automate scrape using **BeautifulSoup** and a python script.
 
 **16th May 2025** *5:24pm* 
 
-As the *BeautifulSoup* python script seemed to be working well for my purposes, I modified the script further to extract links from each page of **ikman.lk**'s car ads itself. It does this by finding each element with the *"card-link--3ssYv gtm-ad-item"* class, extracting the href from each element, and saving it into a list. This list is then passed into the program created previously. 
+As the **BeautifulSoup** python script seemed to be working well for my purposes, I modified the script further to extract links from each page of **ikman.lk**'s car ads itself. It does this by finding each element with the *"card-link--3ssYv gtm-ad-item"* class, extracting the href from each element, and saving it into a list. This list is then passed into the program created previously. 
 
 *11:00pm*
 
@@ -24,15 +24,15 @@ Removed duplicates from *scrapes2.csv*
 
 *7:52pm* 
 
-Began using the pandas library in python to import the csv and convert it to a dataframe. Read through pandas documentation
+Began using the **pandas** library in python to import the csv and convert it to a dataframe. Read through **pandas** documentation
 
 *8:40pm*
 
-Removed commas from *Engine Capacity, Mileage,* and *Price* Columns in order for pandas to read it as floats
+Removed commas from *Engine Capacity, Mileage,* and *Price* Columns in order for **pandas** to read it as floats
 
 **19th May 2025** *11:03am*
 
-Converted object classes to numerical values that RandomForestRegressor can handle, using one-hot encoding
+Converted object classes to numerical values that **RandomForestRegressor** can handle, using one-hot encoding
 
 *12:31pm* 
 
@@ -47,7 +47,7 @@ Began work on *scraper2.py* (subsequently renamed to *scraper-riya.py*), for scr
 
 **20th May 2025** *11:59am*
 
-Finalized the Riyasewana dataset, cleaning up data entries and combining them in the model
+Finalized the **Riyasewana** dataset, cleaning up data entries and combining them in the model
 Switched to logs for price values, as data was heavily right-skewed
 
 *1:30pm*
@@ -56,7 +56,7 @@ Switched back to normal values, as this did not make a significant change in pre
 
 **25th May 2025** *4:00pm*
 
-Did another round of ikman scrapes and cleaned up the dataset 
+Did another round of **ikman** scrapes and cleaned up the dataset 
 
 **26th May 2025** *1:02pm*
 
@@ -70,7 +70,7 @@ Set random_state to specific values to repeat performance
 
 *12:22pm* 
 
-Tuned Hyperparams of Random Forest, XGBoost, and LGBM
+Tuned Hyperparams of *Random Forest, XGBoost*, and *LGBM*
 
 >Random Forest Regressor : 
 >R² Score: 0.9426187041815014
