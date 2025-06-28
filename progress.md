@@ -73,3 +73,6 @@ Added model_predictions.csv to test which values are outliers
 
 2:41pm 
 Removed some false data from the scrapes
+
+*28th June 2025 1:36pm*
+Added comments to python scripts and updated the README to be more comprehensive

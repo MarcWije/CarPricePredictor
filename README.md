@@ -1,6 +1,6 @@
 # ET 4103 - Machine Learning
 
-Documentation of the ET 4103 - Machine Learning Module, as conducted in the 7th Semester of the ET Engineering Degree at KDU.
+Documentation of the Machine Learning Model created for the final assignment of the course **ET 4103 - Machine Learning** , as conducted in the 7th Semester of the Electronics and Telecommunications Engineering Degree at KDU.
 A Web App implementation of this model was also submitted as the final Project for Harvard's CS50x course.
 
 Included is a log of the scraping and data classification of the data for the final assignment, which is a Car Price predictor.
