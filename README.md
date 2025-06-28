@@ -1,12 +1,13 @@
 # ET 4103 - Machine Learning
 
-Documentation of the ET 4103 - Machine Learning Module, as conducted in the 7th Semester of the ET Engineering Degree at KDU
+Documentation of the ET 4103 - Machine Learning Module, as conducted in the 7th Semester of the ET Engineering Degree at KDU.
+A Web App implementation of this model was also submitted as the final Project for Harvard's CS50x course.
 
 Included is a log of the scraping and data classification of the data for the final assignment, which is a Car Price predictor.
 
 ## Background to the Dataset
 
-Ikman.lk is a famous Sri Lankan website, with a reputation as a second hand online marketplace. Many car ads are posted on the site daily, at a rate of roughly 6 - 7 an hour during the course of data gathering for this module. For this reason, it was chosen as an ideal source for data. 
+Ikman.lk is a famous Sri Lankan website, with a reputation as a second hand online marketplace. Many car ads are posted on the site daily, at a rate of roughly 6 - 7 an hour during the course of data gathering for this module. For this reason, it was chosen as an ideal source for data.
 
 Ikman stores roughly 2 months worth of car listings, which amounted to about 5400 listings. However, as the price of listings may be updated, using the time of posting as a time label would not be suitable for analysis of the price variation over time. Suggestions would be to run the scripts every month or so and gather different datasets and compare. 
 
