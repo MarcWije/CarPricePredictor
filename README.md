@@ -26,3 +26,7 @@ Subsequently it was discovered that certain factors such as *Edition, Body Type,
 The final model utilized the following inputs for training: *Year of Manufacture, Engine Capacity(cc), Mileage(km), Brand/Model* (combined into one category for ease of training)*, Fuel Type, and Transmission Type.*  
 
 Other potential issues with the data may include typos and mistakes on the part of the individual posting the listing. These are rare, but do occur (for example in the case of the Rs. 5 Million Toyota Land Cruiser)
+
+## Machine Learning Model
+
+Initially, this task was determined to be a regression problem, as the output value needed to be more or less a continuous range of prices.  
