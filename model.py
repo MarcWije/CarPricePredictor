@@ -14,6 +14,8 @@ import seaborn as sns
 os.chdir("E:/7th Semester/Machine Learning/")
 
 df = pd.read_csv('ikman-scrapes.csv')
+
+# Drops columns that seemingly do not contribute to the accuracy of the model
 df.drop(columns=["Negotiable", "Edition", "Body Type"], inplace=True)
 
 
