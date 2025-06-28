@@ -7,19 +7,19 @@ Included is a log of the scraping and data classification of the data for the fi
 
 ## Background to the Dataset
 
-Ikman.lk is a famous Sri Lankan website, with a reputation as a second hand online marketplace. Many car ads are posted on the site daily, at a rate of roughly 6 - 7 an hour during the course of data gathering for this module. For this reason, it was chosen as an ideal source for data.
+**Ikman.lk** is a famous Sri Lankan website, with a reputation as a second hand online marketplace. Many car ads are posted on the site daily, at a rate of roughly **6 - 7 an hour** during the course of data gathering for this module. For this reason, it was chosen as an ideal source for data.
 
-Ikman stores roughly 2 months worth of car listings, which amounted to about 5400 listings. However, as the price of listings may be updated, using the time of posting as a time label would not be suitable for analysis of the price variation over time. Suggestions would be to run the scripts every month or so and gather different datasets and compare. 
+Ikman stores roughly 2 months worth of car listings, which amounted to about **5400 listings**. However, as the price of listings may be updated, using the time of posting as a time label would not be suitable for analysis of the price variation over time. Suggestions would be to run the scripts every month or so and gather different datasets and compare. 
 
-The data was scraped using the scraper.py program in the repository. It utilised python's requests library along with BeautifulSoup, to parse the retrieved HTML pages of each car ad and extract all the relevant fields of data from the site. This was all then compiled into a csv for checking and cleaning.
+The data was scraped using the scraper.py program in the repository. It utilised python's **requests** library along with **BeautifulSoup**, to parse the retrieved HTML pages of each car ad and extract all the relevant fields of data from the site. This was all then compiled into a csv for checking and cleaning.
 
-Additionally, in order to give the dataset higher diversity, another popular Sri Lankan car website - Riyasewana.com -  was scraped in a similar manner to ikman. The model utilizes these combined datasets for training. 
+Additionally, in order to give the dataset higher diversity, another popular Sri Lankan car website - **Riyasewana.com** -  was scraped in a similar manner to ikman. The model utilizes these combined datasets for training. 
 
 ## Modifications to the compiled dataset 
 
 The data was cleaned by fixing typos, removing duplicate entries, as well as entries that had been removed from the site in the short interval between retrieving the URL and scraping the data from the HTML. 
 
-Roughly 20% of cars did not have a Body Type specified. These were manually entered subsequently, based on publicly available information about the car model. Certain liberties were taken in categorising specific car models into body types, especially between the Crossover and SUV categories. 
+Roughly **20% of cars** did not have a *Body Type* specified. These were manually entered subsequently, based on publicly available information about the car model. Certain liberties were taken in categorising specific car models into body types, especially between the Crossover and SUV categories. 
 
 Subsequently it was discovered that certain factors such as *Edition, Body Type,* and *Negotiability* did not contribute positively to the model, and these categories were dropped.
 

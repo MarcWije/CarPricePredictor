@@ -3,13 +3,16 @@ from bs4 import BeautifulSoup
 import pandas as pd
 import os
 
+# Change as needed
 os.chdir("E:/7th Semester/Machine Learning/")
 
+# CSV file to store the retrieved data
 file_path = 'riya-scrapes.csv'
 write_header = not os.path.exists(file_path)
 
-
-for i in range(215, 233): 
+# Iterates over each webpage on the site to obtain all car listings. 
+# range should be modified based on the current number of listings on the site.
+for i in range(1, 233): 
     all_data = []
     urls = []
     link = "https://riyasewana.com/search/cars?page=" + str(i)
@@ -21,8 +24,10 @@ for i in range(215, 233):
         response = requests.get(link, headers=header)
         soupint = BeautifulSoup(response.content, 'html.parser')
 
+        # List of all listings in a page
         adlinks = soupint.find_all('h2', class_ ='more')
 
+        # Adds each listings url to the urls list
         for adlink in adlinks:
             a_tag = adlink.find('a')
             truelink = a_tag['href']
@@ -32,6 +37,7 @@ for i in range(215, 233):
     except Exception as e:
         print(f"Failed to do anything")
 
+    # Scrapes the data in each listing
     for url in urls:
         try:
             headers = {
@@ -55,6 +61,7 @@ for i in range(215, 233):
                     value = value_element.get_text(strip=True)
                     data[label] = value
 
+            # Structures the final data
             final_data = {
                 'Brand': data.get('Make'),
                 'Model': data.get('Model'),
@@ -71,6 +78,7 @@ for i in range(215, 233):
         except Exception as e:
             print(f"Failed to scrape {url}: {e}")
 
+    # Adds all the data into a DataFrame
     df = pd.DataFrame(all_data)
     df.to_csv(file_path, mode='a', header=write_header, index=False)
 
