@@ -29,4 +29,8 @@ Other potential issues with the data may include typos and mistakes on the part 
 
 ## Machine Learning Model
 
-Initially, this task was determined to be a regression problem, as the output value needed to be more or less a continuous range of prices.  
+Initially, this task was determined to be a regression problem, as the output value needed to be more or less a continuous range of prices. However, it was quickly apparent that *Multivariable Linear Regression* was a poor choice for the model, as many of the factors had non-linear relationships with the Price of the car, which was the desired predicted output. 
+
+Therefore three commonly used ensemble methods were chosen: sklearn's **RandomForestRegressor**, **XGBoost Regressor**, and **LightGBM Regressor**. XGBoost and LightGBM used Gradient Boosting techniques in order to fit data. The two main metrics used to evaluate these models' performance were *R<sup>2</sup> Score* and *RMSE (Root Mean Squared Error)*. 
+
+After much hyperparameter fine-tuning, and dataset pruning, it became apparent that LGBM consistently outperformed the other two, both in terms of accuracy along with speed. 
