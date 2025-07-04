@@ -75,7 +75,7 @@ r2l = []
 rmsel =[]
 est = [] 
 
-for i in range(1, 100, 10):
+for i in range(1, 30):
     #model = learning_rate = 0.06,n_estimators = 613
     j = i/100
     lgbm = LGBMRegressor(verbose = -1, learning_rate = j, n_estimators= 613)
@@ -86,13 +86,13 @@ for i in range(1, 100, 10):
     r2 = skm.r2_score(y_test, y_pred3)
     rmse = skm.root_mean_squared_error(y_test, y_pred3)
 
-    print("LightGBM with n_estimators:", i ,"\n")
+    print("LightGBM with learning_rate", j ,"\n")
     print("R² Score:", r2)
     print("RMSE:", rmse)
 
     r2l.append(r2)
     rmsel.append(rmse)
-    est.append(i)
+    est.append(j)
 
 #plt.scatter(y_test, y_pred1, alpha=0.3, label='Random Forest', color='blue')
 #plt.scatter(y_test, y_pred2, alpha=0.3, label='XGBoost', color='green')
@@ -111,5 +111,5 @@ plt.show()
 results_df = pd.DataFrame({'Actual Price': y_test, 'Predicted Price (LightGBM)': y_pred3})
 results_df.to_csv('model_predictions.csv', index=False)
 
-estimators_df = pd.DataFrame({'No. of Estimators': est, 'RMSE': rmsel, "R2": r2l})
+estimators_df = pd.DataFrame({'Learning Rate': est, 'RMSE': rmsel, "R2": r2l})
 estimators_df.to_csv('estimators.csv', index=False)
