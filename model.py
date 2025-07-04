@@ -52,8 +52,8 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
 
 
 param_grid_rf = {
-    'n_estimators': [100, 300, 600],
-    'max_depth': [10, 20, 30],
+    'n_estimators': [500, 700, 900],
+    'max_depth': [5, 9, 12],
     'min_samples_leaf': [1, 2, 4]
 }
 
@@ -91,7 +91,7 @@ rf_time = time.time() - start
 print("Best Random Forest Params:", grid_rf.best_params_)
 print("Best RMSE Score:", -grid_rf.best_score_)
 print(f"Training Time (RF): {rf_time:.2f} seconds\n")
-print("Cross-validated R²:", grid_rf.cv_results_['mean_test_r2'][grid_rf.best_index_])
+print("Cross-validated R²:", grid_rf.cv_results_['mean_test_r2'][grid_rf.best_index_], "\n")
 
 start = time.time()
 grid_xgb = GridSearchCV(estimator=xgb, param_grid=param_grid_xgb, cv=5, scoring=scoring, refit='rmse', n_jobs=-1)
@@ -109,7 +109,7 @@ grid_lgbm.fit(X_train, y_train)
 lgbm_time = time.time() - start
 
 print("Best LightGBM Params:", grid_lgbm.best_params_)
-print("Best RMSE Score:", grid_lgbm.best_score_)
+print("Best RMSE Score:", -grid_lgbm.best_score_)
 print(f"Training Time (LGBM): {lgbm_time:.2f} seconds")
 print("Cross-validated R²:", grid_lgbm.cv_results_['mean_test_r2'][grid_lgbm.best_index_])
 

@@ -99,7 +99,27 @@ Removed some false data from the scrapes
 Added comments to python scripts and updated the README to be more comprehensive
 
 **4th July 2025** *2:06pm*
+
 Added a comparison of all 3 models side by side
 
 > Under Rs. 100 Million: 14128 entries total, LGBM RMSE: 3,437,160.7, R2 Score: 0.9450
 > No Filter:  14266 entries total, LGBM RMSE: 6,848,711.4, R2 Score: 0.9003
+
+*4:41pm*
+
+Results of Grid Search:
+
+>Best Random Forest Params: {'max_depth': 30, 'min_samples_leaf': 1, 'n_estimators': 600}
+>Best RMSE Score: 3989102.748922088
+>Training Time (RF): 646.28 seconds
+>Cross-validated R²: 0.9278063202403288
+
+>Best XGBoost Params: {'learning_rate': 0.1, 'max_depth': 5, 'n_estimators': 700}
+>Best RMSE: 3874663.0912041427
+>Training Time (XGB): 304.64 seconds
+>Cross-validated R²: 0.9320513439566709
+
+>Best LightGBM Params: {'learning_rate': 0.1, 'max_depth': 12, 'n_estimators': 700}
+>Best RMSE Score: -3812577.860418172
+>Training Time (LGBM): 91.16 seconds
+>Cross-validated R²: 0.9340429427762142
