@@ -75,9 +75,10 @@ r2l = []
 rmsel =[]
 est = [] 
 
-for i in range(1, 1002, 100):
+for i in range(1, 100, 10):
     #model = learning_rate = 0.06,n_estimators = 613
-    lgbm = LGBMRegressor(verbose = -1, learning_rate = 0.09, n_estimators= i)
+    j = i/100
+    lgbm = LGBMRegressor(verbose = -1, learning_rate = j, n_estimators= 613)
 
     lgbm.fit(X_train, y_train)
     y_pred3 = lgbm.predict(X_test)
