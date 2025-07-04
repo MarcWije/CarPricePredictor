@@ -50,71 +50,40 @@ print(df)
 # Optimal random_state is 47
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
 
-
-param_grid_rf = {
-    'n_estimators': [500, 700, 900],
-    'max_depth': [20, 30, 40],
-    'min_samples_leaf': [1, 2, 4]
-}
-
-param_grid_xgb = {
-    'n_estimators': [500, 700, 900],
-    'learning_rate': [0.01, 0.05, 0.1],
-    'max_depth': [5, 9, 12]
-}
-
-param_grid_lgbm = {
-    'n_estimators': [500, 700, 900],
-    'learning_rate': [0.01, 0.05, 0.1],
-    'max_depth': [5, 9, 12]
-}
-
-scoring = {
-    'rmse': 'neg_root_mean_squared_error',
-    'r2': 'r2'
-}
-
+'''
 # max depth = 29 ideally, min_samples_leaf = 2 , n_estimators = 106
 rf = RandomForestRegressor(oob_score=True, random_state = 51)
+
+rf.fit(X_train, y_train)
+y_pred1 = rf.predict(X_test)
+
+print("RandomForest")
+print("R² Score:", skm.r2_score(y_test, y_pred1))
+print("RMSE:", skm.root_mean_squared_error(y_test, y_pred1))
 
 # max_depth = 9 seems ideal so far, learning_Rate = 0.009, n_estimators = 1320
 xgb = XGBRegressor(random_state = 51)
 
-#model = learning_rate = 0.06,n_estimators = 613
-lgbm = LGBMRegressor(random_state = 51, verbose = -1)
+xgb.fit(X_train, y_train)
+y_pred2 = xgb.predict(X_test)
 
-start = time.time()
-grid_rf = GridSearchCV(estimator=rf, param_grid=param_grid_rf, cv=5, scoring=scoring, refit='rmse', n_jobs=-1)
-grid_rf.fit(X_train, y_train)
-rf_time = time.time() - start
+print("XGBoost")
+print("R² Score:", skm.r2_score(y_test, y_pred2))
+print("RMSE:", skm.root_mean_squared_error(y_test, y_pred2))
+'''
+for i in range(500, 700, 20):
+    #model = learning_rate = 0.06,n_estimators = 613
+    lgbm = LGBMRegressor(random_state = 51, verbose = -1, learning_rate = 0.06, n_estimators= i)
 
-print("Best Random Forest Params:", grid_rf.best_params_)
-print("Best RMSE Score:", -grid_rf.best_score_)
-print(f"Training Time (RF): {rf_time:.2f} seconds\n")
-print("Cross-validated R²:", grid_rf.cv_results_['mean_test_r2'][grid_rf.best_index_])
+    lgbm.fit(X_train, y_train)
+    y_pred3 = lgbm.predict(X_test)
 
-start = time.time()
-grid_xgb = GridSearchCV(estimator=xgb, param_grid=param_grid_xgb, cv=5, scoring=scoring, refit='rmse', n_jobs=-1)
-grid_xgb.fit(X_train, y_train)
-xgb_time = time.time() - start
+    print("LightGBM with n_estimators:", i ,"\n")
+    print("R² Score:", skm.r2_score(y_test, y_pred3))
+    print("RMSE:", skm.root_mean_squared_error(y_test, y_pred3))
 
-print("Best XGBoost Params:", grid_xgb.best_params_)
-print("Best RMSE:", -grid_xgb.best_score_)
-print(f"Training Time (XGB): {xgb_time:.2f} seconds\n")
-print("Cross-validated R²:", grid_xgb.cv_results_['mean_test_r2'][grid_xgb.best_index_])
-
-start = time.time()
-grid_lgbm = GridSearchCV(estimator=lgbm, param_grid=param_grid_lgbm, cv=5, scoring=scoring, refit='rmse', n_jobs=-1)
-grid_lgbm.fit(X_train, y_train)
-lgbm_time = time.time() - start
-
-print("Best LightGBM Params:", grid_lgbm.best_params_)
-print("Best RMSE Score:", -grid_lgbm.best_score_)
-print(f"Training Time (LGBM): {lgbm_time:.2f} seconds")
-print("Cross-validated R²:", grid_lgbm.cv_results_['mean_test_r2'][grid_lgbm.best_index_])
-
-'''plt.scatter(y_test, y_pred1, alpha=0.3, label='Random Forest', color='blue')
-plt.scatter(y_test, y_pred2, alpha=0.3, label='XGBoost', color='green')
+#plt.scatter(y_test, y_pred1, alpha=0.3, label='Random Forest', color='blue')
+#plt.scatter(y_test, y_pred2, alpha=0.3, label='XGBoost', color='green')
 plt.scatter(y_test, y_pred3, alpha=0.3, label='LightGBM', color='orange')
 
 plt.plot([y_test.min(), y_test.max()], [y_test.min(), y_test.max()], 'r--', label='Ideal Prediction')
@@ -127,5 +96,5 @@ plt.grid(True)
 plt.tight_layout()
 plt.show()
 
-results_df = pd.DataFrame({'Actual Price': y_test, 'Predicted Price (Random Forest)': y_pred1, 'Predicted Price (XGBoost)': y_pred2, 'Predicted Price (LightGBM)': y_pred3})
-results_df.to_csv('model_predictions.csv', index=False)'''
+results_df = pd.DataFrame({'Actual Price': y_test, 'Predicted Price (LightGBM)': y_pred3})
+results_df.to_csv('model_predictions.csv', index=False)
