@@ -24,6 +24,9 @@ df2 = pd.read_csv('riya-scrapes.csv')
 df = pd.concat([df, df2], ignore_index=True)
 df = df[df["Fuel Type"] != "Electric"]
 
+average_price = df['Price Rs.'].mean()
+print("Average Price:", average_price)
+
 df["Brand Model"] = df["Brand"] + " " + df["Model"]
 df.drop(columns=["Brand", "Model"], inplace=True)
 df['Brand Model'] = df['Brand Model'].str.split().str[:2].str.join(" ")
