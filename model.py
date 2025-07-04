@@ -48,7 +48,7 @@ y = df["Price Rs."]
 X = df.drop(columns=["Price Rs."])
 print(df)
 # Optimal random_state is 47
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=47)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
 
 '''
 # max depth = 29 ideally, min_samples_leaf = 2 , n_estimators = 106
@@ -75,9 +75,9 @@ r2l = []
 rmsel =[]
 est = [] 
 
-for i in range(1, 1001, 50):
+for i in range(1, 1002, 100):
     #model = learning_rate = 0.06,n_estimators = 613
-    lgbm = LGBMRegressor(random_state = 51, verbose = -1, learning_rate = 0.06, n_estimators= i)
+    lgbm = LGBMRegressor(verbose = -1, learning_rate = 0.09, n_estimators= i)
 
     lgbm.fit(X_train, y_train)
     y_pred3 = lgbm.predict(X_test)
