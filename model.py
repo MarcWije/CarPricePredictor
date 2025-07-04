@@ -78,7 +78,7 @@ est = []
 
 #model = learning_rate = 0.06,n_estimators = 613
 
-lgbm = LGBMRegressor(verbose = -1, learning_rate = j, n_estimators= 613, random_state = 42)
+lgbm = LGBMRegressor(verbose = -1, learning_rate = 0.06, n_estimators= 613, random_state = 42)
 
 lgbm.fit(X_train, y_train)
 y_pred3 = lgbm.predict(X_test)
