@@ -49,32 +49,49 @@ print(df)
 # Optimal random_state is 47
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
 
-'''
+
 # max depth = 29 ideally, min_samples_leaf = 2 , n_estimators = 106
-model = RandomForestRegressor(n_estimators=106, oob_score=True, random_state = 51, max_depth = 29, min_samples_leaf = 2)
-print("Random Forest Regressor : ")
+model1 = RandomForestRegressor(n_estimators=613, oob_score=True, random_state = 51, max_depth = 29, min_samples_leaf = 2)
 
 # max_depth = 9 seems ideal so far, learning_Rate = 0.009, n_estimators = 1320
-model = XGBRegressor(n_estimators= 1320, learning_rate= 0.009, max_depth= 9)
-print("XGBoost Regressor : ")
-'''
+model2 = XGBRegressor(n_estimators= 613, learning_rate= 0.057, max_depth= 9)
 
 #model = learning_rate = 0.06,n_estimators = 613
-model = LGBMRegressor(n_estimators= 613, learning_rate= 0.057, verbose = -1)
-print("LGBM Regressor : ")
+model3 = LGBMRegressor(n_estimators= 613, learning_rate= 0.057, verbose = -1)
 
-model.fit(X_train, y_train)
-y_pred = model.predict(X_test)
+model1.fit(X_train, y_train)
+y_pred1 = model1.predict(X_test)
 
+print("RandomForest")
+print("R² Score:", skm.r2_score(y_test, y_pred1))
+print("RMSE:", skm.root_mean_squared_error(y_test, y_pred1))
 
-print("R² Score:", skm.r2_score(y_test, y_pred))
-print("RMSE:", skm.root_mean_squared_error(y_test, y_pred))
+model2.fit(X_train, y_train)
+y_pred2 = model2.predict(X_test)
 
-plt.scatter(y_test, y_pred, alpha=0.3)
+print("XGBoost")
+print("R² Score:", skm.r2_score(y_test, y_pred2))
+print("RMSE:", skm.root_mean_squared_error(y_test, y_pred2))
+
+model3.fit(X_train, y_train)
+y_pred3 = model3.predict(X_test)
+
+print("LightGBM")
+print("R² Score:", skm.r2_score(y_test, y_pred3))
+print("RMSE:", skm.root_mean_squared_error(y_test, y_pred3))
+
+plt.scatter(y_test, y_pred1, alpha=0.3, label='Random Forest', color='blue')
+plt.scatter(y_test, y_pred2, alpha=0.3, label='XGBoost', color='green')
+plt.scatter(y_test, y_pred3, alpha=0.3, label='LightGBM', color='orange')
+
+plt.plot([y_test.min(), y_test.max()], [y_test.min(), y_test.max()], 'r--', label='Ideal Prediction')
+
 plt.xlabel("Actual Price")
 plt.ylabel("Predicted Price")
-plt.title("Actual vs Predicted Price")
-plt.plot([0, 100_000_000], [0, 100_000_000], 'r--')  # 45-degree line
+plt.title("Actual vs Predicted Car Prices")
+plt.legend()
+plt.grid(True)
+plt.tight_layout()
 plt.show()
 
 results_df = pd.DataFrame({'Actual Price': y_test, 'Predicted Price': y_pred})
