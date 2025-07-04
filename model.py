@@ -78,7 +78,7 @@ est = []
 for i in range(1, 30):
     #model = learning_rate = 0.06,n_estimators = 613
     j = i/100
-    lgbm = LGBMRegressor(verbose = -1, learning_rate = j, n_estimators= 613)
+    lgbm = LGBMRegressor(verbose = -1, learning_rate = j, n_estimators= 613, random_state = 42)
 
     lgbm.fit(X_train, y_train)
     y_pred3 = lgbm.predict(X_test)
@@ -108,8 +108,7 @@ plt.grid(True)
 plt.tight_layout()
 plt.show()
 
-plt.scatter(est, rmsel, alpha=0.3,  label="LightGBM")
-plt.plot([min(est), max(est)],[min(rmsel), max(rmsel)])
+plt.scatter(est, rmsel, color = 'orange', label="LightGBM")
 plt.xlabel("Learning Rate")
 plt.ylabel("RMSE")
 plt.title("Learning Rate vs. RMSE")
