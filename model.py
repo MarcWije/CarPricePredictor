@@ -42,7 +42,7 @@ df.drop(columns=categorical_cols, inplace=True)
 
 df = df.astype(int)
 
-df = df[df["Price Rs."] <= 100000000]
+#df = df[df["Price Rs."] <= 100000000]
 y = df["Price Rs."]  
 X = df.drop(columns=["Price Rs."])
 print(df)
@@ -94,5 +94,5 @@ plt.grid(True)
 plt.tight_layout()
 plt.show()
 
-results_df = pd.DataFrame({'Actual Price': y_test, 'Predicted Price': y_pred})
+results_df = pd.DataFrame({'Actual Price': y_test, 'Predicted Price (Random Forest)': y_pred1, 'Predicted Price (XGBoost)': y_pred2, 'Predicted Price (LightGBM)': y_pred3})
 results_df.to_csv('model_predictions.csv', index=False)

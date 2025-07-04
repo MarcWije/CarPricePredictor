@@ -100,3 +100,6 @@ Added comments to python scripts and updated the README to be more comprehensive
 
 **4th July 2025** *2:06pm*
 Added a comparison of all 3 models side by side
+
+> Under Rs. 100 Million: 14128 entries total, LGBM RMSE: 3,437,160.7, R2 Score: 0.9450
+> No Filter:  14266 entries total, LGBM RMSE: 6,848,711.4, R2 Score: 0.9003
