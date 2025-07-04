@@ -48,7 +48,7 @@ y = df["Price Rs."]
 X = df.drop(columns=["Price Rs."])
 print(df)
 # Optimal random_state is 47
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=47)
 
 '''
 # max depth = 29 ideally, min_samples_leaf = 2 , n_estimators = 106
@@ -71,7 +71,7 @@ print("XGBoost")
 print("R² Score:", skm.r2_score(y_test, y_pred2))
 print("RMSE:", skm.root_mean_squared_error(y_test, y_pred2))
 '''
-for i in range(500, 700, 20):
+for i in range(300, 800, 50):
     #model = learning_rate = 0.06,n_estimators = 613
     lgbm = LGBMRegressor(random_state = 51, verbose = -1, learning_rate = 0.06, n_estimators= i)
 
