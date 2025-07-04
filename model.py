@@ -108,6 +108,16 @@ plt.grid(True)
 plt.tight_layout()
 plt.show()
 
+plt.scatter(rmsel, est, label="LightGBM")
+plt.plot([min(est), max(est)],[min(est), max(est)])
+plt.xlabel("Learning Rate")
+plt.ylabel("RMSE")
+plt.title("Learning Rate vs. RMSE")
+plt.legend()
+plt.grid(True)
+plt.tight_layout()
+plt.show()
+
 results_df = pd.DataFrame({'Actual Price': y_test, 'Predicted Price (LightGBM)': y_pred3})
 results_df.to_csv('model_predictions.csv', index=False)
 
