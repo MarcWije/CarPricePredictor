@@ -72,10 +72,10 @@ param_grid_lgbm = {
 rf = RandomForestRegressor(oob_score=True, random_state = 51)
 
 # max_depth = 9 seems ideal so far, learning_Rate = 0.009, n_estimators = 1320
-xgb = XGBRegressor(n_estimators= 613, learning_rate= 0.09, max_depth= 9)
+xgb = XGBRegressor(random_state = 51)
 
 #model = learning_rate = 0.06,n_estimators = 613
-lgbm = LGBMRegressor(n_estimators= 613, learning_rate= 0.057, verbose = -1)
+lgbm = LGBMRegressor(random_state = 51, verbose = -1)
 
 grid_rf = GridSearchCV(estimator=rf, param_grid=param_grid_rf, cv=5, scoring='r2', n_jobs=-1)
 grid_rf.fit(X_train, y_train)
