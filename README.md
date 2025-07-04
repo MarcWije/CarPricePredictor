@@ -9,7 +9,9 @@ Included is a log of the scraping and data classification of the data for the fi
 
 An issue that is becoming increasingly recognizable as being a familiar feature of the Sri Lankan experience is the state of the Vehicle Market. Forced to halt imports over the COVID-19 pandemic and subsequent economic crisis, the market has suffered from a lack of fresh goods along with the drastic depreciation of the Sri Lankan Rupee (LKR). With vehicle imports gradually opening up in the year 2025, the market is unmaginably changed compared to the market that existed 6 years ago. As brand-new vehicles are out of reach for the majority of the population, the highest demand is found in the used car market.
 
-The Used Car market in Sri Lanka is highly volatile, and prices may fluctuate by roughly 30% within the span of a few months. In order to aid 
+The Used Car market in Sri Lanka is highly volatile, and prices may fluctuate by roughly 30% within the span of a few months. In order to aid citizens in understanding what the value of a given vehicle may be, it was decided to use Machine Learning trained on commonly available data of the used car market, in order to predict the value of a vehicle based on key parameters commonly considered when purchasing a car. 
+
+Included in this repository are the scripts to generate new datasets from **ikman.lk** and **riyasewana.com**, ensuring that the model can be easily trained on new data.
 
 ## Background to the Dataset
 
