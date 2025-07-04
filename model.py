@@ -71,16 +71,27 @@ print("XGBoost")
 print("R² Score:", skm.r2_score(y_test, y_pred2))
 print("RMSE:", skm.root_mean_squared_error(y_test, y_pred2))
 '''
-for i in range(300, 800, 50):
+r2l = []
+rmsel =[]
+est = [] 
+
+for i in range(1, 1001, 50):
     #model = learning_rate = 0.06,n_estimators = 613
     lgbm = LGBMRegressor(random_state = 51, verbose = -1, learning_rate = 0.06, n_estimators= i)
 
     lgbm.fit(X_train, y_train)
     y_pred3 = lgbm.predict(X_test)
 
+    r2 = skm.r2_score(y_test, y_pred3)
+    rmse = skm.root_mean_squared_error(y_test, y_pred3)
+
     print("LightGBM with n_estimators:", i ,"\n")
-    print("R² Score:", skm.r2_score(y_test, y_pred3))
-    print("RMSE:", skm.root_mean_squared_error(y_test, y_pred3))
+    print("R² Score:", r2)
+    print("RMSE:", rmse)
+
+    r2l.append(r2)
+    rmsel.append(rmse)
+    est.append(i)
 
 #plt.scatter(y_test, y_pred1, alpha=0.3, label='Random Forest', color='blue')
 #plt.scatter(y_test, y_pred2, alpha=0.3, label='XGBoost', color='green')
@@ -98,3 +109,6 @@ plt.show()
 
 results_df = pd.DataFrame({'Actual Price': y_test, 'Predicted Price (LightGBM)': y_pred3})
 results_df.to_csv('model_predictions.csv', index=False)
+
+estimators_df = pd.DataFrame({'No. of Estimators': est, 'RMSE': rmsel, "R2": r2l})
+estimators_df.to_csv('estimators.csv', index=False)
