@@ -5,6 +5,10 @@ A Web App implementation of this model was also submitted as the final Project f
 
 Included is a log of the scraping and data classification of the data for the final assignment, which is a Car Price predictor.
 
+## Introduction to the Problem
+
+An issue that is becoming increasingly recognizable as being a familiar feature of the Sri Lankan experience is the state of the Vehicle Market. Forced to halt imports over the COVID-19 pandemic and subsequent economic crisis, the market has suffered from a lack of fresh goods along with the drastic depreciation of the Sri Lankan Rupee (LKR). 
+
 ## Background to the Dataset
 
 **Ikman.lk** is a famous Sri Lankan website, with a reputation as a second hand online marketplace. Many car ads are posted on the site daily, at a rate of roughly **6 - 7 an hour** during the course of data gathering for this module. For this reason, it was chosen as an ideal source for data.
