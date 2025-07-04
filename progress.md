@@ -97,3 +97,6 @@ Removed some false data from the scrapes
 **28th June 2025** *1:36pm*
 
 Added comments to python scripts and updated the README to be more comprehensive
+
+**4th July 2025** *2:06pm*
+Added a comparison of all 3 models side by side
