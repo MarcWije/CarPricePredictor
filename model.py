@@ -46,7 +46,7 @@ df.drop(columns=categorical_cols, inplace=True)
 
 df = df.astype(int)
 
-df = df[df["Price Rs."] <= 40000000]
+df = df[df["Price Rs."] <= 20000000]
 y = df["Price Rs."]  
 X = df.drop(columns=["Price Rs."])
 print(df)
