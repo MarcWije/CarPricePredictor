@@ -3,6 +3,7 @@ import time
 import numpy as np
 import matplotlib.pyplot as plt
 import os
+import pickle
 from xgboost import XGBRegressor
 from lightgbm import LGBMRegressor
 from sklearn.model_selection import train_test_split
@@ -92,6 +93,8 @@ rmse = skm.root_mean_squared_error(y_test, y_pred3)
 print("R² Score:", r2)
 print("RMSE:", rmse)
 
+with open("car-predict.pkl", "wb") as f:
+    pickle.dump(lgbm, f)
 
 #plt.scatter(y_test, y_pred1, alpha=0.3, label='Random Forest', color='blue')
 #plt.scatter(y_test, y_pred2, alpha=0.3, label='XGBoost', color='green')
