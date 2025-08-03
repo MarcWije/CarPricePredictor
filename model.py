@@ -14,13 +14,13 @@ from sklearn.model_selection import GridSearchCV
 
 os.chdir("E:/7th Semester/Machine Learning/")
 
-df = pd.read_csv('ikman-scrapes.csv')
+df = pd.read_csv('data/ikman-scrapes.csv')
 
 # Drops columns that seemingly do not contribute to the accuracy of the model
 df.drop(columns=["Negotiable", "Edition", "Body Type"], inplace=True)
 
 
-df2 = pd.read_csv('riya-scrapes.csv')
+df2 = pd.read_csv('data/riya-scrapes.csv')
 df = pd.concat([df, df2], ignore_index=True)
 df = df[df["Fuel Type"] != "Electric"]
 
