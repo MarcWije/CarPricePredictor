@@ -3,3 +3,77 @@
 {% block title %}
     Home
 {% endblock %}
+
+{% block main %}
+<div class="container padded">
+    <table>
+        <tbody>
+            <tr>
+                <td>
+                    Brand
+                </td>
+                <td>
+                    {{ brand }}
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Model
+                </td>
+                <td>
+                    {{ model }}
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Fuel Type
+                </td>
+                <td>
+                    {{ fuel-type }}
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Transmission
+                </td>
+                <td>
+                    {{ Transmission }}
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Mileage (km)
+                </td>
+                <td>
+                    {{ mileage }}
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Engine Capacity (cc)
+                </td>
+                <td>
+                    {{ engine-capacity }}
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Year of Manufacture
+                </td>
+                <td>
+                    {{ yom }}
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<div class="container-padded">
+    <p class="announcement">
+        Your predicted price is:
+    </p>
+    <p>
+        Rs. {{ price }}
+    </p>
+</div>
+{% endblock %}

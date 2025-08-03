@@ -35,15 +35,17 @@ df['Brand Model'] = df['Brand Model'].str.title()
 
 # List of categorical columns
 categorical_cols = ["Brand Model", "Fuel Type", "Transmission"]
-
-# One-hot encoding
-#df = pd.get_dummies(df, columns=categorical_cols, drop_first=True)
+encoders = {}
 
 # Label encoding
 for l in categorical_cols:
     encoder = LabelEncoder()
     df[l + "_E"]=encoder.fit_transform(df[l].astype(str))
+    encoders[l] = encoder
 df.drop(columns=categorical_cols, inplace=True)
+
+# One-hot encoding
+#df = pd.get_dummies(df, columns=categorical_cols, drop_first=True)
 
 df = df.astype(int)
 
@@ -92,6 +94,9 @@ rmse = skm.root_mean_squared_error(y_test, y_pred3)
 
 print("R² Score:", r2)
 print("RMSE:", rmse)
+
+with open("app/encoders.pkl", "wb") as f:
+    pickle.dump(encoders, f)
 
 with open("app/car-predict.pkl", "wb") as f:
     pickle.dump(lgbm, f)

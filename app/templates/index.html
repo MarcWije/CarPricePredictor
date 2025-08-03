@@ -10,13 +10,28 @@
     <div class="section">
         <form action="/predict" method="post" id="predictionForm">
             <div class="mb-3">
-                <input autocomplete="on" autofocus class="form-control mx-auto w-auto" name="" placeholder="Stock Symbol" type="text" required>
+                <input autocomplete="on" autofocus class="form-control mx-auto w-auto" name="brand" placeholder="Brand" type="text">
             </div>
             <div class="mb-3">
-                <input autocomplete="off" class="form-control mx-auto w-auto" name="shares" placeholder="No. of Shares" type="text" required>
+                <input autocomplete="on" class="form-control mx-auto w-auto" name="model" placeholder="Model" type="text">
             </div>
             <div class="mb-3">
-                <button class="btn btn-primary" type="submit"> Buy </button>
+                <input autocomplete="on" class="form-control mx-auto w-auto" name="fuel-type" placeholder="Fuel Type" type="text">
+            </div>
+            <div class="mb-3">
+                <input autocomplete="on" class="form-control mx-auto w-auto" name="transmission" placeholder="Transmission" type="text">
+            </div>
+            <div class="mb-3">
+                <input autocomplete="off" class="form-control mx-auto w-auto" name="mileage" placeholder="Mileage (km)" type="text">
+            </div>
+            <div class="mb-3">
+                <input autocomplete="on" class="form-control mx-auto w-auto" name="engine-capacity" placeholder="Engine Capacity (cc)" type="text">
+            </div>
+            <div class="mb-3">
+                <input autocomplete="on" class="form-control mx-auto w-auto" name="yom" placeholder="Year of Manufacture" type="text">
+            </div>
+            <div class="mb-3">
+                <button class="btn btn-primary" type="submit"> Predict </button>
             </div>
         </form>
     </div>
