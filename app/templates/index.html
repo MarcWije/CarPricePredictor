@@ -3,3 +3,23 @@
 {% block title %}
     Home
 {% endblock %}
+
+{% block main %}
+<div class="container padded">
+    <p class="mainText">Input your desired vehicle criteria here</p>
+    <div class="section">
+        <form action="/predict" method="post" id="predictionForm">
+            <div class="mb-3">
+                <input autocomplete="on" autofocus class="form-control mx-auto w-auto" name="" placeholder="Stock Symbol" type="text" required>
+            </div>
+            <div class="mb-3">
+                <input autocomplete="off" class="form-control mx-auto w-auto" name="shares" placeholder="No. of Shares" type="text" required>
+            </div>
+            <div class="mb-3">
+                <button class="btn btn-primary" type="submit"> Buy </button>
+            </div>
+        </form>
+    </div>
+</div>
+
+{% endblock %}

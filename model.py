@@ -93,7 +93,7 @@ rmse = skm.root_mean_squared_error(y_test, y_pred3)
 print("R² Score:", r2)
 print("RMSE:", rmse)
 
-with open("car-predict.pkl", "wb") as f:
+with open("app/car-predict.pkl", "wb") as f:
     pickle.dump(lgbm, f)
 
 #plt.scatter(y_test, y_pred1, alpha=0.3, label='Random Forest', color='blue')
