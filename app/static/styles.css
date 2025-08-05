@@ -7,13 +7,27 @@
 }
 
 .footer {
-    font-size: 0.5rem
+    font-size: 0.7rem;
+    text-align: center;
+}
+
+.right_column {
+    text-align: right;
+    padding: 1rem;
+}
+
+.left_column {
+    font-weight: 600;
+    text-align: left;
+    padding: 1rem;
 }
 
 table {
     background-color: transparent;
     margin-bottom: 1rem;
-    width: 100%;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 table th,

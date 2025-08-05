@@ -29,8 +29,38 @@ def predict():
     engine_capacity = int(request.form.get("engine-capacity"))
     yom = int(request.form.get("yom"))
 
-    if (not brand) | (not car_model) | (not fuel_type) | (not transmission) | (not mileage) | (not engine_capacity) | (not yom) :
-        return render_template("error.html", msg = "Please fill in all the values")
+    params = [brand, car_model, fuel_type, transmission, mileage, engine_capacity, yom]
+    check = 0
+    
+    if not brand:
+        brand = "Other"
+        check = check + 1
+        msg = msg + "\n" + "Brand has been set to Other by default"
+
+    if not car_model:
+        car_model = "Other"
+        check = check + 1
+        msg = msg + "\n" + "Car Model has been set to Other by default"
+
+    if not fuel_type:
+        fuel_type = "Petrol"
+        check = check + 1
+        msg = msg + "\n" + "Fuel Type has been set to Petrol by default"
+
+    if not transmission:
+        transmission = "Automatic"
+        check = check + 1
+        msg = msg + "\n" + "Transmission has been set to Automatic by default"
+
+    if not mileage: 
+        mileage = 100000
+        check = check + 1
+        msg = msg + "\n" + "Mileage has been set to 100,000km by default"
+
+    
+
+    if (check > 3):
+        return render_template("error.html", msg = "Insufficient data, more than 3 values can't be blank for the model to predict")
 
     data = {
         "Brand Model" : brand + " " + car_model, 

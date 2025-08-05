@@ -25,8 +25,14 @@ df2 = pd.read_csv('data/riya-scrapes.csv')
 df = pd.concat([df, df2], ignore_index=True)
 df = df[df["Fuel Type"] != "Electric"]
 
+df["Brand"] = df["Brand"].fillna("Other")
+df["Model"] = df["Model"].fillna("Other")
+
 average_price = df['Price Rs.'].mean()
 print("Average Price:", average_price)
+
+average_mileage = df['Mileage (km)'].mean()
+print("Mileage (km): ", average_mileage)
 
 df["Brand Model"] = df["Brand"] + " " + df["Model"]
 df.drop(columns=["Brand", "Model"], inplace=True)
@@ -40,7 +46,13 @@ encoders = {}
 # Label encoding
 for l in categorical_cols:
     encoder = LabelEncoder()
-    df[l + "_E"]=encoder.fit_transform(df[l].astype(str))
+    classes = list(df[l].unique())
+    if "Other Other" not in classes:
+        classes.append("Other Other")
+    encoder.fit(classes)
+    # Transform and store encoded values
+    
+    df[l + "_E"]=encoder.transform(df[l].astype(str))
     encoders[l] = encoder
 df.drop(columns=categorical_cols, inplace=True)
 
@@ -95,11 +107,13 @@ rmse = skm.root_mean_squared_error(y_test, y_pred3)
 print("R² Score:", r2)
 print("RMSE:", rmse)
 
+
 with open("app/encoders.pkl", "wb") as f:
     pickle.dump(encoders, f)
 
 with open("app/car-predict.pkl", "wb") as f:
     pickle.dump(lgbm, f)
+
 
 #plt.scatter(y_test, y_pred1, alpha=0.3, label='Random Forest', color='blue')
 #plt.scatter(y_test, y_pred2, alpha=0.3, label='XGBoost', color='green')
