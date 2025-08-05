@@ -25,9 +25,24 @@
     </head>
 
     <body>
+        <nav class="bg-light border navbar navbar-expand-md navbar-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/">Price Predictor</a>
+                <button aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#navbar" data-bs-toggle="collapse" type="button">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbar">
+                        <ul class="navbar-nav me-auto mt-2">
+                            <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+                        </ul>
+                </div>
+            </div>
+        </nav>
         <main class="container py-5 text-center">
             {% block main %}{% endblock %}
         </main>
     </body>
-
+    <footer class="mb-5 container-padded footer">
+        <p>All data for this predictor was obtained from <a href="https://www.ikman.lk">ikman.lk</a> and <a href="https://www.riyasewana.com">riyasewana.com</a></p>
+    </footer>
 </html>

@@ -20,7 +20,7 @@ def index():
 
 @app.route("/predict", methods=["POST"])
 def predict():
-    
+
     brand = request.form.get("brand")
     car_model = request.form.get("model")
     fuel_type = request.form.get("fuel-type")
@@ -28,6 +28,9 @@ def predict():
     mileage = int(request.form.get("mileage"))
     engine_capacity = int(request.form.get("engine-capacity"))
     yom = int(request.form.get("yom"))
+
+    if (not brand) | (not car_model) | (not fuel_type) | (not transmission) | (not mileage) | (not engine_capacity) | (not yom) :
+        return render_template("error.html", msg = "Please fill in all the values")
 
     data = {
         "Brand Model" : brand + " " + car_model, 
@@ -51,5 +54,6 @@ def predict():
 
     price = model.predict([features])
     price = float(price[0])
+    price_read = f"{price:,.2f}"
 
-    return render_template("prediction.html", brand=brand, car_model=car_model, fuel_type=fuel_type, transmission=transmission, mileage=mileage, engine_capacity=engine_capacity, yom=yom, price=price)
+    return render_template("prediction.html", brand=brand, car_model=car_model, fuel_type=fuel_type, transmission=transmission, mileage=mileage, engine_capacity=engine_capacity, yom=yom, price=price_read)
