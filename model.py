@@ -32,7 +32,13 @@ average_price = df['Price Rs.'].mean()
 print("Average Price:", average_price)
 
 average_mileage = df['Mileage (km)'].mean()
-print("Mileage (km): ", average_mileage)
+print("Average Mileage (km): ", average_mileage)
+
+average_eng = df['Engine Capacity (cc)'].mean()
+print("Average Engine Capacity (cc): ", average_eng)
+
+average_yom = df['Year of Manufacture'].mean()
+print("Average Year of Manufacture: ", average_yom)
 
 df["Brand Model"] = df["Brand"] + " " + df["Model"]
 df.drop(columns=["Brand", "Model"], inplace=True)

@@ -2081,7 +2081,7 @@ Honda,Vezel,X Grade,2023,Automatic,Hybrid,SUV / 4x4,1500,22800,15950000,Yes
 Honda,CRV,7 seater,2018,Tiptronic,Petrol,SUV / 4x4,1500,56955,23000000,Yes
 Toyota,Corolla,110,1997,Automatic,Diesel,Saloon,1970,160000,3100000,Yes
 Kia,Sportage,2WD DIESEL CRDI,2015,Automatic,Diesel,SUV / 4x4,2000,140000,12250000,Yes
-Perodua,Bezza,Unknown,2019,Automatic,Petrol,Saloon,10000,190000,6650000,Yes
+Perodua,Bezza,Unknown,2019,Automatic,Petrol,Saloon,1000,190000,6650000,Yes
 Mercedes Benz,E240,Mercedes Benz,2005,Automatic,Petrol,Saloon,2400,120000,8400000,Yes
 Kia,Sorento,Unknown,2011,Automatic,Diesel,SUV / 4x4,2200,124500,12850000,Yes
 Toyota,Prius,Toyota Prius 2013,2013,Automatic,Hybrid,Hatchback,1800,151701,11700000,Yes
@@ -2114,7 +2114,6 @@ Mercedes Benz,S400,Maybach Kitted,2014,Automatic,Petrol,Saloon,3500,70000,525000
 Lexus,Other Model,RX450h,2013,Automatic,Petrol,SUV / 4x4,3500,114000,27000000,Yes
 BMW,X5,X5,2017,Tiptronic,Petrol,SUV / 4x4,2000,73000,34500000,Yes
 Toyota,Land Cruiser Prado,Unknown,2012,Automatic,Diesel,SUV / 4x4,3000,102000,40000000,Yes
-Mitsubishi,Montero,jeep,1978,Manual,Diesel,SUV / 4x4,7190,300000,2575000,Yes
 Mercedes Benz,Other Model,Electric,2015,Automatic,Electric,Saloon,132,35000,9450000,No
 Land Rover,Discovery Sport,Hse 7 Seater 2019,2019,Automatic,Diesel,SUV / 4x4,2000,50000,42800000,Yes
 Honda,CRV,Unknown,2007,Automatic,Petrol,SUV / 4x4,2350,142000,9000000,No
@@ -3146,7 +3145,7 @@ BMW,i8,2017,2017,Automatic,Petrol,Saloon,1500,57000,33500000,Yes
 Mitsubishi,Outlander,PHEV,2014,Automatic,Hybrid,SUV / 4x4,2000,127000,13900000,Yes
 Mercedes Benz,C180,Mercedes Benz,2010,Automatic,Petrol,Saloon,1800,85000,10850000,Yes
 Ford,Raptor Ranger,2025,2025,Automatic,Diesel,SUV / 4x4,2000,0,36000000,No
-Ford,Other Model,Ford,1984,Manual,Diesel,Saloon,10000,150000,1450000,Yes
+Ford,Other Model,Ford,1984,Manual,Diesel,Saloon,1000,150000,1450000,Yes
 Toyota,Allion,240,2003,Automatic,Petrol,Saloon,1400,187400,7500000,Yes
 Suzuki,Baleno,Zeta,2016,Automatic,Petrol,Hatchback,1200,41000,8550000,Yes
 Kia,Sportage,Unknown,2016,Automatic,Petrol,SUV / 4x4,2000,106000,14900000,No
@@ -3166,7 +3165,6 @@ Toyota,Land Cruiser Sahara,Diesal Full Option,2016,Automatic,Diesel,SUV / 4x4,42
 Toyota,Yaris,ATIV (Brand New),2025,Automatic,Petrol,Saloon,1200,0,13700000,No
 Toyota,Land Cruiser Prado,250 VX Brand New,2024,Automatic,Petrol,SUV / 4x4,2700,0,66500000,Yes
 Honda,City,RS 1.0 Turbo B/NEW,2025,Automatic,Petrol,Saloon,1000,20,14850000,Yes
-Toyota,Sprinter,1997,1997,Automatic,Petrol,Saloon,8000,225000,2800000,No
 Ford,Raptor Ranger,2025,2025,Tiptronic,Diesel,SUV / 4x4,2000,0,36800000,Yes
 Toyota,Aqua,S Grade Hybrid,2013,Automatic,Hybrid,Hatchback,1500,149000,7500000,Yes
 Mercedes Benz,GLC 250,Fully Loaded SUV,2017,Automatic,Petrol,Coupe,2000,100000,29500000,Yes
@@ -3704,7 +3702,7 @@ Hyundai,Accent,Unknown,2001,Automatic,Petrol,Saloon,1500,100000,2750000,No
 Nissan,Bluebird,SU14,1998,Automatic,Diesel,Saloon,2000,185000,2725000,Yes
 Toyota,Soluna,Soluna XLIM,2000,Manual,Petrol,Saloon,1200,175390,2700000,No
 Hyundai,Sonata,Unknown,2001,Automatic,Petrol,Saloon,1997,174000,2700000,No
-Suzuki,Alto,Unknown,2010,Manual,Petrol,Hatchback,8000,83133,2700000,Yes
+Suzuki,Alto,Unknown,2010,Manual,Petrol,Hatchback,800,83133,2700000,Yes
 Nissan,Sunny,Fb 14,2000,Manual,Petrol,Saloon,1500,218000,2695000,Yes
 Mahindra,Scorpio,2007,2007,Manual,Diesel,SUV / 4x4,2500,201000,2600000,Yes
 Nissan,March,1996,1996,Manual,Petrol,Hatchback,1000,114000,2550000,Yes

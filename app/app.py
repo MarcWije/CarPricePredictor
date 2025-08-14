@@ -25,40 +25,12 @@ def predict():
     car_model = request.form.get("model")
     fuel_type = request.form.get("fuel-type")
     transmission = request.form.get("transmission")
-    mileage = int(request.form.get("mileage"))
-    engine_capacity = int(request.form.get("engine-capacity"))
-    yom = int(request.form.get("yom"))
+    mileage = request.form.get("mileage")
+    engine_capacity = request.form.get("engine-capacity")
+    yom = request.form.get("yom")
 
-    params = [brand, car_model, fuel_type, transmission, mileage, engine_capacity, yom]
-    check = 0
+    brand, car_model, fuel_type, transmission, mileage, engine_capacity, yom, msg, check = input_check(brand, car_model, fuel_type, transmission, mileage, engine_capacity, yom)
     
-    if not brand:
-        brand = "Other"
-        check = check + 1
-        msg = msg + "\n" + "Brand has been set to Other by default"
-
-    if not car_model:
-        car_model = "Other"
-        check = check + 1
-        msg = msg + "\n" + "Car Model has been set to Other by default"
-
-    if not fuel_type:
-        fuel_type = "Petrol"
-        check = check + 1
-        msg = msg + "\n" + "Fuel Type has been set to Petrol by default"
-
-    if not transmission:
-        transmission = "Automatic"
-        check = check + 1
-        msg = msg + "\n" + "Transmission has been set to Automatic by default"
-
-    if not mileage: 
-        mileage = 100000
-        check = check + 1
-        msg = msg + "\n" + "Mileage has been set to 100,000km by default"
-
-    
-
     if (check > 3):
         return render_template("error.html", msg = "Insufficient data, more than 3 values can't be blank for the model to predict")
 
@@ -86,4 +58,41 @@ def predict():
     price = float(price[0])
     price_read = f"{price:,.2f}"
 
-    return render_template("prediction.html", brand=brand, car_model=car_model, fuel_type=fuel_type, transmission=transmission, mileage=mileage, engine_capacity=engine_capacity, yom=yom, price=price_read)
+    return render_template("prediction.html", brand=brand, car_model=car_model, fuel_type=fuel_type, transmission=transmission, mileage=mileage, engine_capacity=engine_capacity, yom=yom, price=price_read, msg = msg)
+
+DEFAULTS = {
+    "brand": "Other",
+    "car_model": "Other",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "mileage": 100000,
+    "engine_capacity": 1500,
+    "yom": 2010
+}
+
+def input_check(brand, car_model, fuel_type, transmission, mileage, engine_capacity, yom):
+    inputs = {
+        "brand": brand,
+        "car_model": car_model,
+        "fuel_type": fuel_type,
+        "transmission": transmission,
+        "mileage": mileage,
+        "engine_capacity": engine_capacity,
+        "yom": yom
+    }
+
+    msg = []
+    check = 0
+    
+    for key, value in inputs.items():
+        if not value:
+            inputs[key] = DEFAULTS[key]
+            msg.append(f"{key.replace('_', ' ').title()} set to default: {DEFAULTS[key]}")
+            check = check + 1
+        elif key in ("mileage", "engine_capacity", "yom"):
+            inputs[key] = int(value)  
+
+    return (inputs["brand"], inputs["car_model"], inputs["fuel_type"],
+            inputs["transmission"], inputs["mileage"], 
+            inputs["engine_capacity"], inputs["yom"],
+            "\n".join(msg), check)

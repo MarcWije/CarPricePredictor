@@ -214,7 +214,7 @@ Honda,Civic Ek3,1998,Manual,Diesel,1500,400000,3600000
 Toyota,Corolla 121,2005,Automatic,Petrol,1500,172000,6475000
 Nissan,Bluebird,2008,Automatic,Petrol,1490,236000,7175000
 Honda,Honda,1990,Manual,Petrol,1500,130000,1535000
-Nissan,SB14,1999,Automatic,Diesel,20000,245125,2750000
+Nissan,SB14,1999,Automatic,Diesel,2000,245125,2750000
 Toyota,Corona Premio,1999,Automatic,Petrol,1580,218383,4750000
 Toyota,Premio,2018,Automatic,Petrol,1490,84000,16950000
 Toyota,Premio,2013,Automatic,Petrol,1500,195000,12600000
@@ -329,7 +329,7 @@ Perodua,Viva Elite AMIEZR,2011,Automatic,Petrol,100,100250,4480000
 Suzuki,Celerio Zxi,2017,Automatic,Petrol,996,14000,5400000
 Suzuki,CELERIO,2017,Automatic,Petrol,1000,143000,4890000
 Morris,Mini Cooper,1960,Manual,Petrol,1000,24120,1650000
-BMW,520d,2012,Automatic,Diesel,20000,70000,21000000
+BMW,520d,2012,Automatic,Diesel,2000,70000,21000000
 Nissan,Ad Wagon,1997,Manual,Petrol,1300,180000,2425000
 Suzuki,Maruti Zen,1995,Manual,Petrol,1000,12345,1475000
 Hyundai,Accent,2012,Automatic,Petrol,1600,135000,6975000
@@ -933,7 +933,6 @@ Toyota,Vitz Special Edition,2000,Automatic,Petrol,1300,211000,4350000
 Mazda,Axela,2016,Automatic,Hybrid,2000,98000,11750000
 Nissan,HB11 Long Buffer,1985,Manual,Petrol,1500,100000,1090000
 Mitsubishi,Galant,1983,Manual,Petrol,1600,234454,1450000
-Toyota,Carina AT150,1986,Manual,Petrol,210000,1450,1050000
 Suzuki,Alto,2011,Manual,Petrol,800,150000,3000000
 Toyota,Premio,2015,Automatic,Petrol,1500,110000,15500000
 Mitsubishi,Mitsubishi,1981,Manual,Petrol,1400,1111,535000
@@ -1240,7 +1239,7 @@ Toyota,Camry,2008,Automatic,Petrol,2400,151000,8500000
 Toyota,Allion,2016,Automatic,Petrol,1500,89000,15450000
 Nissan,FB15,2004,Automatic,Petrol,1500,235458,4275000
 Suzuki,Alto,2014,Manual,Petrol,800,0,3695000
-Kia,Spectra,2005,Automatic,Petrol,16000,223000,2375000
+Kia,Spectra,2005,Automatic,Petrol,1600,223000,2375000
 Suzuki,Swift Japan,2009,Automatic,Petrol,1300,138000,5750000
 Toyota,Prius,2010,Automatic,Hybrid,1800,182000,9350000
 BMW,I3,2015,Automatic,Electric,70,67900,6990000
@@ -1362,7 +1361,7 @@ Micro,Panda,2012,Manual,Petrol,1000,58000,2490000
 Toyota,Premio,2013,Automatic,Petrol,1500,136000,13075000
 Proton,Proton,2003,Manual,Petrol,1490,1,2450000
 Renault,Kwid,2016,Manual,Petrol,800,80000,3600000
-Baic,D20,2019,Automatic,Petrol,15000,950000,5600000
+Baic,D20,2019,Automatic,Petrol,1500,950000,5600000
 Suzuki,Alto,2010,Manual,Petrol,800,147000,2830000
 Toyota,Vios E Grade,2007,Automatic,Petrol,1500,106000,6490000
 Suzuki,Spacia,2017,Automatic,Hybrid,650,183000,6400000
@@ -1770,7 +1769,7 @@ Suzuki,Swift,2005,Automatic,Petrol,1300,120000,5475000
 Toyota,Verossa,2003,Automatic,Petrol,1800,0,4985000
 Toyota,Allion,2013,Automatic,Petrol,1500,185000,11800000
 Toyota,KSP130,2015,Automatic,Petrol,1000,65000,7490000
-Toyota,Prius S Touring,2012,Automatic,Hybrid,18000,138000,10500000
+Toyota,Prius S Touring,2012,Automatic,Hybrid,1800,138000,10500000
 Mazda,Flair,2017,Automatic,Hybrid,660,68985,6450000
 Hyundai,Eon,2015,Manual,Petrol,800,74000,4200000
 Toyota,Prius,2016,Automatic,Petrol,1500,104000,17400000
@@ -1898,7 +1897,7 @@ Nissan,11-Mar,2002,Manual,Petrol,1000,1,2735000
 Toyota,Aqua S Grade,2013,Automatic,Hybrid,1500,123000,7750000
 Honda,Fit GP5,2013,Automatic,Hybrid,1500,118000,8450000
 Bajaj,Qute,2019,Manual,Petrol,216,46000,1320000
-Nissan,Sunny,1987,Manual,Petrol,13000,1111111,1575000
+Nissan,Sunny,1987,Manual,Petrol,1300,1111111,1575000
 Toyota,Aqua,2013,Automatic,Hybrid,1500,77500,7950000
 BMW,I8 Coupe,2017,Automatic,Petrol,1500,18000,36000000
 Suzuki,Zen,2006,Manual,Petrol,1000,98500,2450000
@@ -2047,7 +2046,7 @@ Suzuki,Alto,2015,Manual,Petrol,800,100000,3690000
 Mitsubishi,Lancer,2014,Automatic,Petrol,1600,165000,12900000
 Tata,Indigo,2004,Manual,Petrol,1500,110000,1850000
 Nissan,B211,1977,Manual,Petrol,1200,25888,980000
-Toyota,Aqua G Grade,2013,Automatic,Hybrid,15000,94500,8350000
+Toyota,Aqua G Grade,2013,Automatic,Hybrid,1500,94500,8350000
 Suzuki,ALTO,2023,Automatic,Petrol,660,10000,7400000
 Toyota,COROLLA DX,1987,Manual,Petrol,1300,2,1165000
 Suzuki,Alto,2014,Manual,Petrol,800,117000,3425000
@@ -2111,7 +2110,7 @@ Toyota,Prius S LED,2014,Automatic,Hybrid,1800,150000,11450000
 Toyota,SIENTA,2018,Automatic,Hybrid,1500,73000,18500000
 Peugeot,605,1994,Manual,Diesel,2000,425857,2150000
 Nissan,FB13,1992,Manual,Petrol,1490,178532,2230000
-Nissan,Laurel,2001,Automatic,Petrol,25000,106000,6100000
+Nissan,Laurel,2001,Automatic,Petrol,2500,106000,6100000
 Toyota,Vitz,2019,Automatic,Petrol,1000,57000,9150000
 Kia,PICANTO SPORTS,2016,Automatic,Petrol,1000,85000,6150000
 Nissan,Ad Wagon,1996,Manual,Petrol,1500,200000,2390000
@@ -2412,7 +2411,7 @@ Daihatsu,Charade,1987,Manual,Diesel,1000,90000,1325000
 Mercedes-Benz,CLA 180,2018,Automatic,Petrol,1500,82000,4100000
 Toyota,Allion 240,2007,Automatic,Petrol,1500,131000,8500000
 Mercedes-Benz,W210,2000,Manual,Diesel,2500,167000,6200000
-Chevrolet,Cruze,2004,Automatic,Petrol,13200,140000,2800000
+Chevrolet,Cruze,2004,Automatic,Petrol,1320,140000,2800000
 Mitsubishi,Lancer Flat Light,1978,Manual,Petrol,1400,1111,550000
 Toyota,Axio WXB,2017,Automatic,Hybrid,1500,79000,13400000
 Honda,Freed,2013,Automatic,Hybrid,1500,117000,9900000
@@ -2444,7 +2443,7 @@ Toyota,Aqua,2012,Automatic,Hybrid,1500,164000,7150000
 Suzuki,Aerio,2006,Automatic,Petrol,1490,219513,4780000
 Suzuki,Alto,2011,Manual,Petrol,800,130000,2975000
 Toyota,Corolla 110,1997,Automatic,Diesel,1998,325000,3250000
-Volkswagen,Beetle,1965,Manual,Petrol,13000,55000,1225000
+Volkswagen,Beetle,1965,Manual,Petrol,1300,55000,1225000
 Suzuki,Swift,2004,Automatic,Petrol,1300,120000,4350000
 Perodua,Viva Elite,2012,Automatic,Petrol,1000,83690,4890000
 Mitsubishi,Galant,1990,Manual,Petrol,1800,210000,1970000
@@ -2543,7 +2542,7 @@ Toyota,Vitz,2018,Automatic,Petrol,990,960000,9300000
 Toyota,Allion G,2013,Automatic,Petrol,1490,138000,13500000
 Mercedes-Benz,C180 Elegance,2002,Automatic,Petrol,2000,11,5800000
 Nissan,Doctor Sunny,1990,Manual,Petrol,1500,200000,2190000
-Toyota,Axio Grade G,2014,Automatic,Hybrid,15000,141,9995000
+Toyota,Axio Grade G,2014,Automatic,Hybrid,1500,141,9995000
 Nissan,Tiida,2007,Automatic,Petrol,1500,1730000,4850000
 Toyota,Vitz Edition 2,2018,Automatic,Petrol,1000,37000,8895000
 Nissan,AD WAGON,2000,Automatic,Petrol,1290,85000,2450000
@@ -2998,7 +2997,7 @@ Mercedes-Benz,W204 C180 AMG CGI,2011,Automatic,Petrol,1800,170,12000000
 Mercedes-Benz,E200,2010,Automatic,Diesel,1800,115000,14850000
 Mercedes-Benz,C220,2002,Automatic,Diesel,2000,150000,6750000
 Suzuki,Wagon R FZ Premium,2018,Automatic,Petrol,800,92000,6650000
-BMW,530e M Sport,2017,Automatic,Hybrid,20000,50000,35000000
+BMW,530e M Sport,2017,Automatic,Hybrid,2000,50000,35000000
 Toyota,Dx Ke72,1987,Manual,Petrol,1300,222222,625000
 Perodua,Viva Elite,2011,Manual,Petrol,1000,101800,3975000
 Suzuki,Wagon R Fx,2023,Automatic,Hybrid,650,2680,8375000
@@ -3141,7 +3140,7 @@ Toyota,CAMRY G,2006,Automatic,Petrol,2362,141360,7700000
 Suzuki,Alto 800,2015,Manual,Petrol,800,150000,3875000
 Suzuki,Wagon R Fx,2017,Automatic,Hybrid,660,107000,5950000
 Toyota,Premio G Superior,2018,Automatic,Petrol,1500,99000,18250000
-Toyota,Corona At150,1986,Manual,Petrol,15000,246000,1100000
+Toyota,Corona At150,1986,Manual,Petrol,1500,246000,1100000
 Chery,QQ,2006,Automatic,Petrol,820,96744,1550000
 Toyota,AE110 Sprinter,2002,Automatic,Petrol,1300,200000,4150000
 Mitsubishi,Lancer Box,1980,Manual,Petrol,1400,95963,675000
@@ -3198,7 +3197,6 @@ Toyota,Aqua,2014,Automatic,Petrol,1500,119000,7940000
 Suzuki,Spacia CUSTOM GS,2023,Automatic,Hybrid,650,250,10500000
 Perodua,Axia,2015,Automatic,Petrol,1000,128000,5550000
 Isuzu,Gemini,1980,Manual,Diesel,1900,6464587,475000
-Nissan,Sunny,1995,Manual,Petrol,13370070,198832,2830000
 Datsun,Redi-GO,2016,Manual,Petrol,800,76600,3125000
 Mazda,6 GT,2014,Automatic,Petrol,2500,43000,18000000
 Toyota,Vitz,2018,Automatic,Petrol,1000,119000,9275000
@@ -3216,7 +3214,7 @@ Nissan,FB15 Super Saloon,2004,Manual,Petrol,1500,180000,4580000
 Toyota,Premio G Superior,2015,Automatic,Petrol,1500,118000,15800000
 Toyota,Corolla EE96,1991,Manual,Petrol,1300,280000,1750000
 Suzuki,Alto Japan,1998,Manual,Petrol,660,144000,2175000
-Mitsubishi,Lancer,1985,Manual,Petrol,15000,30000,450000
+Mitsubishi,Lancer,1985,Manual,Petrol,1500,30000,450000
 Toyota,Corolla Dx Wagon,1985,Manual,Petrol,1200,243000,1150000
 Toyota,Yaris,2023,Automatic,Petrol,1000,4000,11275000
 Toyota,Vitz,2018,Automatic,Petrol,990,58325,8875000
@@ -3305,7 +3303,7 @@ Toyota,Camry,2011,Automatic,Petrol,2400,115000,10500000
 Volkswagen,Polo,2003,Automatic,Petrol,1590,122000,2500000
 Honda,Grace,2017,Automatic,Petrol,1500,96000,13125000
 Toyota,Axio,2013,Automatic,Petrol,1500,169000,9200000
-Mini,Cooper S,2013,Manual,Petrol,16000,43000,11800000
+Mini,Cooper S,2013,Manual,Petrol,1600,43000,11800000
 Subaru,STi 9,2007,Manual,Petrol,2000,80000,12000000
 Tata,Nano,2012,Manual,Petrol,625,166000,1290000
 Toyota,VITZ,2018,Automatic,Petrol,1000,91280,8650000
@@ -3465,7 +3463,7 @@ Toyota,Corolla 121 Lxi,2000,Automatic,Petrol,1598,187000,5370000
 Micro,Trend,2010,Manual,Petrol,1000,71000,1790000
 Mercedes-Benz,C200,2018,Automatic,Petrol,1500,60000,28500000
 Nissan,Sunny B211,1979,Manual,Petrol,1200,12345,1475000
-Nissan,Sunny,2004,Automatic,Petrol,149800,140,4450000
+Nissan,Sunny,2004,Automatic,Petrol,1498,140,4450000
 Nissan,B2 11,1977,Automatic,Petrol,1300,25555,980000
 Nissan,Cefiro,1996,Automatic,Petrol,2000,245782,2550000
 Toyota,Premio,2010,Automatic,Petrol,1490,220000,10500000
@@ -3734,7 +3732,6 @@ Mercedes-Benz,C180,2017,Automatic,Petrol,1600,54000,25500000
 Toyota,Corolla Elephant Back,1997,Manual,Petrol,1500,150000,2750000
 Mercedes-Benz,C200,2007,Automatic,Petrol,1800,165500,10900000
 Toyota,Carina AA60,1985,Manual,Diesel,2000,225000,950000
-Foton,WAJA 1.6,2002,Automatic,Petrol,41634590,122000,3500000
 Suzuki,Esteem,2005,Manual,Petrol,1500,0,1240000
 Toyota,Yaris X Grade,2023,Automatic,Petrol,1000,20000,10000000
 Mercedes-Benz,S500 W220,2001,Automatic,Petrol,3200,119000,6200000
@@ -3818,7 +3815,6 @@ Micro,Panda Cross,2017,Manual,Petrol,998,80700,3820000
 Toyota,Aqua G Grade,2012,Automatic,Hybrid,1500,151000,7550000
 Suzuki,Alto,2015,Manual,Petrol,800,100000,3675000
 Suzuki,Wagon R CUSTOM ZX,2024,Automatic,Hybrid,660,2336,8950000
-Mazda,Familia Wagon,1984,Manual,Petrol,1300,111111,11111111
 Suzuki,Alto Japan,2023,Automatic,Petrol,660,5000,6935000
 Toyota,Roomy,2018,Automatic,Petrol,1000,78000,9200000
 Suzuki,Maruti,2007,Manual,Petrol,850,75000,1820000
@@ -4312,7 +4308,6 @@ Mercedes-Benz,C350 Sport Premium,2016,Automatic,Hybrid,2200,73000,5475000
 Toyota,PRIUS 4TH GENERATION W 51,2016,Automatic,Hybrid,1234,72500,17900000
 Audi,A1 TFSI,2016,Automatic,Petrol,1000,100000,9850000
 Ford,Fiesta,2016,Automatic,Petrol,1000,70000,8200000
-Tata,Nano,2016,Manual,Petrol,123456,48000,2150000
 Toyota,YARIS,2023,Automatic,Petrol,990,40000,9700000
 Honda,Grace,2015,Automatic,Hybrid,1500,126500,9950000
 BMW,520D,2012,Automatic,Diesel,2000,146000,21200009
@@ -4450,14 +4445,14 @@ Suzuki,Alto Japan,2003,Automatic,Petrol,660,178000,3350000
 Toyota,Corolla 121 G Grade,2003,Automatic,Petrol,1500,135000,6900000
 Toyota,Vitz,2008,Automatic,Petrol,1000,103000,5450000
 Kia,Carens,2001,Automatic,Diesel,2000,57000,885000
-Opel,Omega,1997,Manual,Diesel,2200000,0,2200000
+Opel,Omega,1997,Manual,Diesel,2200,0,2200000
 Toyota,Corona,1986,Manual,Petrol,1499,123456,850000
 Suzuki,SX4,2007,Automatic,Petrol,1600,97632,5450000
 Kia,Mentor,2000,Automatic,Petrol,1500,150000,2100000
 Suzuki,ALTO LXI SPORTS,2011,Manual,Petrol,800,92000,2965000
 Toyota,SAI,2009,Automatic,Hybrid,2400,147000,12000000
 Toyota,Starlet Ep71,1988,Manual,Petrol,1300,1111,2500000
-Toyota,Premio,2013,Automatic,Petrol,15000,98000,12750000
+Toyota,Premio,2013,Automatic,Petrol,1500,98000,12750000
 Peugeot,504,1978,Manual,Diesel,1970,13999,310000
 Honda,Jade,2015,Automatic,Hybrid,1500,91000,14000000
 Toyota,Corolla 121,2000,Automatic,Petrol,1500,198000,5250000
@@ -4527,7 +4522,7 @@ Mini,Mini,1961,Manual,Petrol,1275,47000,3500000
 Suzuki,Swift Rs Turbo,2017,Automatic,Petrol,1000,72500,8900000
 Mitsubishi,Lancer Box,1980,Manual,Petrol,1400,75000,1140000
 Toyota,DX Wagon,1984,Manual,Petrol,1300,100000,865000
-Daihatsu,Charade,1989,Manual,Petrol,10000,27000,1070000
+Daihatsu,Charade,1989,Manual,Petrol,1000,27000,1070000
 Suzuki,Wagon R Custom Z,2023,Automatic,Petrol,660,12000,9375000
 Toyota,Allion,2007,Automatic,Petrol,1500,140000,8600000
 Toyota,Vios,2002,Automatic,Petrol,1000,145000,4775000
@@ -4569,7 +4564,7 @@ Mercedes-Benz,C350e Premium Sports Plus,2016,Automatic,Hybrid,2000,102000,225000
 Mitsubishi,Lancer Box 5fwrd,1984,Manual,Petrol,1400,200000,1085000
 Perodua,Viva Elite,2011,Automatic,Petrol,1000,68000,4350000
 Suzuki,Maruti 800,2012,Manual,Petrol,800,54000,2425000
-Toyota,Prius,2015,Automatic,Petrol,15000,169000,11650000
+Toyota,Prius,2015,Automatic,Petrol,1500,169000,11650000
 BMW,523i M5,2011,Automatic,Petrol,2500,83000,18500000
 Toyota,Carina,1997,Automatic,Diesel,1970,100000,3850000
 Suzuki,Maruti,2004,Manual,Petrol,800,7500,1530000
@@ -4637,7 +4632,7 @@ Audi,A5,2018,Automatic,Petrol,1500,38000,2850000
 Suzuki,Maruti 800,1996,Manual,Petrol,800,1111,925000
 Other,Triumph,1953,Manual,Petrol,1000,10000,3000000
 Mitsubishi,Box,1981,Manual,Petrol,1400,45000,410000
-Austin,A40 Somerset,1900,Manual,Petrol,10000,45000,3000000
+Austin,A40 Somerset,1900,Manual,Petrol,1000,45000,3000000
 Suzuki,Maruti 800,1996,Manual,Petrol,800,111,915000
 Austin,A40,1900,Manual,Petrol,1000,12000,1200000
 Toyota,Allion,2002,Automatic,Petrol,1500,230000,6000000
@@ -4696,7 +4691,6 @@ Toyota,110,1996,Automatic,Diesel,2000,180000,3050000
 Toyota,Aqua,2014,Automatic,Hybrid,1500,175000,7700000
 Honda,Accord,2003,Automatic,Petrol,2400,110000,5900000
 Mercedes-Benz,C200,2019,Automatic,Petrol,1500,47000,30500000
-Chevrolet,Cruze GM,2004,Automatic,Petrol,769816668,110000,4200000
 Suzuki,Wagon R ZX,2023,Automatic,Hybrid,650,4500,9295000
 Suzuki,Wagon R,2017,Automatic,Hybrid,650,83500,5700000
 Nissan,Ad Wagon,2001,Automatic,Petrol,1300,153000,2975000
@@ -4726,7 +4720,7 @@ Toyota,Mark X,2007,Automatic,Petrol,2500,125000,10500000
 Toyota,Premio,2018,Automatic,Petrol,1500,68000,18500000
 Honda,Insight,2011,Automatic,Petrol,1300,175000,7400000
 BMW,I8,2017,Automatic,Petrol,1500,57000,31000000
-Nissan,B310,1987,Manual,Petrol,10000,175000,490000
+Nissan,B310,1987,Manual,Petrol,1000,175000,490000
 Nissan,Dayz,2015,Automatic,Petrol,650,96153,5650000
 Toyota,B210,1979,Manual,Petrol,1200,20000,330000
 Daihatsu,N-G30,1984,Manual,Diesel,1000,0,1100000
@@ -4822,7 +4816,7 @@ Perodua,Viva Elite,2012,Automatic,Petrol,1000,139000,4375000
 Toyota,Vitz,2016,Automatic,Petrol,1000,88724,7975000
 Nissan,Pulsar,1989,Manual,Petrol,1400,235000,1350000
 Morris,Oxford,1969,Manual,Petrol,1600,0,875000
-Nissan,SUNNY,1992,Manual,Diesel,168000,27787,2250000
+Nissan,SUNNY,1992,Manual,Diesel,1680,27787,2250000
 Toyota,110,1996,Automatic,Diesel,1970,192252,2900000
 Toyota,Dx Wagon,1986,Manual,Petrol,1300,150000,1550000
 Suzuki,Alto,2001,Automatic,Petrol,650,105000,3550000
@@ -4843,7 +4837,7 @@ Tata,Nano,2012,Manual,Petrol,620,115000,1235000
 Toyota,Corolla,1984,Manual,Petrol,1290,138000,490000
 Suzuki,Spacia Custom Z,2017,Automatic,Petrol,660,130000,6900000
 Honda,Grace,2015,Automatic,Petrol,1500,92000,10900000
-Proton,Wira,2000,Automatic,Petrol,2250000,145000,2250000
+Proton,Wira,2000,Automatic,Petrol,2250,145000,2250000
 Honda,FIT GP5,2014,Automatic,Hybrid,1500,158000,8000000
 Suzuki,Alto K10 VXI,2011,Manual,Petrol,1000,140000,2950000
 Mitsubishi,Lancer Box,1985,Manual,Petrol,1200,50000,1375000
@@ -4893,14 +4887,11 @@ Daihatsu,Daihatsu,1990,Manual,Petrol,800,450319,500000
 Nissan,B310,1980,Manual,Petrol,1400,0,455000
 Toyota,Vista,1991,Automatic,Diesel,1970,150000,2000000
 Toyota,Axio,2007,Automatic,Petrol,1500,140000,7450000
-Mitsubishi,Evo-7,1999,Manual,Petrol,77777,120000,6900000
 Mitsubishi,Lancer Wagon,1979,Manual,Petrol,1400,2222,650000
 Toyota,Corolla,1997,Automatic,Diesel,1970,300,2675000
-Nissan,Bluebird,2000,Automatic,Diesel,2000,234200,1111111
 Suzuki,Celerio,2015,Automatic,Petrol,1000,112000,4625000
 Toyota,Corolla Dx,1987,Manual,Petrol,1300,168000,1250000
 Volkswagen,Buggy,1960,Manual,Petrol,1300,55000,850000
-Mitsubishi,Lancer C11,1985,Manual,Petrol,7400,265000,625000
 Suzuki,Cultus,1999,Automatic,Petrol,1500,150000,2575000
 Austin,10,1948,Manual,Petrol,1100,21500,6000000
 Mitsubishi,Lancer Ck,1998,Manual,Petrol,1500,1800000,3450000
@@ -4922,7 +4913,6 @@ Toyota,Vitz KSP130,2016,Automatic,Petrol,1000,110000,7690000
 BMW,Activehybrid 7L,2013,Automatic,Hybrid,3000,65000,35000000
 Suzuki,A-Star,2012,Manual,Petrol,1000,104000,3700000
 Volkswagen,Golf GTi MK4 1.8T,2000,Manual,Petrol,1800,201000,4500000
-Peugeot,504,1984,Manual,Diesel,222222,6666666,900000
 Nissan,March K11,2000,Automatic,Petrol,990,92365,2920000
 Mitsubishi,Lancer Fiore,1986,Manual,Petrol,1500,198000,1800000
 Volkswagen,Beetle,1972,Manual,Petrol,1300,100000,1850000
@@ -4978,7 +4968,7 @@ Micro,Panda,2017,Automatic,Petrol,1000,100000,3000000
 Toyota,AE110 SE LIMITED,1999,Automatic,Petrol,1500,160000,4300000
 Toyota,Corolla AE110,1997,Automatic,Petrol,1500,230000,4175000
 Hyundai,Elantra,2012,Automatic,Petrol,1591,130000,8000000
-Mazda,Familia,1993,Manual,Petrol,13000,198000,550000
+Mazda,Familia,1993,Manual,Petrol,1300,198000,550000
 Nissan,HB11,1985,Manual,Petrol,1500,198000,975000
 Perodua,Viva Elite,2011,Automatic,Petrol,1000,112000,4500000
 Toyota,Feeder 121,2004,Automatic,Petrol,1500,220000,6000000
@@ -5051,7 +5041,7 @@ Micro,Panda,2012,Manual,Petrol,1000,74800,2350000
 Toyota,Allion,2011,Automatic,Petrol,1500,148000,11350000
 Nissan,HB11,1985,Manual,Petrol,1500,198000,1050000
 Audi,A4,2010,Automatic,Petrol,1800,138000,9650000
-Suzuki,Suzuki,2005,Manual,Petrol,32000,1007000,1700000
+Suzuki,Suzuki,2005,Manual,Petrol,3200,1007000,1700000
 Toyota,Carina TI My Road,1999,Automatic,Petrol,1500,182000,4750000
 Perodua,Axia,2016,Automatic,Petrol,998,48507,6600000
 Suzuki,Baleno,2017,Automatic,Petrol,1200,152000,7300000
@@ -5061,7 +5051,7 @@ Mazda,Familia,1990,Manual,Petrol,1300,142133,790000
 Suzuki,Swift Rs Turbo,2017,Automatic,Petrol,1000,88000,8775000
 Honda,Grace Ex,2015,Automatic,Hybrid,1500,135000,9580000
 Toyota,Corona At 150,1984,Manual,Petrol,1400,127000,490000
-Honda,Freed,2014,Automatic,Hybrid,15000,99525,11650000
+Honda,Freed,2014,Automatic,Hybrid,1500,99525,11650000
 Peugeot,505,1984,Manual,Diesel,2000,100000,1350000
 Nissan,Sunny B11,1985,Manual,Petrol,1500,150000,900000
 Audi,A6 C5,2000,Manual,Diesel,1990,176077,4500000
@@ -5110,7 +5100,6 @@ Mercedes-Benz,E200,2010,Automatic,Petrol,1800,144500,15800000
 Suzuki,Baleno Xt Turbo,2016,Automatic,Petrol,1000,78000,7750000
 Mercedes-Benz,C200,2018,Automatic,Petrol,1500,37000,29500000
 Perodua,Axia,2017,Automatic,Petrol,998,74937,6490000
-Toyota,Prius,2016,Automatic,Petrol,137713,1800,14995000
 Suzuki,Maruti,2008,Manual,Petrol,800,93000,2025000
 Mini,Cooper,1969,Manual,Petrol,1300,72722,2900000
 Toyota,Axio G Grade,2014,Automatic,Hybrid,1500,100000,9875000
@@ -5124,7 +5113,6 @@ Toyota,Axio G Grade,2014,Automatic,Hybrid,1500,123800,9750000
 Hyundai,Elantra,2001,Automatic,Petrol,1790,220000,2500000
 Honda,FIT GP5,2013,Automatic,Petrol,1500,128000,7590000
 Toyota,Lexus 600HL,2011,Automatic,Hybrid,5000,100000,69000000
-Toyota,Corolla,1987,Manual,Petrol,1111111,1111111,1600000
 BMW,Mini Cooper R60,2015,Automatic,Petrol,1600,42000,13500000
 Mitsubishi,Lancer,1984,Manual,Petrol,1200,100000,690000
 Tata,Indica,2004,Manual,Petrol,1800,120000,1750000
@@ -5245,11 +5233,11 @@ Nissan,FB14,1996,Manual,Petrol,1250,123400,2275000
 Suzuki,Alto 800,2015,Manual,Petrol,800,98000,3475000
 Mazda,HB 12 HATCHBACK,1987,Manual,Petrol,1480,1,1450000
 Hyundai,Santro,2002,Manual,Petrol,1000,235,1750000
-Toyota,Prius,2013,Automatic,Hybrid,18000,200000,11000000
+Toyota,Prius,2013,Automatic,Hybrid,1800,200000,11000000
 Mitsubishi,Lancer,1980,Manual,Petrol,1400,65000,590000
 Honda,Fit Shuttle Gp7,2016,Automatic,Petrol,1500,42000,13000000
 Mazda,Demio,2010,Automatic,Petrol,1300,141000,5800000
-Toyota,Premio,2011,Automatic,Petrol,15000,200000,10300000
+Toyota,Premio,2011,Automatic,Petrol,1500,200000,10300000
 Toyota,Allion 240,2006,Automatic,Petrol,1500,170000,7950000
 Honda,Fit Shuttle,2012,Automatic,Petrol,1300,2017000,4050000
 Toyota,Ce90,1991,Manual,Diesel,1830,230000,2500000
@@ -6208,7 +6196,7 @@ Nissan,Y12,2006,Automatic,Petrol,1490,122108,5790000
 Nissan,FB15,2004,Automatic,Petrol,1500,180000,5000000
 Suzuki,Maruti 800,2006,Manual,Petrol,800,5800,1800000
 Nissan,Ad Wagon,2003,Automatic,Petrol,1290,110719,2750000
-Perodua,Axia,2017,Automatic,Petrol,10000,69000,6150000
+Perodua,Axia,2017,Automatic,Petrol,1000,69000,6150000
 Toyota,Carina,1997,Manual,Petrol,1500,217021,1400000
 Audi,SR3,2019,Automatic,Petrol,1000,68000,14900000
 Suzuki,Zen,2005,Manual,Petrol,993,137000,2500000
@@ -6344,7 +6332,7 @@ Honda,Vezel RS Sensing,2017,Automatic,Petrol,1499,120000,13090000
 Range-Rover,Evoque,2012,Automatic,Diesel,2200,131000,25000000
 Toyota,Land Cruiser Zx,2017,Automatic,Petrol,4800,31000,75500000
 Mitsubishi,Pajero Intercooler V46 GLS,1995,Automatic,Diesel,2800,204000,11800000
-Land-Rover,Discovery 3 V6 4.0 Face-lifted Toovery 4,2007,Automatic,Petrol,40000,179000,18500000
+Land-Rover,Discovery 3 V6 4.0 Face-lifted Toovery 4,2007,Automatic,Petrol,4000,179000,18500000
 Micro,Kyron,2008,Automatic,Diesel,3000,102053,6500000
 Mitsubishi,Montero,2007,Automatic,Diesel,2800,198000,17800000
 Land-Rover,Discovery 4 VOGUE,2015,Automatic,Diesel,3000,160000,42000000
@@ -6514,7 +6502,7 @@ Toyota,Raize,2024,Automatic,Petrol,1000,14000,14500000
 Toyota,Land Cruiser Prado TX,2017,Automatic,Petrol,2800,81000,46750000
 Honda,Vezel,2014,Automatic,Petrol,1500,126000,9900000
 Mahindra,Mahindra,1989,Manual,Diesel,2800,99852,1765000
-Hyundai,Santa Fe,2002,Manual,Petrol,24000,210,37000000
+Hyundai,Santa Fe,2002,Manual,Petrol,2400,210,37000000
 Mitsubishi,Mini Pajero,1999,Manual,Petrol,1100,154367,3375000
 Suzuki,Grand Vitara,2000,Automatic,Petrol,1490,166500,5650000
 Nissan,X-Trail,2015,Automatic,Hybrid,2000,118000,11250000
@@ -6618,11 +6606,11 @@ Kia,SORENTO,2008,Automatic,Diesel,2500,182000,6750000
 Honda,VEZEL,2015,Automatic,Petrol,1500,80000,10850000
 Hyundai,SANTA FE,2010,Automatic,Diesel,2200,156500,11000000
 Toyota,Land Cruiser Prado 150,2010,Automatic,Petrol,2700,125000,25000000
-Toyota,RUSH,2007,Automatic,Petrol,14900,1,7750000
+Toyota,RUSH,2007,Automatic,Petrol,1490,1,7750000
 Mitsubishi,montero sport,2012,Automatic,Diesel,2500,113530,16750000
 Toyota,Land Cruiser 300 ZX,2023,Automatic,Petrol,3500,7900,96500000
 Mitsubishi,Eclipse Cross SAWC,2018,Automatic,Petrol,1500,50000,17900000
-Range-Rover,Evoque,2013,Automatic,Diesel,22000,50000,229000000
+Range-Rover,Evoque,2013,Automatic,Diesel,2200,50000,229000000
 Honda,Vezel Rs,2016,Automatic,Hybrid,1500,134500,12750000
 Nissan,X-Trail Xtremer,2015,Automatic,Hybrid,2000,160000,11200000
 DFSK,Glory I-Auto,2021,Automatic,Petrol,1500,30000,11500000
@@ -6826,7 +6814,7 @@ Micro,Kyron,2009,Automatic,Diesel,2000,186000,6990000
 BYD,Sealion 6 Plug In,2025,Automatic,Hybrid,1500,1,24500000
 Mitsubishi,Outlander PHEV,2013,Automatic,Hybrid,1990,97755,13450000
 Land-Rover,Autobiography Sport,2012,Automatic,Diesel,3600,78000,36000000
-Toyota,Land Cruiser,2005,Manual,Diesel,42000,180000,18000000
+Toyota,Land Cruiser,2005,Manual,Diesel,4200,180000,18000000
 Tesla,Model Y,2024,Automatic,Electric,250,50,37950000
 Toyota,Raize Z Premium 2tone,2024,Automatic,Petrol,1200,50,16750000
 Toyota,Voxy SZ Executive Premium Launch,2024,Automatic,Hybrid,1800,30,33750000
@@ -6985,7 +6973,7 @@ Mitsubishi,Eclipse Cross,2018,Automatic,Petrol,1500,65000,1790000
 Nissan,X-Trail,2015,Automatic,Petrol,2000,130000,12600000
 Nissan,X-Trail,2001,Automatic,Petrol,1990,250000,5650000
 Lexus,LBX,2024,Automatic,Hybrid,1500,3800,28000000
-DFSK,Glory 580,2021,Automatic,Petrol,15000,35000,9450000
+DFSK,Glory 580,2021,Automatic,Petrol,1500,35000,9450000
 Toyota,CHR,2017,Automatic,Petrol,1200,81000,14800000
 Mitsubishi,OUTLANDER PHEV G PREMIUM,2014,Automatic,Hybrid,1990,160000,12650000
 Hyundai,Santa Fe,2014,Automatic,Diesel,2200,132000,15200000
@@ -7149,7 +7137,7 @@ Mitsubishi,Outlander,2014,Automatic,Hybrid,2000,104000,13950000
 Kia,Sorento,2014,Automatic,Diesel,2200,151000,15950000
 Peugeot,5008 GTline,2020,Automatic,Petrol,1200,52000,25500000
 Honda,CRV,2018,Automatic,Petrol,2000,96000,4475000
-Mitsubishi,Montero IO,2003,Automatic,Petrol,20000,110000,6660000
+Mitsubishi,Montero IO,2003,Automatic,Petrol,2000,110000,6660000
 Mahindra,KUV 100,2020,Manual,Petrol,1000,85000,5500000
 Mitsubishi,OUTLANDER,2014,Automatic,Petrol,2000,200000,13800000
 Mitsubishi,Outlander PHEV,2014,Automatic,Hybrid,2000,143000,16300000
@@ -7216,7 +7204,6 @@ MG,ZS,2019,Automatic,Petrol,1000,82000,9500000
 Toyota,Land Cruiser 100,2000,Manual,Diesel,4200,250000,19750000
 Nissan,X-Trail-MODE PREMIER,2016,Automatic,Hybrid,2000,104000,13200000
 Honda,Vezel RS Sensing,2017,Automatic,Hybrid,1500,128000,13000000
-Toyota,Prado,1998,Manual,Diesel,111111,120000,13000000
 Subaru,Subaru,2015,Automatic,Petrol,1800,115000,10200000
 DFSK,Glory 330,2016,Manual,Diesel,1300,170000,4800000
 BMW,X1 M Sport,2017,Automatic,Petrol,1500,83000,21500000
@@ -7329,7 +7316,6 @@ Mitsubishi,Outlander,2016,Automatic,Hybrid,1998,65498,19850000
 Micro,Rexton,2008,Automatic,Diesel,2700,192000,7250000
 Nissan,PATROL SGL,2014,Manual,Diesel,4200,95000,42500000
 BMW,X1 X Line,2017,Automatic,Petrol,1500,74000,19450000
-Mitsubishi,J 44,1980,Manual,Diesel,11111,11111,3600000
 Toyota,LAND CRUISER PRADO 150 TX,2016,Automatic,Petrol,2700,66000,44500000
 Land-Rover,DISCOVERY SPORT,2017,Automatic,Petrol,2000,148000,25500000
 Toyota,Land Cruiser Prado,2015,Automatic,Diesel,3000,90000,41500000
@@ -7535,7 +7521,7 @@ Micro,Korando,2014,Automatic,Diesel,2000,42000,8250000
 Nissan,X-Trail,2015,Automatic,Petrol,2000,114733,11500000
 Toyota,Land Cruiser Sahara 1000,1999,Automatic,Diesel,4200,193000,265000000
 Honda,CRV,2017,Automatic,Petrol,1500,110000,16800000
-Mitsubishi,SHOGUN,2014,Automatic,Diesel,32000,130000,29750000
+Mitsubishi,SHOGUN,2014,Automatic,Diesel,3200,130000,29750000
 Mitsubishi,Outlander,2015,Automatic,Hybrid,1990,124000,14000000
 Toyota,Land Cruiser Prado,2015,Automatic,Petrol,2700,140000,42000000
 Mitsubishi,Outlander,2013,Automatic,Petrol,1990,119000,14790000
@@ -7597,7 +7583,7 @@ Mitsubishi,Eclipse CROSS,2023,Automatic,Petrol,1500,19000,21500000
 Honda,Vezel Ivory,2015,Automatic,Hybrid,1500,144000,11550000
 Mitsubishi,4dr5 J 36,1979,Manual,Diesel,2659,55011,3600000
 Honda,Vezel Z Play,2025,Automatic,Hybrid,1500,200,22300000
-BMW,X1,2017,Automatic,Petrol,15000,89000,22200000
+BMW,X1,2017,Automatic,Petrol,1500,89000,22200000
 Micro,Almaz Premium,2022,Automatic,Petrol,1500,24000,18500000
 Hyundai,Santa Fe,2012,Automatic,Diesel,2300,160000,11350000
 Audi,Q2,2019,Automatic,Petrol,1000,92000,16700000
@@ -7678,7 +7664,7 @@ Hyundai,Tucson,2011,Automatic,Petrol,3000,116000,7800000
 Toyota,FORTUNER,2011,Automatic,Petrol,2700,102000,15500000
 Audi,Q2,2018,Automatic,Petrol,990,220000,14950000
 Hyundai,Santa Fe,2009,Automatic,Diesel,2000,181000,6950000
-Honda,CRV,2018,Automatic,Petrol,15000,9500000,19600000
+Honda,CRV,2018,Automatic,Petrol,1500,9500000,19600000
 Mitsubishi,Montero Sport,2011,Automatic,Diesel,2500,138000,15700000
 Mitsubishi,Outlander Plug In,2013,Automatic,Petrol,1990,170000,13000000
 Ford,Ecosport,2014,Automatic,Petrol,1500,72688,9700000
@@ -7981,7 +7967,6 @@ Mitsubishi,OUTLANDER,2014,Automatic,Hybrid,2000,116450,13500000
 Mitsubishi,Pajero,1990,Manual,Diesel,2500,70000,4250000
 Honda,CRV,2018,Automatic,Petrol,1500,90000,21000000
 Mitsubishi,Outlander,2014,Automatic,Petrol,2000,181000,15500000
-Toyota,Prado 95,1997,Manual,Diesel,111111,120000,12900000
 Honda,Vezel RS Sensing,2017,Automatic,Petrol,1500,84000,13600000
 Volkswagen,Tiguan 2.0 TSI 4 Motion,2011,Automatic,Diesel,2000,162000,12000000
 Toyota,Land Cruiser Prado 151,2017,Automatic,Diesel,2800,110000,52500000
@@ -8085,7 +8070,7 @@ Mahindra,Kuv 100,2022,Manual,Petrol,1200,15500,6000000
 Toyota,Prado,2008,Automatic,Petrol,2800,195000,21000000
 DFSK,Glory 330,2016,Manual,Diesel,1330,160000,4500000
 Honda,Vezel RS,2017,Automatic,Diesel,1500,92000,12475000
-Toyota,Harrier,2007,Automatic,Petrol,27999,152000,10550000
+Toyota,Harrier,2007,Automatic,Petrol,2799,152000,10550000
 Toyota,Harrier,2007,Automatic,Petrol,2400,140000,9600000
 Honda,Vezel,2017,Automatic,Hybrid,1500,96500,13000000
 Honda,CRV,2019,Automatic,Petrol,1500,22000,22500000
@@ -8434,7 +8419,7 @@ Mitsubishi,Montero GLX,2013,Automatic,Diesel,3200,170000,24700000
 Nissan,Patrol,1981,Manual,Diesel,3300,128746,4500000
 Kia,Sorento,2014,Automatic,Diesel,2200,179000,17900000
 Mitsubishi,Montero V6 GDI,2001,Automatic,Petrol,3490,121500,11750000
-Toyota,Prado TZ,2010,Automatic,Petrol,269000,98000,35000000
+Toyota,Prado TZ,2010,Automatic,Petrol,2690,98000,35000000
 Mercedes-Benz,GLC250,2017,Automatic,Petrol,2000,50000,38000000
 Mitsubishi,Montero,2013,Automatic,Diesel,3200,130000,27500000
 Mahindra,Kuv 100 NXT,2019,Manual,Petrol,1198,60000,5300000
@@ -8479,7 +8464,7 @@ Toyota,Prado 150,2015,Manual,Diesel,3000,113000,36000000
 DFSK,Glory 580,2021,Automatic,Petrol,1490,69000,9150000
 Honda,CRV Master Peace,2018,Automatic,Petrol,1500,99000,6800000
 Isuzu,BIGHORN,1999,Automatic,Diesel,3000,204000,14850000
-MG,Zs,2018,Automatic,Petrol,10000,75000,9650000
+MG,Zs,2018,Automatic,Petrol,1000,75000,9650000
 Honda,CRV,2019,Automatic,Petrol,1500,150000,25000000
 Audi,Q2 S Line,2018,Automatic,Petrol,1000,115000,17500000
 Toyota,Prado,2018,Automatic,Diesel,2800,220000,48500000
@@ -8502,7 +8487,7 @@ Toyota,CHR NGX10,2019,Automatic,Petrol,1200,71000,15000000
 DFSK,Glory 580 L Grade,2019,Automatic,Petrol,1500,83000,9200000
 Micro,Rexton,2008,Automatic,Diesel,2700,250000,7800000
 Mitsubishi,Outlander,2013,Automatic,Hybrid,1990,145902,14800000
-Peugeot,3008 GT Line,2018,Automatic,Petrol,12000,94000,19200000
+Peugeot,3008 GT Line,2018,Automatic,Petrol,1200,94000,19200000
 Toyota,RAV4,2008,Automatic,Petrol,2400,190000,10500000
 Toyota,Land Cruiser Prado TRJ 150,2015,Automatic,Petrol,2000,120000,45000000
 Honda,VEZEL Z PLAY,2023,Automatic,Hybrid,1500,17000,21500000

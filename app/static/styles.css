@@ -22,6 +22,11 @@
     padding: 1rem;
 }
 
+.message {
+    font-size: 0.8rem;
+    font-weight: 200;
+}
+
 table {
     background-color: transparent;
     margin-bottom: 1rem;
