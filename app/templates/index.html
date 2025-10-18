@@ -10,19 +10,33 @@
     <div class="section">
         <form action="/predict" method="post" id="predictionForm">
             <div class="mb-3">
-                <select name="brand" id="brand">
+                <select name="brand" id="brand" class="form-control mx-auto w-auto">
+                    <option value="">Select Brand</option>
                     {% for brand in brand_list %}
-                    <option value="{{ brand }}">{{ brand }}</option>
+                        <option value="{{ brand }}">{{ brand }}</option>
                     {% endfor %}
+                </select>
             </div>
             <div class="mb-3">
-                <input autocomplete="on" class="form-control mx-auto w-auto" name="model" placeholder="Model" type="text">
+                <select id="model" name="model" class="form-control mx-auto w-auto">
+                    <option value="">Select Model</option>
+                </select>
             </div>
             <div class="mb-3">
-                <input autocomplete="on" class="form-control mx-auto w-auto" name="fuel-type" placeholder="Fuel Type" type="text">
+                <select name="fuel_type" id="Fuel Type" class="form-control mx-auto w-auto">
+                    <option value="">Select Fuel Type</option>
+                    {% for fuel in fuel_list %}
+                        <option value="{{ fuel }}">{{ fuel }}</option>
+                    {% endfor %}
+                </select>
             </div>
             <div class="mb-3">
-                <input autocomplete="on" class="form-control mx-auto w-auto" name="transmission" placeholder="Transmission" type="text">
+                <select name="transmission" id="transmission" class="form-control mx-auto w-auto">
+                    <option value="">Select Transmission</option>
+                    {% for transmission in transmission_list %}
+                        <option value="{{ transmission }}">{{ transmission }}</option>
+                    {% endfor %}
+                </select>
             </div>
             <div class="mb-3">
                 <input autocomplete="off" class="form-control mx-auto w-auto" name="mileage" placeholder="Mileage (km)" type="number">
@@ -40,4 +54,21 @@
     </div>
 </div>
 
+<script>
+const brandToModels = {{ brand_to_models|tojson }};
+
+document.getElementById('brand').addEventListener('change', function(){
+    const brand = this.value;
+    const modelSelect = document.getElementById('model');
+    modelSelect.innerHTML = '<option value="">Select Model</option>';
+    if (brand && brandToModels[brand]){
+        brandToModels[brand].forEach(model => {
+            const opt = document.createElement('option');
+            opt.value = model;
+            opt.textContent = model;
+            modelSelect.appendChild(opt);
+        });
+    }
+});
+</script>
 {% endblock %}

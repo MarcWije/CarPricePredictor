@@ -14,12 +14,22 @@ with open("encoders.pkl", "rb") as f:
 app = Flask(__name__)
 fuel_list = ["Petrol" , "Diesel" , "Electric"]
 transmission_list = ["Automatic" , "Manual"]
-brand_list = list(encoders["Brand Model"].classes_)
+brand_model_classes = encoders["Brand Model"].classes_
+
+brand_to_models = {}
+for entry in brand_model_classes:
+    parts = entry.split(" ", 1) # Split at first space
+    if len(parts) == 2:
+        brand, model = parts
+    else:
+        brand, model = parts[0], ""
+    brand_to_models.setdefault(brand, []).append(model)
 
 @app.route("/", methods=["GET"])
 def index():
+    brand_list = list(brand_to_models.keys())
     # The homepage with prediction form
-    return render_template("index.html", fuel_list = fuel_list, transmission_list = transmission_list, brand_list = brand_list)
+    return render_template("index.html", fuel_list = fuel_list, transmission_list = transmission_list, brand_list = brand_list, brand_to_models = brand_to_models)
 
 @app.route("/predict", methods=["POST"])
 def predict():
@@ -38,7 +48,7 @@ def predict():
         return render_template("error.html", msg = "Insufficient data, more than 3 values can't be blank for the model to predict")
 
     data = {
-        "Brand Model" : brand + " " + car_model, 
+        "Brand Model" : f"{brand} {car_model}".strip(),
         "Fuel Type" : fuel_type, 
         "Transmission" : transmission, 
         "Mileage (km)" : mileage, 
