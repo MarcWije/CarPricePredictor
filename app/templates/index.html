@@ -10,7 +10,10 @@
     <div class="section">
         <form action="/predict" method="post" id="predictionForm">
             <div class="mb-3">
-                <input autocomplete="on" autofocus class="form-control mx-auto w-auto" name="brand" placeholder="Brand" type="text">
+                <select name="brand" id="brand">
+                    {% for brand in brand_list %}
+                    <option value="{{ brand }}">{{ brand }}</option>
+                    {% endfor %}
             </div>
             <div class="mb-3">
                 <input autocomplete="on" class="form-control mx-auto w-auto" name="model" placeholder="Model" type="text">

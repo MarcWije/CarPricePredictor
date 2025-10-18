@@ -12,11 +12,14 @@ with open("encoders.pkl", "rb") as f:
     encoders = pickle.load(f)
 
 app = Flask(__name__)
+fuel_list = ["Petrol" , "Diesel" , "Electric"]
+transmission_list = ["Automatic" , "Manual"]
+brand_list = list(encoders["Brand Model"].classes_)
 
 @app.route("/", methods=["GET"])
 def index():
     # The homepage with prediction form
-    return render_template("index.html")
+    return render_template("index.html", fuel_list = fuel_list, transmission_list = transmission_list, brand_list = brand_list)
 
 @app.route("/predict", methods=["POST"])
 def predict():
