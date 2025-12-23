@@ -1,6 +1,6 @@
 # Car Price Predictor 
 
-## Video Demo: 
+## Video Demo: https://youtu.be/4D_xyEVkiPM
 
 This repository serves as documentation of the Car Price Prediction Model created for the final assignment of the course **ET 4103 - Machine Learning** , as conducted in the 7th Semester of the Electronics and Telecommunications Engineering Degree at KDU.
 A Web App implementation of this model was also submitted as the final Project for Harvard's CS50x course.
