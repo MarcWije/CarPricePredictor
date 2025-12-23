@@ -96,7 +96,7 @@ def input_check(brand, car_model, fuel_type, transmission, mileage, engine_capac
 
     msg = []
     check = 0
-    
+
     
     for key, value in inputs.items():
         if not value:

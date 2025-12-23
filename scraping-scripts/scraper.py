@@ -4,7 +4,7 @@ import pandas as pd
 import os
 
 # Change as needed
-os.chdir("./data/")
+os.chdir("./data")
 
 # CSV file to store the retrieved data
 file_path = 'ikman-scrapes.csv'
