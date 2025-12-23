@@ -1,4 +1,6 @@
-# Car Price Predictor for the Sri Lankan Market
+# Car Price Predictor 
+
+## Video Demo: 
 
 This repository serves as documentation of the Car Price Prediction Model created for the final assignment of the course **ET 4103 - Machine Learning** , as conducted in the 7th Semester of the Electronics and Telecommunications Engineering Degree at KDU.
 A Web App implementation of this model was also submitted as the final Project for Harvard's CS50x course.
@@ -42,3 +44,11 @@ Initially, this task was determined to be a regression problem, as the output va
 Therefore three commonly used ensemble methods were chosen: sklearn's **RandomForestRegressor**, **XGBoost Regressor**, and **LightGBM Regressor**. XGBoost and LightGBM used Gradient Boosting techniques in order to fit data. The two main metrics used to evaluate these models' performance were *R<sup>2</sup> Score* and *RMSE (Root Mean Squared Error)*. 
 
 After much hyperparameter fine-tuning, and dataset pruning, it became apparent that LGBM consistently outperformed the other two, both in terms of accuracy along with speed. 
+
+## Flask App development 
+
+In order to provide the outputs from this model in a way users could access, a flask app was developed. It has two main routes, the default and "/predict".
+
+The default route enables users to enter the details of the vehicle they are trying to predict the price for (Brand, Model, Fuel Type, Transmission, Engine Capacity, Mileage, and Year of Manufacture). It reads the existing brands and models from the pickled encoders, and populates a drop-down list with them. 
+
+The "/predict" route then displays these results, along with the predicted price

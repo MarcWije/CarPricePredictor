@@ -49,3 +49,7 @@ table th {
 tbody tr:nth-of-type(odd) {
     background-color: rgb(179, 208, 255, 0.3)
 }
+
+.price {
+    font-size: 3rem;
+}
