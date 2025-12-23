@@ -20,10 +20,10 @@ brand_to_models = {}
 for entry in brand_model_classes:
     parts = entry.split(" ", 1) # Split at first space
     if len(parts) == 2:
-        brand, model = parts
+        brand, car_model = parts
     else:
-        brand, model = parts[0], ""
-    brand_to_models.setdefault(brand, []).append(model)
+        brand, car_model = parts[0], ""
+    brand_to_models.setdefault(brand, []).append(car_model)
 
 @app.route("/", methods=["GET"])
 def index():
