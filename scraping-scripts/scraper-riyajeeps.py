@@ -6,7 +6,8 @@ import pandas as pd
 import os
 
 # Change as needed
-os.chdir("../data/")
+os.chdir("./data/")
+
 # CSV file to store the retrieved data
 file_path = 'riya-scrapes.csv'
 write_header = not os.path.exists(file_path)
