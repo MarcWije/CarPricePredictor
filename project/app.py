@@ -97,15 +97,14 @@ def input_check(brand, car_model, fuel_type, transmission, mileage, engine_capac
     msg = []
     check = 0
     
-    # Check provided by ChatGPT
+    
     for key, value in inputs.items():
-        if value is None or (isinstance(value, str) and value.strip() == ""):
+        if not value:
             inputs[key] = DEFAULTS[key]
             msg.append(f"{key.replace('_', ' ').title()} set to default: {DEFAULTS[key]}")
-            check += 1
+            check = check + 1
         elif key in ("mileage", "engine_capacity", "yom"):
-            inputs[key] = int(value)
- 
+            inputs[key] = int(value)  
 
     return (inputs["brand"], inputs["car_model"], inputs["fuel_type"],
             inputs["transmission"], inputs["mileage"], 
