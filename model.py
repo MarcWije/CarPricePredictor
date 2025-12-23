@@ -114,10 +114,10 @@ print("R² Score:", r2)
 print("RMSE:", rmse)
 
 
-with open("./project/encoders.pkl", "wb") as f:
+with open("./app/encoders.pkl", "wb") as f:
     pickle.dump(encoders, f)
 
-with open("./project/car-predict.pkl", "wb") as f:
+with open("./app/car-predict.pkl", "wb") as f:
     pickle.dump(lgbm, f)
 
 
