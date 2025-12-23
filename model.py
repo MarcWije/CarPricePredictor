@@ -13,15 +13,15 @@ from sklearn.preprocessing import LabelEncoder
 from sklearn.model_selection import GridSearchCV
 
 
-os.chdir("E:/7th Semester/Machine Learning/")
+os.chdir("./")
 
-df = pd.read_csv('data/ikman-scrapes.csv')
+df = pd.read_csv('./data/ikman-scrapes.csv')
 
 # Drops columns that seemingly do not contribute to the accuracy of the model
 df.drop(columns=["Negotiable", "Edition", "Body Type"], inplace=True)
 
 
-df2 = pd.read_csv('data/riya-scrapes.csv')
+df2 = pd.read_csv('./data/riya-scrapes.csv')
 df = pd.concat([df, df2], ignore_index=True)
 df = df[df["Fuel Type"] != "Electric"]
 
@@ -114,10 +114,10 @@ print("R² Score:", r2)
 print("RMSE:", rmse)
 
 
-with open("app/encoders.pkl", "wb") as f:
+with open("./project/encoders.pkl", "wb") as f:
     pickle.dump(encoders, f)
 
-with open("app/car-predict.pkl", "wb") as f:
+with open("./project/car-predict.pkl", "wb") as f:
     pickle.dump(lgbm, f)
 
 
