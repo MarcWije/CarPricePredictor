@@ -3,3 +3,4 @@ lightgbm
 numpy
 scikit-learn
 gunicorn
+pickle
