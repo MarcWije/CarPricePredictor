@@ -46,3 +46,4 @@ jobs:
         --region ${REGION} \
         --platform managed \
         --allow-unauthenticated
+        --service-account car-cloud-sa@car-predictor-484108.iam.gserviceaccount.com
