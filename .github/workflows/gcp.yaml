@@ -10,7 +10,7 @@ on:
 
 env:
   REGION: us-central1
-  PROJECT_ID: my-gcp-project
+  PROJECT_ID: car-predictor-484108
 
 jobs:
   gcp: 
