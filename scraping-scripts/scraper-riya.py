@@ -14,8 +14,13 @@ file_path = 'riya-scrapes.csv'
 write_header = not os.path.exists(file_path)
 
 with sync_playwright() as p:
-    browser = p.chromium.launch(headless=True)
-    page = browser.new_page()
+    browser = p.chromium.launch(headless=False, slow_mo=100)
+    context = browser.new_context(
+        locale="en-US",
+        timezone_id="Asia/Colombo",
+        viewport={"width": 1280, "height": 800}
+    )
+    page = context.new_page()
 
 # Iterates over each webpage on the site to obtain all car listings. 
 # range should be modified based on the current number of listings on the site.
@@ -30,7 +35,7 @@ with sync_playwright() as p:
             page.wait_for_load_state("networkidle")
             time.sleep(2 + random.random() * 2)
 
-            soupint = BeautifulSoup(page.content, 'html.parser')
+            soupint = BeautifulSoup(page.content(), "html.parser")
             print(soupint.prettify()[:2000])
 
             # List of all listings in a page
@@ -53,7 +58,7 @@ with sync_playwright() as p:
                 page.goto(url, timeout=60000)
                 page.wait_for_load_state("networkidle")
                 time.sleep(2 + random.random() * 2)
-                soup = BeautifulSoup(page.content, 'html.parser')
+                soup = BeautifulSoup(page.content(), "html.parser")
 
                 data = {}
 
