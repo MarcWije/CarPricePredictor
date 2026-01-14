@@ -12,7 +12,7 @@ write_header = not os.path.exists(file_path)
 
 # Iterates over each webpage on the site to obtain all car listings. 
 # range should be modified based on the current number of listings on the site.
-for i in range(1, 50): 
+for i in range(200, 400): 
     all_data = []
     urls = []
 
