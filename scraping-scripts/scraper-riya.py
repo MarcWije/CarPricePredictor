@@ -12,7 +12,7 @@ os.chdir("./data/")
 # CSV file to store the retrieved data
 file_path = 'riya-scrapes.csv'
 write_header = not os.path.exists(file_path)
-all_data = []
+
 
 with sync_playwright() as p:
     browser = p.chromium.launch(headless=False, slow_mo=100)
@@ -26,6 +26,7 @@ with sync_playwright() as p:
 # Iterates over each webpage on the site to obtain all car listings. 
 # range should be modified based on the current number of listings on the site.
     for i in range(1, 100): 
+        all_data = []
         urls = []
         link = f"https://riyasewana.com/search/cars?page={i}"
         print(link)
@@ -91,8 +92,8 @@ with sync_playwright() as p:
             except Exception as e:
                 print(f"Failed to scrape {url}: {e}")
 
-# Adds all the data into a DataFrame
-df = pd.DataFrame(all_data)
-df.to_csv(file_path, mode='a', header=write_header, index=False)
+        # Adds all the data into a DataFrame
+        df = pd.DataFrame(all_data)
+        df.to_csv(file_path, mode='a', header=write_header, index=False)
 
-print("Data has been successfully scraped and saved to riya-scrapes.csv.")
+        print("Data has been successfully scraped and saved to riya-scrapes.csv.")
